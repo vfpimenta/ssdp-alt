@@ -1,0 +1,13 @@
+### Base:audiology-pn
+Average Qg: 15.45
+Time(s): 0.179
+Average size: 5.0
+Coverage of all k DPs in relation to D+: 80.7017543859649%
+Number of individuals generated: 6776
+
+### Top-5 DPs:
+{age_gt_60 = t,air = mild,history_noise = f,m_sn_lt_2k = f,s_sn_gt_4k = f,speech = good} -> 18.0(18p,0n)
+{age_gt_60 = t,ar_u = normal,history_noise = f,speech = good} -> 18.0(18p,0n)
+{age_gt_60 = t,ar_c = normal,history_noise = f,m_m_sn_gt_500 = f,m_sn_lt_2k = f,speech = good} -> 17.0(17p,0n)
+{age_gt_60 = t,air = mild,history_noise = f,m_sn_lt_2k = f,o_ar_u = normal,s_sn_gt_4k = f} -> 14.0(28p,1n)
+{age_gt_60 = t,air = mild,history_noise = f} -> 10.25(41p,3n)

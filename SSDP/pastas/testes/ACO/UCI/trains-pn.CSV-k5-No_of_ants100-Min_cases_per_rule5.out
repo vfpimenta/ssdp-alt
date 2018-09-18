@@ -1,0 +1,13 @@
+### Base:trains-pn
+Average Qg: 1.3333333333333333
+Time(s): 0.032
+Average size: 2.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 23783
+
+### Top-5 DPs:
+{length_2 = short,num_loads_3 = 1} -> 1.3333333333333333(4p,2n)
+{length_2 = short,num_loads_3 = 1} -> 1.3333333333333333(4p,2n)
+{num_wheels_2 = 2,length_3 = short} -> 1.3333333333333333(4p,2n)
+{length_2 = short,shape_5 = openrect} -> 1.3333333333333333(4p,2n)
+{length_2 = short,num_loads_3 = 1} -> 1.3333333333333333(4p,2n)

@@ -1,0 +1,13 @@
+### Base:kr-vs-kp-pn
+Average Qg: 137.91333333333333
+Time(s): 0.217
+Average size: 3.0
+Coverage of all k DPs in relation to D+: 47.15398442180947%
+Number of individuals generated: 2263
+
+### Top-5 DPs:
+{rimmx = t} -> 584.0(584p,0n)
+{bkon8 = f,bkxbq = t,wkcti = t,wknck = f} -> 31.75(127p,3n)
+{bkxbq = t,bxqsq = f,katri = w} -> 28.4(142p,4n)
+{bxqsq = f,dwipd = l,katri = w,wkcti = t,wkpos = f} -> 28.0(84p,2n)
+{katri = w,wkcti = t} -> 17.416666666666668(209p,11n)

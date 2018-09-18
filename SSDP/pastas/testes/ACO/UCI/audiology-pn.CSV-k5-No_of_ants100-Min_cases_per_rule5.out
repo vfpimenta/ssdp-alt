@@ -1,0 +1,13 @@
+### Base:audiology-pn
+Average Qg: 21.2
+Time(s): 0.645
+Average size: 7.8
+Coverage of all k DPs in relation to D+: 68.42105263157895%
+Number of individuals generated: 13898
+
+### Top-5 DPs:
+{age_gt_60 = t,history_dizziness = f,history_noise = f,o_ar_c = normal,o_ar_u = normal} -> 35.0(35p,0n)
+{age_gt_60 = t,history_dizziness = f,history_noise = f,o_ar_c = normal,o_ar_u = normal} -> 35.0(35p,0n)
+{bone = unmeasured,history_nausea = f,history_noise = f,notch_4k = f,o_ar_c = normal} -> 18.0(18p,0n)
+{age_gt_60 = t,boneAbnormal = f,history_dizziness = f,history_vomiting = f,m_m_sn = f,m_m_sn_gt_1k = f,m_s_sn = f,mod_s_sn_gt_500 = f,mod_sn_gt_500 = f,notch_at_4k = f,o_ar_c = normal,o_ar_u = normal} -> 9.0(27p,2n)
+{age_gt_60 = t,boneAbnormal = f,history_dizziness = f,history_vomiting = f,m_m_sn = f,m_m_sn_gt_1k = f,m_s_sn = f,mod_s_sn_gt_500 = f,mod_sn_gt_500 = f,notch_at_4k = f,o_ar_c = normal,o_ar_u = normal} -> 9.0(27p,2n)

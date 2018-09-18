@@ -1,0 +1,13 @@
+### Base:molecular-biology-promoters-pn
+Average Qg: 12.8
+Time(s): 0.154
+Average size: 1.2
+Coverage of all k DPs in relation to D+: 67.9245283018868%
+Number of individuals generated: 50618
+
+### Top-5 DPs:
+{p-34 = a} -> 15.0(15p,0n)
+{p-34 = a} -> 15.0(15p,0n)
+{p-34 = a} -> 15.0(15p,0n)
+{p-36 = a} -> 11.0(22p,1n)
+{p-42 = g,p-41 = c} -> 8.0(8p,0n)

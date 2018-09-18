@@ -1,0 +1,13 @@
+### Base:postoperative-patient-data-pn
+Average Qg: 4.8
+Time(s): 0.012
+Average size: 3.0
+Coverage of all k DPs in relation to D+: 43.75%
+Number of individuals generated: 3045
+
+### Top-5 DPs:
+{L-CORE = high,L-O2 = excellent,CORE-STBL = stable} -> 6.0(6p,0n)
+{L-CORE = high,L-O2 = excellent,BP-STBL = unstable} -> 5.0(5p,0n)
+{L-CORE = mid,L-SURF = low,CORE-STBL = stable,BP-STBL = stable} -> 5.0(5p,0n)
+{L-O2 = excellent,L-BP = high,SURF-STBL = stable,COMFORT = 10} -> 4.5(9p,1n)
+{L-SURF = high} -> 3.5(14p,3n)

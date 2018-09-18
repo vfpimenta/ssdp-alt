@@ -1,0 +1,28 @@
+package aco;
+
+import java.util.HashSet;
+
+import dp2.Avaliador;
+import dp2.Pattern;
+
+public class PRUNNING {
+	public static Pattern prune(Pattern Rt, String tipoAvaliacao) {
+		double bestQuality;
+		do {
+			bestQuality = Rt.getQualidade();
+			for(Integer item : Rt.getItens()) {
+				HashSet<Integer> itens = new HashSet<>();
+				Rt.getItens().forEach(i->{
+					if(i!=item) itens.add(i);
+				});
+				
+				Pattern _Rt = new Pattern(itens, tipoAvaliacao);
+				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0) {
+					Rt = _Rt;
+				}
+			}
+		} while(Rt.getQualidade() > bestQuality);
+		
+		return Rt;
+	}
+}

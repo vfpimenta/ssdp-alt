@@ -1,0 +1,13 @@
+### Base:car-pn
+Average Qg: 275.8666666666667
+Time(s): 0.04
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 88.09917355371901%
+Number of individuals generated: 504
+
+### Top-5 DPs:
+{persons = 2} -> 576.0(576p,0n)
+{safety = low} -> 576.0(576p,0n)
+{buying = vhigh,maint = vhigh} -> 108.0(108p,0n)
+{buying = vhigh,maint = high} -> 108.0(108p,0n)
+{maint = vhigh,doors = 2,lug_boot = small} -> 11.333333333333334(34p,2n)

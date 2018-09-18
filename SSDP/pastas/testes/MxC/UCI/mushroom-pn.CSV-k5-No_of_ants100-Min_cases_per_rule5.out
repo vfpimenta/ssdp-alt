@@ -1,0 +1,13 @@
+### Base:mushroom-pn
+Average Qg: 1545.6
+Time(s): 0.885
+Average size: 2.0
+Coverage of all k DPs in relation to D+: 64.44866920152091%
+Number of individuals generated: 4408
+
+### Top-5 DPs:
+{odor = n,stalk-shape = t} -> 2496.0(2496p,0n)
+{odor = n,spore-print-color = n} -> 1344.0(1344p,0n)
+{odor = n,spore-print-color = k} -> 1296.0(1296p,0n)
+{stalk-shape = t,spore-print-color = n} -> 1296.0(1296p,0n)
+{cap-surface = f,stalk-shape = t} -> 1296.0(1296p,0n)

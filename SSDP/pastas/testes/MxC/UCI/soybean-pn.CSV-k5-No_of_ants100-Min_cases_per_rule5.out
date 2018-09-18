@@ -1,0 +1,13 @@
+### Base:soybean-pn
+Average Qg: 26.1
+Time(s): 0.1
+Average size: 3.4
+Coverage of all k DPs in relation to D+: 41.30434782608695%
+Number of individuals generated: 3069
+
+### Top-5 DPs:
+{temp = norm,leafspots-marg = w-s-marg,fruiting-bodies = present,fruit-pods = norm} -> 35.0(35p,0n)
+{leafspot-size = gt-1/8,canker-lesion = brown,fruiting-bodies = present} -> 31.0(31p,0n)
+{severity = pot-severe,leafspot-size = gt-1/8,canker-lesion = brown,fruiting-bodies = present} -> 30.0(30p,0n)
+{temp = norm,leafspots-marg = w-s-marg,fruiting-bodies = present} -> 18.0(36p,1n)
+{leafspots-marg = w-s-marg,canker-lesion = brown,external-decay = absent} -> 16.5(33p,1n)

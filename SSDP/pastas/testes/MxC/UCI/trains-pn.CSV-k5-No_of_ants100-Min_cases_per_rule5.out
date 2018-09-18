@@ -1,0 +1,13 @@
+### Base:trains-pn
+Average Qg: 2.8
+Time(s): 0.002
+Average size: 1.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1540
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 4.0(4p,0n)
+{load_shape_2 = trianglod} -> 3.0(3p,0n)
+{Number_of_cars = 4,shape_4 = closedrect} -> 3.0(3p,0n)
+{Number_of_different_loads = 3} -> 2.0(2p,0n)
+{shape_2 = openrect} -> 2.0(2p,0n)

@@ -1,0 +1,13 @@
+### Base:nursery-pn
+Average Qg: 864.3998842940779
+Time(s): 0.135
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 486
+
+### Top-5 DPs:
+{health = not_recom} -> 4320.0(4320p,0n)
+{finance = inconv} -> 0.49988428604489704(2160p,4320n)
+{finance = convenient} -> 0.49988428604489704(2160p,4320n)
+{parents = usual} -> 0.49982644914960084(1440p,2880n)
+{parents = pretentious} -> 0.49982644914960084(1440p,2880n)

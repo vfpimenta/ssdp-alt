@@ -1,0 +1,13 @@
+### Base:primary-tumor-pn
+Average Qg: 6.1033333333333335
+Time(s): 0.026
+Average size: 3.4
+Coverage of all k DPs in relation to D+: 33.33333333333333%
+Number of individuals generated: 1369
+
+### Top-5 DPs:
+{lung = no,brain = yes,mediastinum = yes} -> 11.0(11p,0n)
+{bone = no,brain = yes,mediastinum = yes} -> 8.0(8p,0n)
+{bone = no,lung = no,mediastinum = yes,abdominal = no} -> 4.25(17p,3n)
+{bone-marrow = no,brain = yes,mediastinum = yes} -> 3.6666666666666665(11p,2n)
+{bone = no,pleura = no,mediastinum = yes,abdominal = no} -> 3.6(18p,4n)

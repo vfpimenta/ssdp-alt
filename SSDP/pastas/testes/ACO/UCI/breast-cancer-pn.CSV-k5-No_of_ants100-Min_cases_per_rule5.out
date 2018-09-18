@@ -1,0 +1,13 @@
+### Base:breast-cancer-pn
+Average Qg: 12.819999999999999
+Time(s): 0.065
+Average size: 2.4
+Coverage of all k DPs in relation to D+: 48.756218905472636%
+Number of individuals generated: 4953
+
+### Top-5 DPs:
+{tumor-size = 10-14,node-caps = no} -> 27.0(27p,0n)
+{tumor-size = 10-14} -> 13.5(27p,1n)
+{node-caps = no,deg-malig = 2,breast-quad = right_low} -> 10.0(10p,0n)
+{age = 50-59,menopause = ge40,inv-nodes = 0-2} -> 7.6(38p,4n)
+{menopause = ge40,inv-nodes = 0-2,irradiat = no} -> 6.0(72p,11n)

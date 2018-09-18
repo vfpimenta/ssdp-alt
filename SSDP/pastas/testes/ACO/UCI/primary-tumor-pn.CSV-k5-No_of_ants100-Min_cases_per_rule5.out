@@ -1,0 +1,13 @@
+### Base:primary-tumor-pn
+Average Qg: 6.44
+Time(s): 0.123
+Average size: 4.0
+Coverage of all k DPs in relation to D+: 44.047619047619044%
+Number of individuals generated: 5737
+
+### Top-5 DPs:
+{sex = male,degree-of-diffe = poorly,bone = no,pleura = no,liver = no,axillar = no,mediastinum = yes} -> 8.0(8p,0n)
+{sex = male,lung = no,liver = no,skin = yes} -> 7.0(7p,0n)
+{age = 30-59,histologic-type = anaplastic} -> 6.0(6p,0n)
+{age = 30-59,histologic-type = anaplastic} -> 6.0(6p,0n)
+{degree-of-diffe = poorly,lung = no,pleura = no,peritoneum = no,mediastinum = yes} -> 5.2(26p,4n)

@@ -1,0 +1,13 @@
+### Base:solar-flare-2-pn
+Average Qg: 331.0
+Time(s): 0.059
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1393
+
+### Top-5 DPs:
+{spot_distribution = X} -> 331.0(331p,0n)
+{spot_distribution = X} -> 331.0(331p,0n)
+{spot_distribution = X} -> 331.0(331p,0n)
+{spot_distribution = X} -> 331.0(331p,0n)
+{spot_distribution = X} -> 331.0(331p,0n)

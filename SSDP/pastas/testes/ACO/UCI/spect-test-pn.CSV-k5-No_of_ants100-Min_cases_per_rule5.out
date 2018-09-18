@@ -1,0 +1,13 @@
+### Base:spect-test-pn
+Average Qg: 53.5
+Time(s): 0.059
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 69.18604651162791%
+Number of individuals generated: 6777
+
+### Top-5 DPs:
+{F9 = 0,F13 = 1,F15 = 0} -> 58.0(58p,0n)
+{F9 = 0,F13 = 1,F15 = 0} -> 58.0(58p,0n)
+{F7 = 1} -> 55.0(55p,0n)
+{F7 = 1} -> 55.0(55p,0n)
+{F22 = 1} -> 41.5(83p,1n)

@@ -1,0 +1,13 @@
+### Base:vote-pn
+Average Qg: 132.6
+Time(s): 0.056
+Average size: 2.8
+Coverage of all k DPs in relation to D+: 71.16104868913857%
+Number of individuals generated: 4350
+
+### Top-5 DPs:
+{education-spending = n,crime = n,export-administration-act-south-africa = y} -> 160.0(160p,0n)
+{education-spending = n,crime = n,export-administration-act-south-africa = y} -> 160.0(160p,0n)
+{education-spending = n,crime = n,export-administration-act-south-africa = y} -> 160.0(160p,0n)
+{anti-satellite-test-ban = y,crime = n} -> 150.0(150p,0n)
+{physician-fee-freeze = n,el-salvador-aid = y,anti-satellite-test-ban = n} -> 33.0(33p,0n)

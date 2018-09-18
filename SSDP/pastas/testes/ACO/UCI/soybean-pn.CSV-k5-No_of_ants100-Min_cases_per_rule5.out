@@ -1,0 +1,13 @@
+### Base:soybean-pn
+Average Qg: 24.6
+Time(s): 0.414
+Average size: 4.8
+Coverage of all k DPs in relation to D+: 51.08695652173913%
+Number of individuals generated: 14871
+
+### Top-5 DPs:
+{severity = pot-severe,seed-tmt = none,leafspot-size = gt-1/8,leaf-shread = present} -> 33.0(33p,0n)
+{severity = pot-severe,seed-tmt = none,leafspot-size = gt-1/8,leaf-shread = present} -> 33.0(33p,0n)
+{severity = pot-severe,seed-tmt = none,leafspot-size = gt-1/8,leaf-shread = present} -> 33.0(33p,0n)
+{date = may,plant-growth = norm,leaves = abnorm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent} -> 12.0(24p,1n)
+{date = may,plant-growth = norm,leaves = abnorm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent} -> 12.0(24p,1n)

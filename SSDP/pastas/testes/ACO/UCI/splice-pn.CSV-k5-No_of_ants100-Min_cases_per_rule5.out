@@ -1,0 +1,13 @@
+### Base:splice-pn
+Average Qg: 12.18
+Time(s): 19.787
+Average size: 3.6
+Coverage of all k DPs in relation to D+: 9.607250755287009%
+Number of individuals generated: 283956
+
+### Top-5 DPs:
+{attribute_2 = A,attribute_30 = C} -> 32.666666666666664(98p,2n)
+{attribute_1 = A,attribute_2 = A,attribute_4 = A,attribute_33 = C} -> 11.0(11p,0n)
+{attribute_1 = A,attribute_2 = A,attribute_22 = A,attribute_41 = C} -> 11.0(11p,0n)
+{attribute_1 = A,attribute_2 = A,attribute_39 = C,attribute_41 = C,attribute_42 = A} -> 3.5(7p,1n)
+{attribute_1 = A,attribute_5 = A,attribute_8 = A} -> 2.7333333333333334(41p,14n)

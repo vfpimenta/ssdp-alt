@@ -1,0 +1,13 @@
+### Base:bridges-version2-pn
+Average Qg: 7.85
+Time(s): 0.076
+Average size: 2.8
+Coverage of all k DPs in relation to D+: 68.18181818181817%
+Number of individuals generated: 14024
+
+### Top-5 DPs:
+{RIVER = M,LANES = 2,SPAN = MEDIUM,REL-L = F} -> 11.0(11p,0n)
+{RIVER = M,LANES = 2,SPAN = MEDIUM,REL-L = F} -> 11.0(11p,0n)
+{PURPOSE = RR,MATERIAL = STEEL} -> 5.75(23p,3n)
+{PURPOSE = RR,MATERIAL = STEEL} -> 5.75(23p,3n)
+{PURPOSE = RR,MATERIAL = STEEL} -> 5.75(23p,3n)

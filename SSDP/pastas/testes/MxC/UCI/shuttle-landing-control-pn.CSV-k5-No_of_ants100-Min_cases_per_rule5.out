@@ -1,0 +1,13 @@
+### Base:shuttle-landing-control-pn
+Average Qg: 2.16
+Time(s): 0.0
+Average size: 1.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 320
+
+### Top-5 DPs:
+{ERROR = 4} -> 3.0(3p,0n)
+{MAGNITUDE = 2} -> 3.0(3p,0n)
+{STABILITY = 1,SIGN = 1} -> 1.8(9p,4n)
+{STABILITY = 1} -> 1.5(9p,5n)
+{SIGN = 1} -> 1.5(9p,5n)

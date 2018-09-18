@@ -1,0 +1,13 @@
+### Base:monks-problems-1-train-pn
+Average Qg: 6.9
+Time(s): 0.003
+Average size: 2.8
+Coverage of all k DPs in relation to D+: 33.87096774193548%
+Number of individuals generated: 527
+
+### Top-5 DPs:
+{attr1 = 1,attr2 = 3,attr5 = 4} -> 8.0(8p,0n)
+{attr1 = 1,attr5 = 4,attr6 = 2} -> 7.0(7p,0n)
+{attr1 = 1,attr2 = 2,attr3 = 2} -> 7.0(7p,0n)
+{attr1 = 1,attr5 = 4} -> 6.5(13p,1n)
+{attr1 = 1,attr2 = 2,attr5 = 3} -> 6.0(6p,0n)

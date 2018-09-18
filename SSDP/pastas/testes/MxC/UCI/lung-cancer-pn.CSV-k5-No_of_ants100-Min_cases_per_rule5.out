@@ -1,0 +1,13 @@
+### Base:lung-cancer-pn
+Average Qg: 4.6
+Time(s): 0.01
+Average size: 3.2
+Coverage of all k DPs in relation to D+: 69.23076923076923%
+Number of individuals generated: 4553
+
+### Top-5 DPs:
+{attribute34 = 3,attribute42 = 2,attribute54 = 1,attribute56 = 2} -> 5.0(5p,0n)
+{attribute11 = 2,attribute26 = 2} -> 5.0(5p,0n)
+{attribute26 = 2,attribute36 = 1,attribute40 = 2,attribute42 = 2,attribute44 = 2} -> 5.0(5p,0n)
+{attribute29 = 2,attribute53 = 1} -> 4.0(4p,0n)
+{attribute7 = 1,attribute17 = 1,attribute24 = 2} -> 4.0(4p,0n)

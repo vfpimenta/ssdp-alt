@@ -1,0 +1,13 @@
+### Base:tic-tac-toe-pn
+Average Qg: 56.2
+Time(s): 0.033
+Average size: 3.6
+Coverage of all k DPs in relation to D+: 26.677316293929714%
+Number of individuals generated: 1242
+
+### Top-5 DPs:
+{top-left-square = x,middle-middle-square = x,bottom-right-square = x} -> 90.0(90p,0n)
+{top-left-square = x,middle-left-square = x,bottom-left-square = x} -> 78.0(78p,0n)
+{top-left-square = x,top-middle-square = o,middle-middle-square = x,bottom-right-square = x} -> 45.0(45p,0n)
+{top-left-square = x,top-middle-square = o,middle-left-square = x,bottom-left-square = x} -> 38.0(38p,0n)
+{top-left-square = x,middle-middle-square = x,bottom-middle-square = b,bottom-right-square = x} -> 30.0(30p,0n)

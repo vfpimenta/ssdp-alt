@@ -1,0 +1,13 @@
+### Base:kr-vs-kp-pn
+Average Qg: 584.0
+Time(s): 0.505
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 34.99101258238466%
+Number of individuals generated: 4678
+
+### Top-5 DPs:
+{rimmx = t} -> 584.0(584p,0n)
+{rimmx = t} -> 584.0(584p,0n)
+{rimmx = t} -> 584.0(584p,0n)
+{rimmx = t} -> 584.0(584p,0n)
+{rimmx = t} -> 584.0(584p,0n)

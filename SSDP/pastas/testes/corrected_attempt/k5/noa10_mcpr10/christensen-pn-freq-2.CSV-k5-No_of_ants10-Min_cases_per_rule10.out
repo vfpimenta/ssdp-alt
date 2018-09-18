@@ -1,0 +1,13 @@
+### Base:christensen-pn-freq-2
+Average Qg: 66.4
+Time(s): 0.07
+Average size: 2.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 3337
+
+### Top-5 DPs:
+{"x.AGTR1_P154_F" = "[0.0588;0.5389]","x.VAMP8_P114_F" = "[0.1942;0.853]"} -> 84.0(84p,0n)
+{"x.AGXT_P180_F" = "[0.898;0.973]","x.MEST_P4_F" = "[0.3458;0.901]"} -> 70.0(70p,0n)
+{"x.CPA4_E20_F" = "[0.0471;0.625)","x.TNK1_P221_F" = "[0.122;0.437)"} -> 69.0(69p,0n)
+{"x.ALK_E183_R" = "[0.0965;0.4935]","x.HOXB2_P488_R" = "[0.360;0.838)","x.ZIM2_P22_F" = "[0.663;0.893]"} -> 64.0(64p,0n)
+{"x.ACVR1_E328_R" = "[0.0394;0.833)","x.CARD15_P302_R" = "[0.4147;0.883]"} -> 45.0(45p,0n)
