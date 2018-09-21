@@ -1,0 +1,13 @@
+### Base:spect-test-pn
+Average WRAcc: 0.11484457662501073
+Time(s): 0.205
+Average size: 1.2
+Coverage of all k DPs in relation to D+: 82.55813953488372%
+Number of individuals generated: 25522
+
+### Top-5 DPs:
+{F13 = 1} -> 0.13566301581400658(102p,2n)
+{F22 = 1} -> 0.1227372815922675(83p,1n)
+{F21 = 1} -> 0.11244244902628048(77p,1n)
+{F19 = 0,F22 = 1} -> 0.10809574194286367(63p,0n)
+{F20 = 1} -> 0.09528439474963545(67p,1n)

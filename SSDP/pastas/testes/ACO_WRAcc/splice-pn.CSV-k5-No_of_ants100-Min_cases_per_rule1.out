@@ -1,0 +1,13 @@
+### Base:splice-pn
+Average WRAcc: 0.15486679572724324
+Time(s): 8.736
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 89.00302114803625%
+Number of individuals generated: 115485
+
+### Top-5 DPs:
+{attribute_31 = T} -> 0.2004029048456678(413p,75n)
+{attribute_31 = C} -> 0.1709495779326068(403p,111n)
+{attribute_32 = C} -> 0.13869557099478186(411p,168n)
+{attribute_32 = A} -> 0.13743182555202882(424p,182n)
+{attribute_32 = G} -> 0.12685409931113095(400p,176n)

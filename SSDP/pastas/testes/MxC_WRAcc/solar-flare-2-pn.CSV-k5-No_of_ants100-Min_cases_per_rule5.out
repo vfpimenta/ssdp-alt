@@ -1,0 +1,13 @@
+### Base:solar-flare-2-pn
+Average WRAcc: 0.37268461644062245
+Time(s): 0.045
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 756
+
+### Top-5 DPs:
+{spot_distribution = X} -> 0.8563689547993762(331p,0n)
+{largest_spot_size = S} -> 0.3731717877144135(228p,186n)
+{Did_region_become_historically_complex = 1} -> 0.34409991235141096(133p,0n)
+{Evolution = 2} -> 0.1452713762236482(189p,295n)
+{C-class_flares_production_by_this_region = 0} -> 0.1445110511142636(313p,571n)

@@ -1,0 +1,13 @@
+### Base:audiology-pn
+Average WRAcc: 0.6924426345054429
+Time(s): 0.24
+Average size: 4.8
+Coverage of all k DPs in relation to D+: 94.73684210526315%
+Number of individuals generated: 4312
+
+### Top-5 DPs:
+{age_gt_60 = t,airBoneGap = f,history_nausea = f,history_noise = f,tymp = a} -> 0.7057717910564649(54p,2n)
+{age_gt_60 = t,history_noise = f,m_sn_gt_3k = f,tymp = a} -> 0.6968439188660036(54p,4n)
+{age_gt_60 = t,airBoneGap = f,history_nausea = f,history_noise = f} -> 0.692379982770773(54p,5n)
+{age_gt_60 = t,history_dizziness = f,history_noise = f,history_recruitment = f,m_sn_gt_3k = f,tymp = a} -> 0.6837653692536612(52p,1n)
+{age_gt_60 = t,airBoneGap = f,history_noise = f,history_recruitment = f,m_sn_gt_3k = f} -> 0.6834521105803116(54p,7n)

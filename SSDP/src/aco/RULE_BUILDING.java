@@ -12,6 +12,28 @@ import util.Time;
 
 public class RULE_BUILDING {
 	
+	// Limpa os valores negativos e zeros
+	private static double[] clearN(double[] arg) {
+		boolean hasN = false;
+		double bigN = 0.0;
+		for (double d : arg) {
+			if(d <= 0.0) {
+				hasN = true;
+				if(d < bigN) {
+					bigN = d;
+				}
+			}
+		}
+		
+		if(hasN) {
+			for (int i = 0; i < arg.length; i++) {
+				arg[i] += Math.abs(bigN) + 1;
+			}
+		}
+		
+		return arg;
+	}
+	
 	private static double[] P(double[] trails, int[] X, String tipoAvaliacao) {
 		double[] P = new double[D.numeroItens];
 		double[] Pup = new double[D.numeroItens];
@@ -25,7 +47,17 @@ public class RULE_BUILDING {
 				D.itemQualidade.put(i, Pi.getQualidade());
 			}
 			
-			Pup[i] = Math.abs(D.itemQualidade.get(i) * trails[i]);
+			Pup[i] = D.itemQualidade.get(i) * trails[i];
+		}
+		
+		Pup = clearN(Pup);
+		
+		boolean hasN = false;
+		for (double i : Pup) {
+			if(i<0.0) {
+				hasN = true;
+				break;
+			}
 		}
 		
 		// Construção do denominador da lista de probabilidades
@@ -75,7 +107,7 @@ public class RULE_BUILDING {
 				HashSet<Integer> tmpItens = new HashSet<Integer>();
 				itens.forEach(x->{tmpItens.add(x);}); tmpItens.add(selected);
 				Pattern tmp = new Pattern(tmpItens, tipoAvaliacao);
-				int coverage = tmp.getTP() + tmp.getFP();
+				int coverage = tmp.getTP() /*+ tmp.getFP()*/;
 				if(coverage >= Min_cases_per_rule) {
 					itens.add(selected);
 					X[D.itemAtributo[selected]] = 0;

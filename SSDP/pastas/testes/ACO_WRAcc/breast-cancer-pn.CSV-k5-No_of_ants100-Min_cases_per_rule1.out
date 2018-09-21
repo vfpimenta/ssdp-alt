@@ -1,0 +1,13 @@
+### Base:breast-cancer-pn
+Average WRAcc: 0.22065626681011294
+Time(s): 0.17
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 90.54726368159204%
+Number of individuals generated: 14923
+
+### Top-5 DPs:
+{inv-nodes = 0-2,node-caps = no} -> 0.2465646241870017(161p,43n)
+{node-caps = no,irradiat = no} -> 0.2443151254340066(151p,39n)
+{inv-nodes = 0-2} -> 0.242016724534207(167p,46n)
+{node-caps = no} -> 0.20079221477822878(176p,54n)
+{inv-nodes = 0-2,deg-malig = 2} -> 0.16959264511712066(81p,17n)

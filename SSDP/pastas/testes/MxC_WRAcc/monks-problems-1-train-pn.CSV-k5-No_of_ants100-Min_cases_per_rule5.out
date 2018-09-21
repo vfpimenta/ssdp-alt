@@ -1,0 +1,13 @@
+### Base:monks-problems-1-train-pn
+Average WRAcc: 0.2161290322580645
+Time(s): 0.001
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 66.12903225806451%
+Number of individuals generated: 374
+
+### Top-5 DPs:
+{attr1 = 1} -> 0.27419354838709675(31p,14n)
+{attr1 = 1,attr2 = 3} -> 0.2096774193548387(16p,3n)
+{attr1 = 1,attr2 = 2} -> 0.2096774193548387(15p,2n)
+{attr5 = 4} -> 0.19354838709677422(23p,11n)
+{attr1 = 1,attr5 = 4} -> 0.19354838709677422(13p,1n)

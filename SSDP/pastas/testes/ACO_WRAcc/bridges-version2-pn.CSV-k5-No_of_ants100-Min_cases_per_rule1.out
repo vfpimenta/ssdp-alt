@@ -1,0 +1,13 @@
+### Base:bridges-version2-pn
+Average WRAcc: 0.4625850340136054
+Time(s): 0.117
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 97.72727272727273%
+Number of individuals generated: 25952
+
+### Top-5 DPs:
+{PURPOSE = RR} -> 0.4956009070294785(26p,5n)
+{LANES = 2,REL-L = F} -> 0.4945124716553287(31p,12n)
+{LANES = 2,SPAN = MEDIUM,REL-L = F} -> 0.46113378684807255(23p,3n)
+{LANES = 2,SPAN = MEDIUM} -> 0.4429931972789116(33p,18n)
+{LANES = 2} -> 0.41868480725623575(42p,32n)

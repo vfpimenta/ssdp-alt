@@ -59,7 +59,7 @@ public class SSDP_ACO {
 				}
 				
 				// Prune rule Rt
-				Rt = PRUNNING.prune(Rt, tipoAvaliacao);
+				Rt = PRUNNING.prune(Rt, tipoAvaliacao, DiscoveredRuleList);
 				if(DEBUG) {
 					System.out.println("[DEBUG] Prunned NEW rule into: "+Rt.toString2());
 				}
@@ -72,7 +72,7 @@ public class SSDP_ACO {
 				 pheromone evaporation); 
 				 */
 				for(Integer i : Rt.getItens()) {
-					trails[i] = trails[i] + trails[i] * Math.log(Rt.getQualidade());
+					trails[i] = trails[i] + trails[i] * Rt.getQualidade();
 				}
 				
 //				double sumTrails = DoubleStream.of(trails).sum();
@@ -103,8 +103,24 @@ public class SSDP_ACO {
 			
 			// Choose the best rule Rbest among all rules Rt constructed by all the ants;
 			Collections.sort(R);
-			Pattern Rbest = R.get(0);
-			DiscoveredRuleList.add(Rbest);
+			Pattern Rbest = null;
+			Pattern Rbackup = null;
+			for (Pattern r : R) {
+				if(relevant(r, DiscoveredRuleList)) {
+					Rbest = r;
+					break;
+				} else if(Rbackup == null && different(r, DiscoveredRuleList)) {
+					Rbackup = r;
+				}
+			}
+			
+			if(Rbest != null) {
+				DiscoveredRuleList.add(Rbest);
+			}else if(Rbackup != null){
+				DiscoveredRuleList.add(Rbackup);
+			}
+			
+			
 			
 			if(DEBUG) {
 				System.out.println("[DEBUG] Iteration finished, best rule selected:");
@@ -126,5 +142,23 @@ public class SSDP_ACO {
 		}
 		
 		return DiscoveredRuleList.toArray(new Pattern[0]);
+	}
+	
+	public static boolean relevant(Pattern p, List<Pattern> Pk){
+        for(int i = 0; i  < Pk.size(); i++){
+            if(Pk.get(i).sobrescreve(p) != -1){
+                return false;
+            }
+        }
+        return true;
+    }
+	
+	public static boolean different(Pattern p, List<Pattern> Pk) {
+		for(int i = 0; i  < Pk.size(); i++){
+            if(p.equals(Pk.get(i))){
+                return false;
+            }
+        }
+        return true;
 	}
 }

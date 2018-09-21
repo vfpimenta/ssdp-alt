@@ -1,0 +1,13 @@
+### Base:tic-tac-toe-pn
+Average WRAcc: 0.16129636812949738
+Time(s): 0.014
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 58.46645367412141%
+Number of individuals generated: 621
+
+### Top-5 DPs:
+{middle-middle-square = x} -> 0.27859013864130644(366p,92n)
+{middle-middle-square = x,bottom-left-square = x} -> 0.1319729255015451(144p,28n)
+{middle-middle-square = x,bottom-right-square = x} -> 0.1319729255015451(144p,28n)
+{top-right-square = x,middle-middle-square = x} -> 0.1319729255015451(144p,28n)
+{top-left-square = x,middle-middle-square = x} -> 0.1319729255015451(144p,28n)

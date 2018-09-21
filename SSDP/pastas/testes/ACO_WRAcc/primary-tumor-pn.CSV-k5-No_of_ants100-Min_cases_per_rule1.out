@@ -1,0 +1,13 @@
+### Base:primary-tumor-pn
+Average WRAcc: 0.3299240347717128
+Time(s): 0.26
+Average size: 2.0
+Coverage of all k DPs in relation to D+: 61.904761904761905%
+Number of individuals generated: 20680
+
+### Top-5 DPs:
+{mediastinum = yes} -> 0.34458454068447014(52p,40n)
+{degree-of-diffe = poorly,mediastinum = yes} -> 0.3413475343931919(49p,32n)
+{axillar = no,mediastinum = yes} -> 0.3413475343931919(49p,32n)
+{lung = no,mediastinum = yes} -> 0.3141984493695669(41p,17n)
+{degree-of-diffe = poorly,lung = no,mediastinum = yes} -> 0.3081421150181429(39p,13n)

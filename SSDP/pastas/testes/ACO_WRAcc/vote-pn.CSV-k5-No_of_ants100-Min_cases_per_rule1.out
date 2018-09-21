@@ -1,0 +1,13 @@
+### Base:vote-pn
+Average WRAcc: 0.6939801823226317
+Time(s): 0.194
+Average size: 1.4
+Coverage of all k DPs in relation to D+: 99.25093632958801%
+Number of individuals generated: 13468
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.8702655568767339(253p,5n)
+{adoption-of-the-budget-resolution = y} -> 0.6984700753071739(238p,26n)
+{education-spending = n,export-administration-act-south-africa = y} -> 0.6431074118113357(224p,27n)
+{education-spending = n} -> 0.63410225921522(231p,33n)
+{mx-missile = y,education-spending = n} -> 0.6239556084026953(190p,9n)

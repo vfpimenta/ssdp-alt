@@ -1,0 +1,13 @@
+### Base:postoperative-patient-data-pn
+Average WRAcc: 0.10607407407407407
+Time(s): 0.058
+Average size: 2.4
+Coverage of all k DPs in relation to D+: 71.875%
+Number of individuals generated: 12375
+
+### Top-5 DPs:
+{L-BP = high,COMFORT = 10} -> 0.11753086419753084(19p,4n)
+{L-SURF = high,SURF-STBL = unstable} -> 0.10962962962962959(11p,1n)
+{L-SURF = low,BP-STBL = stable,COMFORT = 10} -> 0.10271604938271604(8p,0n)
+{L-O2 = excellent,CORE-STBL = stable} -> 0.10074074074074077(30p,9n)
+{L-O2 = excellent,CORE-STBL = stable,COMFORT = 10} -> 0.09975308641975306(25p,7n)

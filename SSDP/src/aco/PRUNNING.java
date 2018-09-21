@@ -1,12 +1,13 @@
 package aco;
 
 import java.util.HashSet;
+import java.util.List;
 
 import dp2.Avaliador;
 import dp2.Pattern;
 
 public class PRUNNING {
-	public static Pattern prune(Pattern Rt, String tipoAvaliacao) {
+	public static Pattern prune(Pattern Rt, String tipoAvaliacao, List<Pattern> DiscoveredRuleList) {
 		double bestQuality;
 		do {
 			bestQuality = Rt.getQualidade();
@@ -17,7 +18,7 @@ public class PRUNNING {
 				});
 				
 				Pattern _Rt = new Pattern(itens, tipoAvaliacao);
-				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0) {
+				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0 && SSDP_ACO.different(_Rt, DiscoveredRuleList)) {
 					Rt = _Rt;
 				}
 			}

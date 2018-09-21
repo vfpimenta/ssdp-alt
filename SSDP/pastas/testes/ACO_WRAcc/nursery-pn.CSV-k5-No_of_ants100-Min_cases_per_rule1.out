@@ -1,0 +1,13 @@
+### Base:nursery-pn
+Average WRAcc: 0.3555555555555556
+Time(s): 1.235
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 4409
+
+### Top-5 DPs:
+{health = not_recom} -> 0.888888888888889(4320p,0n)
+{children = 1,health = not_recom} -> 0.22222222222222224(1080p,0n)
+{form = incomplete,health = not_recom} -> 0.22222222222222224(1080p,0n)
+{children = 2,health = not_recom} -> 0.22222222222222224(1080p,0n)
+{children = more,health = not_recom} -> 0.22222222222222224(1080p,0n)
