@@ -1,0 +1,13 @@
+### Base:shuttle-landing-control-pn
+Average WRAcc: 0.06400000000000002
+Time(s): 0.011
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 7947
+
+### Top-5 DPs:
+{ERROR = 4} -> 0.08000000000000002(3p,0n)
+{STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+{MAGNITUDE = 2} -> 0.08000000000000002(3p,0n)
+{WIND = 2,MAGNITUDE = 3} -> 0.05333333333333334(2p,0n)
+{WIND = 1,MAGNITUDE = 1} -> 0.02666666666666667(1p,0n)

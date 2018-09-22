@@ -1,0 +1,13 @@
+### Base:mushroom-pn
+Average WRAcc: 0.1545782372245459
+Time(s): 6.402
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 35269
+
+### Top-5 DPs:
+{odor = n} -> 0.19455893037534175(3408p,120n)
+{odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+{odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)
+{ring-type = p} -> 0.13499376115313574(3152p,816n)
+{stalk-surface-above-ring = s,ring-type = p} -> 0.13468151577675525(2992p,672n)

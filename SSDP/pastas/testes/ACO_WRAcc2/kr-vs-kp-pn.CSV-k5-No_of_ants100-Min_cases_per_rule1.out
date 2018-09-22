@@ -1,0 +1,13 @@
+### Base:kr-vs-kp-pn
+Average WRAcc: 0.10901126408010013
+Time(s): 4.539
+Average size: 4.2
+Coverage of all k DPs in relation to D+: 91.37207908927502%
+Number of individuals generated: 50367
+
+### Top-5 DPs:
+{bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+{bxqsq = f,hdchk = f,mulch = f,skrxp = f,stlmt = f} -> 0.11681343309299327(1388p,555n)
+{bxqsq = f,hdchk = f,rxmsq = f,skrxp = f} -> 0.10793079114851013(1357p,581n)
+{bxqsq = f,hdchk = f,skrxp = f} -> 0.10359926597859341(1410p,656n)
+{rxmsq = f,stlmt = f,wknck = f} -> 0.09818221619327036(1259p,551n)

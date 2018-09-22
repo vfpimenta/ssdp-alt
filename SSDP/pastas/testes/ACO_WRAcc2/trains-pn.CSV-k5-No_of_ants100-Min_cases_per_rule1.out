@@ -1,0 +1,13 @@
+### Base:trains-pn
+Average WRAcc: 0.14
+Time(s): 0.077
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 38901
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+{Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+{load_shape_5 = circlelod,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+{load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+{load_shape_4 = trianglod} -> 0.05(1p,0n)

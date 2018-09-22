@@ -49,7 +49,7 @@ public class Avaliador {
         double confD = (double)D.numeroExemplosPositivo / (double)D.numeroExemplos;
         double wracc = sup * ( conf  - confD);
                        
-        return 4*wracc;
+        return wracc;
     }
     
     private static double Qg(int TP, int FP){
@@ -212,7 +212,51 @@ public class Avaliador {
         return coberturaP;
     }
     
+    public static double avgTP(Pattern[] p, int k) {
+    	int total = 0;
+        int i = 0;
+        for(; i < k; i++){
+            total += p[i].getTP();
+        }
+        return (double)total/(double)i;
+    }
     
+    public static double avgFP(Pattern[] p, int k) {
+    	int total = 0;
+        int i = 0;
+        for(; i < k; i++){
+            total += p[i].getFP();
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgCQ(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+            total += chi_quad(p[i].getTP(), p[i].getFP());
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgP(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+            total += p_value(p[i].getTP(), p[i].getFP());
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgconf(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double conf = (double)p[i].getTP() / (double)(p[i].getTP()+p[i].getFP());
+            total += conf;
+        }
+        return (double)total/(double)i;
+    }
     
     public static void imprimir(Pattern[] p, int kPrimeiros){
         for(int i = 0; i < kPrimeiros; i++){

@@ -99,8 +99,8 @@ public class Main {
                             
         //Rodando SSDP
         long t0 = System.currentTimeMillis(); //Initial time
-        //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
-        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao); //run SSDP
+        Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
+        //Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao); //run SSDP
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file
@@ -113,6 +113,11 @@ public class Main {
         writer.println("Average size: " + Avaliador.avaliarMediaDimensoes(p, k));        
         writer.println("Coverage of all k DPs in relation to D+: " + Avaliador.coberturaPositivo(p, k)*100 + "%");
         writer.println("Number of individuals generated: " + Pattern.numeroIndividuosGerados);
+        writer.println("TP: " + Avaliador.avgTP(p, k));
+        writer.println("FP: " + Avaliador.avgFP(p, k));
+        writer.println("Chi_Quad: " + Avaliador.avgCQ(p, k));
+        writer.println("p_value: " + Avaliador.avgP(p, k));
+        writer.println("conf: " + Avaliador.avgconf(p, k));
         writer.println("\n### Top-"+k+" DPs:");
         Avaliador.imprimirRegras(p, k, writer); 
         

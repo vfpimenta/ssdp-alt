@@ -1,0 +1,18 @@
+### Base:trains-pn
+Average WRAcc: 0.12999999999999998
+Time(s): 0.002
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1386
+TP: 2.8
+FP: 0.2
+Chi_Quad: 3.523809523809524
+p_value: 0.09453108064331277
+conf: 0.95
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+{load_shape_2 = trianglod} -> 0.15(3p,0n)
+{Number_of_cars = 4} -> 0.1(3p,1n)
+{Number_of_different_loads = 3} -> 0.1(2p,0n)
+{shape_2 = openrect} -> 0.1(2p,0n)
