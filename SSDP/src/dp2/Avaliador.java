@@ -93,6 +93,51 @@ public class Avaliador {
         return p_value;        
     }
     
+    private static double supp(Pattern p){
+        double TP = p.getTP();
+        double numeroExemplos = D.numeroExemplos;
+        
+        double valor = TP / numeroExemplos;
+        return valor;
+    }
+    
+    private static double suppPositivo(Pattern p){
+        double TP = p.getTP();
+        double numeroExemplosPositivo = D.numeroExemplosPositivo;
+        
+        double valor = TP / numeroExemplosPositivo;
+        return valor;
+    }
+    
+    private static double suppNegativo(Pattern p){
+        double FP = p.getFP();
+        double numeroExemplosNegativo = D.numeroExemplosNegativo;
+        
+        double valor = FP / numeroExemplosNegativo;
+        return valor;
+    }
+    
+    private static double cov(Pattern p){
+        double TP = p.getTP();
+        double FP = p.getFP();
+        double numeroExemplos = D.numeroExemplos;
+          
+        double valor = (TP + FP) / numeroExemplos;
+        
+        return valor;
+    }
+    
+    private static double lift(Pattern p){
+        double TP = p.getTP();
+        double FP = p.getFP();
+        double supCond = (double)(TP + FP) / (double)D.numeroExemplos; //Suporte antecedente: número de exemplos da regra sobre o total |D|
+        double supTarget = (double)D.numeroExemplosPositivo / (double)D.numeroExemplos;  //Suporte consequente: número de exemplos com rótulo em relação ao total |Dp| / |D|
+        double supDP = supp(p); //Suporte antecedente e consequente: count()
+        
+        double valor = supDP / (supCond * supTarget);
+        
+        return valor;
+    }
        
     public static int TP(boolean[] vrP){
         int TP = 0;
@@ -179,6 +224,16 @@ public class Avaliador {
         return total/(double)i;
     }
     
+    //Valor médio de qualidade
+    public static double avaliarMedia(Pattern[] p, int k, String tipoAvaliacao){
+        double total = 0.0;
+        int i = 0;
+        for(; i < k; i++){
+            total += avaliar(p[i].getTP(), p[i].getFP(), tipoAvaliacao);
+        }
+        return total/(double)i;
+    }
+    
     //Valor médio de dimensões
     public static double avaliarMediaDimensoes(Pattern[] p, int k){
         int total = 0;
@@ -254,6 +309,56 @@ public class Avaliador {
         for(; i < k; i++){
         	double conf = (double)p[i].getTP() / (double)(p[i].getTP()+p[i].getFP());
             total += conf;
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgcov(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double cov = cov(p[i]);
+            total += cov;
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgLift(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double lift = lift(p[i]);
+            total += lift;
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgsupp(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double supp = supp(p[i]);
+            total += supp;
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgsuppP(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double suppP = suppPositivo(p[i]);
+            total += suppP;
+        }
+        return (double)total/(double)i;
+    }
+    
+    public static double avgsuppN(Pattern[] p, int k) {
+    	double total = 0;
+        int i = 0;
+        for(; i < k; i++){
+        	double suppN = suppNegativo(p[i]);
+            total += suppN;
         }
         return (double)total/(double)i;
     }

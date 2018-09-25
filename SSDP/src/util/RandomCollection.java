@@ -16,7 +16,7 @@ public class RandomCollection<E> {
     private double total = 0;
 
     public RandomCollection() {
-        this(new Random());
+        this(Const.random);
     }
 
     public RandomCollection(Random random) {

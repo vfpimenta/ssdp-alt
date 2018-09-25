@@ -25,7 +25,7 @@ import aco.SSDP_ACO;
  * @author TARCISIO
  */
 public class Main {
-    public static void main(String args[]) throws FileNotFoundException, UnsupportedEncodingException{
+    public static void main(String args[]) throws FileNotFoundException, UnsupportedEncodingException, InterruptedException{
     	int[] ks = {5, 10, 20, 50};
     	int[] mcprs = {10, 15, 20};
     	int[] noas = {50, 75, 100};
@@ -58,10 +58,17 @@ public class Main {
     	
     	SSDP_ACO.Min_cases_per_rule = 1;
 		SSDP_ACO.No_of_ants = 100;
+		Const.random = new Random(Const.SEEDS[0]);
 		for (String string : databases) {
 			System.out.println("Starting test (db:"+string+")");
 			test(5, string);	
 		}
+    	
+//    	for (Long seed : Const.SEEDS) {
+//    		Const.random = new Random(seed);
+//    		test(5, databases[0], seed);
+//    	}
+    	
 //    	test(5, "breast-cancer-pn.CSV");
     }
     
@@ -99,8 +106,8 @@ public class Main {
                             
         //Rodando SSDP
         long t0 = System.currentTimeMillis(); //Initial time
-        Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
-        //Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao); //run SSDP
+        //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
+        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao); //run SSDP
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file
@@ -109,6 +116,7 @@ public class Main {
         //Informations about top-k DPs:  
         writer.println("### Base:" + D.nomeBase); //database name
         writer.println("Average " + tipoAvaliacao + ": " + Avaliador.avaliarMedia(p, k));
+        writer.println("Average " + Avaliador.TIPO_QG + ": " + Avaliador.avaliarMedia(p, k, Avaliador.TIPO_QG));
         writer.println("Time(s): " + tempo);
         writer.println("Average size: " + Avaliador.avaliarMediaDimensoes(p, k));        
         writer.println("Coverage of all k DPs in relation to D+: " + Avaliador.coberturaPositivo(p, k)*100 + "%");
@@ -118,6 +126,12 @@ public class Main {
         writer.println("Chi_Quad: " + Avaliador.avgCQ(p, k));
         writer.println("p_value: " + Avaliador.avgP(p, k));
         writer.println("conf: " + Avaliador.avgconf(p, k));
+        writer.println("cov: " + Avaliador.avgcov(p, k));
+        writer.println("Lift: " + Avaliador.avgLift(p, k));
+        writer.println("supp: " + Avaliador.avgsupp(p, k));
+        writer.println("suppP: " + Avaliador.avgsuppP(p, k));
+        writer.println("suppN: " + Avaliador.avgsuppN(p, k));
+        writer.println("DiffSupp: " + (Avaliador.avgsuppP(p, k) - Avaliador.avgsuppN(p, k)));
         writer.println("\n### Top-"+k+" DPs:");
         Avaliador.imprimirRegras(p, k, writer); 
         
