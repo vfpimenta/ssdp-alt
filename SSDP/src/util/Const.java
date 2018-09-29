@@ -8,6 +8,8 @@ package util;
 
 import java.util.Random;
 
+import org.apache.commons.math3.distribution.CauchyDistribution;
+
 /**
  *
  * @author tarcisio_pontes

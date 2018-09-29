@@ -1,0 +1,25 @@
+### Base:soybean-pn
+Average WRAcc: 0.08229304442334116
+Average Qg: 0.7920890015062771
+Time(s): 127.41
+Average size: 5.4
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 3304312
+TP: 83.2
+FP: 117.2
+Chi_Quad: 201.18568661671938
+p_value: 0.0
+conf: 0.4337076066925104
+cov: 0.293411420204978
+Lift: 3.2198075583802677
+supp: 0.12181551976573939
+suppP: 0.9043478260869566
+suppN: 0.19830795262267345
+DiffSupp: 0.7060398734642832
+
+### Top-5 DPs:
+{leafspots-halo = no-yellow-halos,leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-spots = absent,roots = norm} -> 0.08565260917192044(88p,131n)
+{temp = norm,leafspot-size = gt-1/8,mold-growth = absent,roots = norm} -> 0.08258715639597075(82p,108n)
+{severity = pot-severe,leafspots-halo = no-yellow-halos,leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-spots = absent,roots = norm} -> 0.0823127662174242(74p,58n)
+{temp = norm,leafspots-marg = w-s-marg,fruit-spots = absent,roots = norm} -> 0.08202551399925828(80p,98n)
+{leaves = abnorm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,lodging = yes,roots = norm} -> 0.07888717633213214(92p,191n)

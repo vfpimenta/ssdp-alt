@@ -62,7 +62,7 @@ public class Avaliador {
         return sub;
     }
     
-    private static double chi_quad(int TP, int FP){
+    public static double chi_quad(int TP, int FP){
         //Só é preciso isso para calcular via função pronta!
         long[][] n = new long[2][2];
         n[0][0] = TP;
@@ -79,7 +79,7 @@ public class Avaliador {
         return chi_quad;
     }
     
-    private static double p_value(int TP, int FP){
+    public static double p_value(int TP, int FP){
         //Só é preciso isso para calcular via função pronta!
         long[][] n = new long[2][2];
         n[0][0] = TP;
@@ -93,7 +93,7 @@ public class Avaliador {
         return p_value;        
     }
     
-    private static double supp(Pattern p){
+    public static double supp(Pattern p){
         double TP = p.getTP();
         double numeroExemplos = D.numeroExemplos;
         
@@ -101,7 +101,7 @@ public class Avaliador {
         return valor;
     }
     
-    private static double suppPositivo(Pattern p){
+    public static double suppPositivo(Pattern p){
         double TP = p.getTP();
         double numeroExemplosPositivo = D.numeroExemplosPositivo;
         
@@ -109,7 +109,7 @@ public class Avaliador {
         return valor;
     }
     
-    private static double suppNegativo(Pattern p){
+    public static double suppNegativo(Pattern p){
         double FP = p.getFP();
         double numeroExemplosNegativo = D.numeroExemplosNegativo;
         
@@ -117,7 +117,7 @@ public class Avaliador {
         return valor;
     }
     
-    private static double cov(Pattern p){
+    public static double cov(Pattern p){
         double TP = p.getTP();
         double FP = p.getFP();
         double numeroExemplos = D.numeroExemplos;
@@ -127,7 +127,7 @@ public class Avaliador {
         return valor;
     }
     
-    private static double lift(Pattern p){
+    public static double lift(Pattern p){
         double TP = p.getTP();
         double FP = p.getFP();
         double supCond = (double)(TP + FP) / (double)D.numeroExemplos; //Suporte antecedente: número de exemplos da regra sobre o total |D|

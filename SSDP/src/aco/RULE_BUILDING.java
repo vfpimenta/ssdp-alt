@@ -10,6 +10,7 @@ import dp2.Avaliador;
 import dp2.D;
 import dp2.Pattern;
 import util.Const;
+import util.PDF;
 import util.RandomCollection;
 import util.Time;
 
@@ -100,12 +101,10 @@ public class RULE_BUILDING {
 		RandomCollection<Integer> rc = new RandomCollection<>();
 		rc.addAll(P, IntStream.rangeClosed(0, D.numeroItens-1).boxed().toArray(Integer[]::new));
 		
-		CauchyDistribution cd = new CauchyDistribution((b - 5.5), 1);
-		
 		while(itens.size() < D.numeroAtributos) {
 			Integer selected = null;
 			
-			if(cd.sample() < 0) {
+			if(PDF.sample() < 0) {
 				selected = Const.random.nextInt(P.length);
 				rc.delete(selected);
 				

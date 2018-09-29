@@ -1,0 +1,25 @@
+### Base:lung-cancer-pn
+Average WRAcc: 0.100390625
+Average Qg: 2.4366666666666665
+Time(s): 83.457
+Average size: 3.2
+Coverage of all k DPs in relation to D+: 92.3076923076923%
+Number of individuals generated: 4835134
+TP: 7.6
+FP: 3.2
+Chi_Quad: 6.673102449416893
+p_value: 0.012787982562597167
+conf: 0.7519904931669638
+cov: 0.3375
+Lift: 1.851053521641757
+supp: 0.2375
+suppP: 0.5846153846153845
+suppN: 0.16842105263157894
+DiffSupp: 0.4161943319838056
+
+### Top-5 DPs:
+{attribute35 = 1,attribute41 = 2} -> 0.1103515625(8p,3n)
+{attribute34 = 3,attribute35 = 1,attribute46 = 2} -> 0.1044921875(7p,2n)
+{attribute17 = 1,attribute20 = 0,attribute22 = 2,attribute45 = 2} -> 0.09765624999999999(8p,4n)
+{attribute19 = 2,attribute20 = 0,attribute46 = 2} -> 0.09667968750000001(10p,7n)
+{attribute35 = 1,attribute37 = 2,attribute41 = 2,attribute45 = 2} -> 0.0927734375(5p,0n)

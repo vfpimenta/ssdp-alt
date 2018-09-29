@@ -44,6 +44,7 @@ public class Main {
     	SSDP_ACO.No_rules_converg = 10;
     	SSDP_ACO.DEBUG = false;
     	SSDP_ACO.INFO = false;
+    	SSDP_ACO.TRACK = false;
     	
 //    	for (int mcpr : mcprs) {
 //			for (int noa : noas) {
@@ -59,8 +60,8 @@ public class Main {
     	
     	SSDP_ACO.Min_cases_per_rule = 1;
 		SSDP_ACO.No_of_ants = 50;
-		SSDP_ACO.No_of_batches = 100;
-		Const.random = new Random(Const.SEEDS[0]);
+		SSDP_ACO.No_of_batches = 150;
+		SSDP_ACO.Max_stall = 100;
 		for (String string : databases) {
 			System.out.println("Starting test (db:"+string+")");
 			test(5, string);
@@ -71,7 +72,7 @@ public class Main {
 //    		test(5, databases[0], seed);
 //    	}
     	
-//    	test(5, "breast-cancer-pn.CSV");
+//    	test(5, "audiology-pn.CSV");
     }
     
     public static void test(int k, String database) throws FileNotFoundException, UnsupportedEncodingException {

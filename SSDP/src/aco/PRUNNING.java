@@ -9,7 +9,7 @@ import dp2.Avaliador;
 import dp2.Pattern;
 
 public class PRUNNING {
-	public static Pattern prune(Pattern Rt, String tipoAvaliacao, List<Pattern> DiscoveredRuleList, int b) {
+	public static Pattern prune(Pattern Rt, String tipoAvaliacao, List<Pattern> RuleList, int b) {
 		
 		double bestQuality;
 		do {
@@ -21,7 +21,7 @@ public class PRUNNING {
 				});
 				
 				Pattern _Rt = new Pattern(itens, tipoAvaliacao);
-				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0 && SSDP_ACO.different(_Rt, DiscoveredRuleList)) {
+				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0 && SSDP_ACO.different(_Rt, RuleList)) {
 					Rt = _Rt;
 				}
 			}

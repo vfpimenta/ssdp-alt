@@ -1,0 +1,25 @@
+### Base:trains-pn
+Average WRAcc: 0.11000000000000001
+Average Qg: 2.1
+Time(s): 45.586
+Average size: 1.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 2183372
+TP: 3.2
+FP: 1.0
+Chi_Quad: 2.8888888888888884
+p_value: 0.14521240362471421
+conf: 0.861111111111111
+cov: 0.42000000000000004
+Lift: 1.722222222222222
+supp: 0.32
+suppP: 0.64
+suppN: 0.2
+DiffSupp: 0.44
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+{shape_2 = openrect} -> 0.1(2p,0n)
+{Triangle_next_to_triangle = 1} -> 0.1(2p,0n)
+{length_2 = short,shape_4 = closedrect} -> 0.1(3p,1n)
+{shape_5 = openrect} -> 0.050000000000000024(5p,4n)
