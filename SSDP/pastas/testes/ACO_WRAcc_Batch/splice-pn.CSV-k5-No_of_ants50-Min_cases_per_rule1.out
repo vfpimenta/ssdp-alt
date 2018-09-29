@@ -1,0 +1,25 @@
+### Base:splice-pn
+Average WRAcc: 0.0424064228928568
+Average Qg: 4.114884162747643
+Time(s): 677.507
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 81.2688821752266%
+Number of individuals generated: 5546522
+TP: 409.0
+FP: 118.6
+Chi_Quad: 177.30092934831856
+p_value: 0.0
+conf: 0.7826973770572787
+cov: 0.16539184952978056
+Lift: 1.5086432826662957
+supp: 0.1282131661442006
+suppP: 0.24712990936555893
+suppN: 0.07726384364820846
+DiffSupp: 0.16986606571735047
+
+### Top-5 DPs:
+{attribute_30 = T} -> 0.050162144633012655(394p,57n)
+{attribute_31 = T} -> 0.05010072621141695(413p,75n)
+{attribute_31 = C} -> 0.0427373944831517(403p,111n)
+{attribute_32 = C} -> 0.034673892748695465(411p,168n)
+{attribute_32 = A} -> 0.034357956388007205(424p,182n)

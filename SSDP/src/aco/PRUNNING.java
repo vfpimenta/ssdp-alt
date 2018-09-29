@@ -3,11 +3,14 @@ package aco;
 import java.util.HashSet;
 import java.util.List;
 
+import org.apache.commons.math3.distribution.CauchyDistribution;
+
 import dp2.Avaliador;
 import dp2.Pattern;
 
 public class PRUNNING {
-	public static Pattern prune(Pattern Rt, String tipoAvaliacao, List<Pattern> DiscoveredRuleList) {
+	public static Pattern prune(Pattern Rt, String tipoAvaliacao, List<Pattern> DiscoveredRuleList, int b) {
+		
 		double bestQuality;
 		do {
 			bestQuality = Rt.getQualidade();

@@ -4,9 +4,12 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.stream.IntStream;
 
+import org.apache.commons.math3.distribution.CauchyDistribution;
+
 import dp2.Avaliador;
 import dp2.D;
 import dp2.Pattern;
+import util.Const;
 import util.RandomCollection;
 import util.Time;
 
@@ -91,14 +94,32 @@ public class RULE_BUILDING {
 		return contains;
 	}
 	
-	public static Pattern Rt(double[] trails, int[] X, int Min_cases_per_rule, String tipoAvaliacao) {
+	public static Pattern Rt(double[] trails, int[] X, int Min_cases_per_rule, String tipoAvaliacao, int b) {
 		HashSet<Integer> itens = new HashSet<Integer>();
 		double[] P = P(trails, X, tipoAvaliacao);
 		RandomCollection<Integer> rc = new RandomCollection<>();
 		rc.addAll(P, IntStream.rangeClosed(0, D.numeroItens-1).boxed().toArray(Integer[]::new));
 		
+		CauchyDistribution cd = new CauchyDistribution((b - 5.5), 1);
+		
 		while(itens.size() < D.numeroAtributos) {
-			Integer selected = rc.next();
+			Integer selected = null;
+			
+			if(cd.sample() < 0) {
+				selected = Const.random.nextInt(P.length);
+				rc.delete(selected);
+				
+				if(SSDP_ACO.DEBUG) {
+					System.out.println(SSDP_ACO.BLANK+" Added item " + selected + " randomly");
+				}
+			}else{
+				selected = rc.next();
+				if(SSDP_ACO.DEBUG) {
+					System.out.println(SSDP_ACO.BLANK+" Added item " + selected + " by P rule");
+				}
+			}
+			
+			
 			if(selected == null) {
 				break;
 			}

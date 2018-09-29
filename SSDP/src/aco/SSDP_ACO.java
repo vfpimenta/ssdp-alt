@@ -9,6 +9,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.stream.DoubleStream;
 
+import org.apache.commons.math3.distribution.CauchyDistribution;
+
 import dp2.D;
 import dp2.Pattern;
 
@@ -17,7 +19,10 @@ public class SSDP_ACO {
 	public static int Min_cases_per_rule;
 	public static int No_of_ants;
 	public static int No_rules_converg;
+	public static int No_of_batches;
+	
 	public static boolean DEBUG = false;
+	public static boolean INFO = false;
 	public static String BLANK = "    ";
 	
 	public static int coverage() {
@@ -33,6 +38,7 @@ public class SSDP_ACO {
 		while(DiscoveredRuleList.size() < k) {
 			int t = 1; /* ant index */
 			int j = 1; /* convergence test index */
+			int b = 1; /* batch num */
 			
 			// Initialize all trails with the same amount of pheromone;
 			double[] trails = new double[D.numeroItens];
@@ -40,66 +46,81 @@ public class SSDP_ACO {
 			
 			List<Pattern> R = new ArrayList<>();
 			
-			do {
+			while (b < No_of_batches) {
+				t = 1; j = 1;
 				if(DEBUG) {
-					System.out.println("[DEBUG] Starting do-while for ant "+t);
-				}
-				// Initialize array of attribute usage
-				int[] X = new int[D.numeroAtributos];
-				Arrays.fill(X, 1);
-				
-				/*
-				AntT starts with an empty rule and incrementally
-				constructs a classification rule Rt by adding
-				one term at a time to the current rule;
-				 */
-				Pattern Rt = RULE_BUILDING.Rt(trails, X, Min_cases_per_rule, tipoAvaliacao);
-				if(DEBUG) {
-					System.out.println("[DEBUG] Built NEW rule: "+Rt.toString2());
+					System.out.println("[DEBUG] Starting batch "+b);
 				}
 				
-				// Prune rule Rt
-				Rt = PRUNNING.prune(Rt, tipoAvaliacao, DiscoveredRuleList);
-				if(DEBUG) {
-					System.out.println("[DEBUG] Prunned NEW rule into: "+Rt.toString2());
-				}
-				
-				/*
-				 Update the pheromone of all trails by increasing 
-				 pheromone in the trail followed by AntT (pro-
-				 portional to the quality of Rt) and decreasing
-				 pheromone in the other trails (simulating
-				 pheromone evaporation); 
-				 */
-				for(Integer i : Rt.getItens()) {
-					trails[i] = trails[i] + trails[i] * Rt.getQualidade();
-				}
-				
-//				double sumTrails = DoubleStream.of(trails).sum();
-//				for (int i = 0; i < trails.length; i++) {
-//					trails[i] = trails[i] / sumTrails;
-//				}
-				
-				if(DEBUG) {
-					System.out.println("[DEBUG] Trails updated");
-					System.out.println(BLANK+Arrays.toString(trails));
-				}
-				
-				/* update convergence rule */
-				if(t > 1 && Rt.getItens().containsAll(R.get(t-2).getItens()))
-					j = j + 1;
-				else
-					j = 1;
-				
-				t = t + 1;
-				R.add(Rt);
-				if(DEBUG) {
-					System.out.println("[DEBUG] Current rule list:");
-					for (int i = 0; i < R.size(); i++) {
-						System.out.println(BLANK+R.get(i).toString2());
+				do {
+					if(DEBUG) {
+						System.out.println("[DEBUG] Starting do-while for ant "+t);
 					}
-				}
-			} while(t < No_of_ants && j < No_rules_converg);
+					// Initialize array of attribute usage
+					int[] X = new int[D.numeroAtributos];
+					Arrays.fill(X, 1);
+					
+					/*
+					AntT starts with an empty rule and incrementally
+					constructs a classification rule Rt by adding
+					one term at a time to the current rule;
+					 */
+					Pattern Rt = RULE_BUILDING.Rt(trails, X, Min_cases_per_rule, tipoAvaliacao, b);
+					if(DEBUG) {
+						System.out.println("[DEBUG] Built NEW rule: "+Rt.toString2());
+					}
+					
+					// Prune rule Rt
+					CauchyDistribution cd = new CauchyDistribution(b - 5.5, 1);
+					if(cd.sample() > 0) {
+						Rt = PRUNNING.prune(Rt, tipoAvaliacao, DiscoveredRuleList, b);
+						if(DEBUG) {
+							System.out.println("[DEBUG] Prunned NEW rule into: "+Rt.toString2());
+						}
+					} else if (DEBUG) {
+						System.out.println("[DEBUG] Decided to NOT prune rule");
+					}
+					
+					
+					/*
+					 Update the pheromone of all trails by increasing 
+					 pheromone in the trail followed by AntT (pro-
+					 portional to the quality of Rt) and decreasing
+					 pheromone in the other trails (simulating
+					 pheromone evaporation); 
+					 */
+					for(Integer i : Rt.getItens()) {
+						trails[i] = trails[i] + trails[i] * Rt.getQualidade();
+					}
+					
+//					double sumTrails = DoubleStream.of(trails).sum();
+//					for (int i = 0; i < trails.length; i++) {
+//						trails[i] = trails[i] / sumTrails;
+//					}
+					
+					if(DEBUG) {
+						System.out.println("[DEBUG] Trails updated");
+						System.out.println(BLANK+Arrays.toString(trails));
+					}
+					
+					/* update convergence rule */
+					if(t > 1 && Rt.getItens().containsAll(R.get(t-2).getItens()))
+						j = j + 1;
+					else
+						j = 1;
+					
+					t = t + 1;
+					R.add(Rt);
+					if(DEBUG) {
+						System.out.println("[DEBUG] Current rule list:");
+						for (int i = 0; i < R.size(); i++) {
+							System.out.println(BLANK+R.get(i).toString2());
+						}
+					}
+				} while(t < No_of_ants && j < No_rules_converg);
+				
+				b++;
+			}
 			
 			// Choose the best rule Rbest among all rules Rt constructed by all the ants;
 			Collections.sort(R);
@@ -120,11 +141,19 @@ public class SSDP_ACO {
 				DiscoveredRuleList.add(Rbackup);
 			}
 			
-			
-			
-			if(DEBUG) {
+			if(DEBUG || INFO) {
 				System.out.println("[DEBUG] Iteration finished, best rule selected:");
-				System.out.println(BLANK+Rbest.toString2());
+				if(Rbest != null) {
+					System.out.println(BLANK+Rbest.toString2());
+				}else if(Rbackup != null){
+					System.out.println(BLANK+Rbackup.toString2());
+				}
+				
+				if(t == No_of_ants) {
+					System.out.println("[DEBUG] Finished by reaching max number of iterations");
+				}else if(j == No_rules_converg) {
+					System.out.println("[DEBUG] Finished by convergence (ants="+t+")");
+				}
 				
 				System.out.println("[DEBUG] Current DRL:");
 				for (int i = 0; i < DiscoveredRuleList.size(); i++) {

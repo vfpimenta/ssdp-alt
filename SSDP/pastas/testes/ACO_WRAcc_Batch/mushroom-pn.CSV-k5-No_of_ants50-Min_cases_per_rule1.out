@@ -1,0 +1,25 @@
+### Base:mushroom-pn
+Average WRAcc: 0.16688894755611022
+Average Qg: 530.4943327315622
+Time(s): 226.931
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 80.98859315589354%
+Number of individuals generated: 1364731
+TP: 2883.2
+FP: 65.6
+Chi_Quad: 3957.107749167907
+p_value: 0.0
+conf: 0.9788681076915114
+cov: 0.36297390448055145
+Lift: 1.8898109569595625
+supp: 0.35489906450024616
+suppP: 0.685171102661597
+suppN: 0.016751787538304395
+DiffSupp: 0.6684193151232926
+
+### Top-5 DPs:
+{odor = n} -> 0.19455893037534175(3408p,120n)
+{odor = n,ring-number = o} -> 0.16782122303701782(2880p,48n)
+{odor = n,stalk-surface-above-ring = s} -> 0.16340760555069492(2840p,80n)
+{odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+{odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)

@@ -1,7 +1,11 @@
 package util;
 
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.Random;
+import java.util.Set;
 import java.util.TreeMap;
 
 /**
@@ -52,5 +56,16 @@ public class RandomCollection<E> {
         total -= map.higherEntry(value).getKey();
         map.remove(map.higherEntry(value).getKey());
         return result;
+    }
+    
+    public void delete(E matchValue) {
+    	Iterator<Entry<Double, E>> it = map.entrySet().iterator();
+    	while(it.hasNext()) {
+    		Entry<Double, E> entry = it.next();
+    		if(entry.getValue().equals(matchValue)) {
+    			it.remove();
+    			 total -= entry.getKey();
+    		}
+    	}
     }
 }

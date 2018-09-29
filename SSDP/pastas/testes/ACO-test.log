@@ -1,0 +1,740 @@
+Starting test (db:audiology-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+[DEBUG] Iteration finished, best rule selected:
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13638499490954653(51p,29n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13638499490954653(51p,29n)
+[DEBUG] Iteration finished, best rule selected:
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13530816821990757(50p,27n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13638499490954653(51p,29n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13530816821990757(50p,27n)
+[DEBUG] Iteration finished, best rule selected:
+    {history_roaring = f,history_vomiting = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13072676012217088(53p,40n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13638499490954653(51p,29n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13530816821990757(50p,27n)
+    {history_roaring = f,history_vomiting = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13072676012217088(53p,40n)
+[DEBUG] Iteration finished, best rule selected:
+    {history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_3k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13415302686193123(51p,31n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {history_dizziness = f,history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,o_ar_c = normal,tymp = a} -> 0.13869527762549924(49p,21n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13638499490954653(51p,29n)
+    {history_nausea = f,history_noise = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13530816821990757(50p,27n)
+    {history_roaring = f,history_vomiting = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13072676012217088(53p,40n)
+    {history_noise = f,m_m_sn_gt_500 = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_3k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,notch_at_4k = f,o_ar_c = normal} -> 0.13415302686193123(51p,31n)
+
+Starting test (db:nursery-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+[DEBUG] Finished by convergence (ants=11)
+[DEBUG] Current DRL:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {children = 1,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Finished by convergence (ants=25)
+[DEBUG] Current DRL:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+    {children = 1,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {form = incomplete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Finished by convergence (ants=48)
+[DEBUG] Current DRL:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+    {children = 1,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {form = incomplete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {form = complete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Finished by convergence (ants=87)
+[DEBUG] Current DRL:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+    {children = 1,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {form = incomplete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {form = complete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {children = 3,health = not_recom} -> 0.05555555555555556(1080p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {health = not_recom} -> 0.22222222222222224(4320p,0n)
+    {children = 1,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {form = incomplete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {form = complete,health = not_recom} -> 0.05555555555555556(1080p,0n)
+    {children = 3,health = not_recom} -> 0.05555555555555556(1080p,0n)
+
+Starting test (db:breast-cancer-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+[DEBUG] Iteration finished, best rule selected:
+    {node-caps = no,irradiat = no} -> 0.06107878135850165(151p,39n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+    {node-caps = no,irradiat = no} -> 0.06107878135850165(151p,39n)
+[DEBUG] Iteration finished, best rule selected:
+    {inv-nodes = 0-2} -> 0.06050418113355175(167p,46n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+    {node-caps = no,irradiat = no} -> 0.06107878135850165(151p,39n)
+    {inv-nodes = 0-2} -> 0.06050418113355175(167p,46n)
+[DEBUG] Iteration finished, best rule selected:
+    {node-caps = no} -> 0.050198053694557196(176p,54n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+    {node-caps = no,irradiat = no} -> 0.06107878135850165(151p,39n)
+    {inv-nodes = 0-2} -> 0.06050418113355175(167p,46n)
+    {node-caps = no} -> 0.050198053694557196(176p,54n)
+[DEBUG] Iteration finished, best rule selected:
+    {inv-nodes = 0-2,deg-malig = 2} -> 0.042398161279280165(81p,17n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+    {node-caps = no,irradiat = no} -> 0.06107878135850165(151p,39n)
+    {inv-nodes = 0-2} -> 0.06050418113355175(167p,46n)
+    {node-caps = no} -> 0.050198053694557196(176p,54n)
+    {inv-nodes = 0-2,deg-malig = 2} -> 0.042398161279280165(81p,17n)
+
+Starting test (db:postoperative-patient-data-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+[DEBUG] Iteration finished, best rule selected:
+    {L-SURF = high,SURF-STBL = unstable} -> 0.027407407407407398(11p,1n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+    {L-SURF = high,SURF-STBL = unstable} -> 0.027407407407407398(11p,1n)
+[DEBUG] Iteration finished, best rule selected:
+    {L-SURF = low,BP-STBL = stable,COMFORT = 10} -> 0.02567901234567901(8p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+    {L-SURF = high,SURF-STBL = unstable} -> 0.027407407407407398(11p,1n)
+    {L-SURF = low,BP-STBL = stable,COMFORT = 10} -> 0.02567901234567901(8p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {L-O2 = excellent,CORE-STBL = stable} -> 0.025185185185185192(30p,9n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+    {L-SURF = high,SURF-STBL = unstable} -> 0.027407407407407398(11p,1n)
+    {L-SURF = low,BP-STBL = stable,COMFORT = 10} -> 0.02567901234567901(8p,0n)
+    {L-O2 = excellent,CORE-STBL = stable} -> 0.025185185185185192(30p,9n)
+[DEBUG] Iteration finished, best rule selected:
+    {L-O2 = excellent,CORE-STBL = stable,COMFORT = 10} -> 0.024938271604938264(25p,7n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {L-BP = high,COMFORT = 10} -> 0.02938271604938271(19p,4n)
+    {L-SURF = high,SURF-STBL = unstable} -> 0.027407407407407398(11p,1n)
+    {L-SURF = low,BP-STBL = stable,COMFORT = 10} -> 0.02567901234567901(8p,0n)
+    {L-O2 = excellent,CORE-STBL = stable} -> 0.025185185185185192(30p,9n)
+    {L-O2 = excellent,CORE-STBL = stable,COMFORT = 10} -> 0.024938271604938264(25p,7n)
+
+Starting test (db:bridges-version2-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+[DEBUG] Iteration finished, best rule selected:
+    {LANES = 2,REL-L = F} -> 0.12362811791383217(31p,12n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+    {LANES = 2,REL-L = F} -> 0.12362811791383217(31p,12n)
+[DEBUG] Iteration finished, best rule selected:
+    {LANES = 2,SPAN = MEDIUM,REL-L = F} -> 0.11528344671201814(23p,3n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+    {LANES = 2,REL-L = F} -> 0.12362811791383217(31p,12n)
+    {LANES = 2,SPAN = MEDIUM,REL-L = F} -> 0.11528344671201814(23p,3n)
+[DEBUG] Iteration finished, best rule selected:
+    {LANES = 2,SPAN = MEDIUM} -> 0.1107482993197279(33p,18n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+    {LANES = 2,REL-L = F} -> 0.12362811791383217(31p,12n)
+    {LANES = 2,SPAN = MEDIUM,REL-L = F} -> 0.11528344671201814(23p,3n)
+    {LANES = 2,SPAN = MEDIUM} -> 0.1107482993197279(33p,18n)
+[DEBUG] Iteration finished, best rule selected:
+    {LANES = 2} -> 0.10467120181405894(42p,32n)
+[DEBUG] Finished by convergence (ants=44)
+[DEBUG] Current DRL:
+    {PURPOSE = RR} -> 0.12390022675736963(26p,5n)
+    {LANES = 2,REL-L = F} -> 0.12362811791383217(31p,12n)
+    {LANES = 2,SPAN = MEDIUM,REL-L = F} -> 0.11528344671201814(23p,3n)
+    {LANES = 2,SPAN = MEDIUM} -> 0.1107482993197279(33p,18n)
+    {LANES = 2} -> 0.10467120181405894(42p,32n)
+
+Starting test (db:primary-tumor-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+[DEBUG] Iteration finished, best rule selected:
+    {axillar = no,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+    {axillar = no,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+[DEBUG] Iteration finished, best rule selected:
+    {lung = no,mediastinum = yes} -> 0.07854961234239173(41p,17n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+    {axillar = no,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+    {lung = no,mediastinum = yes} -> 0.07854961234239173(41p,17n)
+[DEBUG] Iteration finished, best rule selected:
+    {degree-of-diffe = poorly,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+    {axillar = no,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+    {lung = no,mediastinum = yes} -> 0.07854961234239173(41p,17n)
+    {degree-of-diffe = poorly,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+[DEBUG] Iteration finished, best rule selected:
+    {degree-of-diffe = poorly,lung = no,mediastinum = yes} -> 0.07703552875453573(39p,13n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {mediastinum = yes} -> 0.08614613517111754(52p,40n)
+    {axillar = no,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+    {lung = no,mediastinum = yes} -> 0.07854961234239173(41p,17n)
+    {degree-of-diffe = poorly,mediastinum = yes} -> 0.08533688359829797(49p,32n)
+    {degree-of-diffe = poorly,lung = no,mediastinum = yes} -> 0.07703552875453573(39p,13n)
+
+Starting test (db:shuttle-landing-control-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+[DEBUG] Iteration finished, best rule selected:
+    {ERROR = 4} -> 0.08000000000000002(3p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+    {ERROR = 4} -> 0.08000000000000002(3p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {MAGNITUDE = 2} -> 0.08000000000000002(3p,0n)
+[DEBUG] Finished by convergence (ants=87)
+[DEBUG] Current DRL:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+    {ERROR = 4} -> 0.08000000000000002(3p,0n)
+    {MAGNITUDE = 2} -> 0.08000000000000002(3p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {WIND = 2,MAGNITUDE = 3} -> 0.05333333333333334(2p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+    {ERROR = 4} -> 0.08000000000000002(3p,0n)
+    {MAGNITUDE = 2} -> 0.08000000000000002(3p,0n)
+    {WIND = 2,MAGNITUDE = 3} -> 0.05333333333333334(2p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {WIND = 1,MAGNITUDE = 1} -> 0.02666666666666667(1p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {STABILITY = 1,ERROR = 3,SIGN = 1} -> 0.08000000000000002(6p,2n)
+    {ERROR = 4} -> 0.08000000000000002(3p,0n)
+    {MAGNITUDE = 2} -> 0.08000000000000002(3p,0n)
+    {WIND = 2,MAGNITUDE = 3} -> 0.05333333333333334(2p,0n)
+    {WIND = 1,MAGNITUDE = 1} -> 0.02666666666666667(1p,0n)
+
+Starting test (db:car-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+[DEBUG] Finished by convergence (ants=12)
+[DEBUG] Current DRL:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {safety = low} -> 0.09992283950617283(576p,0n)
+[DEBUG] Finished by convergence (ants=43)
+[DEBUG] Current DRL:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+    {safety = low} -> 0.09992283950617283(576p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {buying = vhigh} -> 0.033275462962962965(360p,72n)
+[DEBUG] Finished by convergence (ants=55)
+[DEBUG] Current DRL:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+    {safety = low} -> 0.09992283950617283(576p,0n)
+    {buying = vhigh} -> 0.033275462962962965(360p,72n)
+[DEBUG] Iteration finished, best rule selected:
+    {lug_boot = small} -> 0.02700617283950616(450p,126n)
+[DEBUG] Finished by convergence (ants=19)
+[DEBUG] Current DRL:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+    {safety = low} -> 0.09992283950617283(576p,0n)
+    {buying = vhigh} -> 0.033275462962962965(360p,72n)
+    {lug_boot = small} -> 0.02700617283950616(450p,126n)
+[DEBUG] Iteration finished, best rule selected:
+    {maint = vhigh} -> 0.033275462962962965(360p,72n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {persons = 2} -> 0.09992283950617283(576p,0n)
+    {safety = low} -> 0.09992283950617283(576p,0n)
+    {buying = vhigh} -> 0.033275462962962965(360p,72n)
+    {lug_boot = small} -> 0.02700617283950616(450p,126n)
+    {maint = vhigh} -> 0.033275462962962965(360p,72n)
+
+Starting test (db:solar-flare-2-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+[DEBUG] Finished by convergence (ants=11)
+[DEBUG] Current DRL:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {spot_distribution = X,Previous_24_hour_flare_activity_code = 1} -> 0.21215182566026847(328p,0n)
+[DEBUG] Finished by convergence (ants=11)
+[DEBUG] Current DRL:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+    {spot_distribution = X,Previous_24_hour_flare_activity_code = 1} -> 0.21215182566026847(328p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {spot_distribution = X,Evolution = 2} -> 0.12224602149326444(189p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+    {spot_distribution = X,Previous_24_hour_flare_activity_code = 1} -> 0.21215182566026847(328p,0n)
+    {spot_distribution = X,Evolution = 2} -> 0.12224602149326444(189p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {spot_distribution = X,Evolution = 2,Previous_24_hour_flare_activity_code = 1} -> 0.12159921714673923(188p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+    {spot_distribution = X,Previous_24_hour_flare_activity_code = 1} -> 0.21215182566026847(328p,0n)
+    {spot_distribution = X,Evolution = 2} -> 0.12224602149326444(189p,0n)
+    {spot_distribution = X,Evolution = 2,Previous_24_hour_flare_activity_code = 1} -> 0.12159921714673923(188p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {spot_distribution = X,Activity = 1} -> 0.20568378219501635(318p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {spot_distribution = X} -> 0.21409223869984406(331p,0n)
+    {spot_distribution = X,Previous_24_hour_flare_activity_code = 1} -> 0.21215182566026847(328p,0n)
+    {spot_distribution = X,Evolution = 2} -> 0.12224602149326444(189p,0n)
+    {spot_distribution = X,Evolution = 2,Previous_24_hour_flare_activity_code = 1} -> 0.12159921714673923(188p,0n)
+    {spot_distribution = X,Activity = 1} -> 0.20568378219501635(318p,0n)
+
+Starting test (db:soybean-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+[DEBUG] Iteration finished, best rule selected:
+    {severity = pot-severe,plant-growth = norm,leafspot-size = gt-1/8} -> 0.06659535380255484(70p,112n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+    {severity = pot-severe,plant-growth = norm,leafspot-size = gt-1/8} -> 0.06659535380255484(70p,112n)
+[DEBUG] Iteration finished, best rule selected:
+    {temp = norm,severity = pot-severe,plant-growth = norm,leaf-malf = absent,leaf-mild = absent} -> 0.0682867120125019(69p,97n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+    {severity = pot-severe,plant-growth = norm,leafspot-size = gt-1/8} -> 0.06659535380255484(70p,112n)
+    {temp = norm,severity = pot-severe,plant-growth = norm,leaf-malf = absent,leaf-mild = absent} -> 0.0682867120125019(69p,97n)
+[DEBUG] Iteration finished, best rule selected:
+    {plant-growth = norm,leafspot-size = gt-1/8,leaf-malf = absent} -> 0.06255452968880294(83p,216n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+    {severity = pot-severe,plant-growth = norm,leafspot-size = gt-1/8} -> 0.06659535380255484(70p,112n)
+    {temp = norm,severity = pot-severe,plant-growth = norm,leaf-malf = absent,leaf-mild = absent} -> 0.0682867120125019(69p,97n)
+    {plant-growth = norm,leafspot-size = gt-1/8,leaf-malf = absent} -> 0.06255452968880294(83p,216n)
+[DEBUG] Iteration finished, best rule selected:
+    {leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,lodging = yes} -> 0.062320869302384396(92p,275n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {leafspot-size = gt-1/8,lodging = yes,roots = norm} -> 0.0700123689947673(92p,236n)
+    {severity = pot-severe,plant-growth = norm,leafspot-size = gt-1/8} -> 0.06659535380255484(70p,112n)
+    {temp = norm,severity = pot-severe,plant-growth = norm,leaf-malf = absent,leaf-mild = absent} -> 0.0682867120125019(69p,97n)
+    {plant-growth = norm,leafspot-size = gt-1/8,leaf-malf = absent} -> 0.06255452968880294(83p,216n)
+    {leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,lodging = yes} -> 0.062320869302384396(92p,275n)
+
+Starting test (db:kr-vs-kp-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+[DEBUG] Iteration finished, best rule selected:
+    {bxqsq = f,stlmt = f,wknck = f} -> 0.14498293392397568(1207p,217n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+    {bxqsq = f,stlmt = f,wknck = f} -> 0.14498293392397568(1207p,217n)
+[DEBUG] Iteration finished, best rule selected:
+    {bxqsq = f,mulch = f,skrxp = f,stlmt = f} -> 0.11615984702404918(1388p,559n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+    {bxqsq = f,stlmt = f,wknck = f} -> 0.14498293392397568(1207p,217n)
+    {bxqsq = f,mulch = f,skrxp = f,stlmt = f} -> 0.11615984702404918(1388p,559n)
+[DEBUG] Iteration finished, best rule selected:
+    {bxqsq = f,hdchk = f,mulch = f,skrxp = f,stlmt = f} -> 0.11681343309299327(1388p,555n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+    {bxqsq = f,stlmt = f,wknck = f} -> 0.14498293392397568(1207p,217n)
+    {bxqsq = f,mulch = f,skrxp = f,stlmt = f} -> 0.11615984702404918(1388p,559n)
+    {bxqsq = f,hdchk = f,mulch = f,skrxp = f,stlmt = f} -> 0.11681343309299327(1388p,555n)
+[DEBUG] Iteration finished, best rule selected:
+    {bxqsq = f,skrxp = f,stlmt = f} -> 0.10817436846120225(1410p,628n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {bxqsq = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,stlmt = f} -> 0.11853061398713349(1335p,496n)
+    {bxqsq = f,stlmt = f,wknck = f} -> 0.14498293392397568(1207p,217n)
+    {bxqsq = f,mulch = f,skrxp = f,stlmt = f} -> 0.11615984702404918(1388p,559n)
+    {bxqsq = f,hdchk = f,mulch = f,skrxp = f,stlmt = f} -> 0.11681343309299327(1388p,555n)
+    {bxqsq = f,skrxp = f,stlmt = f} -> 0.10817436846120225(1410p,628n)
+
+Starting test (db:spect-test-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+[DEBUG] Iteration finished, best rule selected:
+    {F22 = 1} -> 0.030684320398066876(83p,1n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+    {F22 = 1} -> 0.030684320398066876(83p,1n)
+[DEBUG] Iteration finished, best rule selected:
+    {F19 = 0,F22 = 1} -> 0.027023935485715918(63p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+    {F22 = 1} -> 0.030684320398066876(83p,1n)
+    {F19 = 0,F22 = 1} -> 0.027023935485715918(63p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {F21 = 1} -> 0.02811061225657012(77p,1n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+    {F22 = 1} -> 0.030684320398066876(83p,1n)
+    {F19 = 0,F22 = 1} -> 0.027023935485715918(63p,0n)
+    {F21 = 1} -> 0.02811061225657012(77p,1n)
+[DEBUG] Iteration finished, best rule selected:
+    {F20 = 1} -> 0.02382109868740886(67p,1n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {F13 = 1} -> 0.033915753953501646(102p,2n)
+    {F22 = 1} -> 0.030684320398066876(83p,1n)
+    {F19 = 0,F22 = 1} -> 0.027023935485715918(63p,0n)
+    {F21 = 1} -> 0.02811061225657012(77p,1n)
+    {F20 = 1} -> 0.02382109868740886(67p,1n)
+
+Starting test (db:lung-cancer-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute38 = 1,attribute45 = 2} -> 0.07324218749999999(6p,3n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+    {attribute38 = 1,attribute45 = 2} -> 0.07324218749999999(6p,3n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute44 = 2,attribute46 = 2} -> 0.0703125(12p,12n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+    {attribute38 = 1,attribute45 = 2} -> 0.07324218749999999(6p,3n)
+    {attribute44 = 2,attribute46 = 2} -> 0.0703125(12p,12n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute40 = 2,attribute44 = 2,attribute46 = 2} -> 0.05859375(10p,10n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+    {attribute38 = 1,attribute45 = 2} -> 0.07324218749999999(6p,3n)
+    {attribute44 = 2,attribute46 = 2} -> 0.0703125(12p,12n)
+    {attribute40 = 2,attribute44 = 2,attribute46 = 2} -> 0.05859375(10p,10n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute36 = 3,attribute43 = 2} -> 0.0556640625(3p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute35 = 1,attribute46 = 2} -> 0.09765624999999999(8p,4n)
+    {attribute38 = 1,attribute45 = 2} -> 0.07324218749999999(6p,3n)
+    {attribute44 = 2,attribute46 = 2} -> 0.0703125(12p,12n)
+    {attribute40 = 2,attribute44 = 2,attribute46 = 2} -> 0.05859375(10p,10n)
+    {attribute36 = 3,attribute43 = 2} -> 0.0556640625(3p,0n)
+
+Starting test (db:splice-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute_31 = C} -> 0.0427373944831517(403p,111n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+    {attribute_31 = C} -> 0.0427373944831517(403p,111n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute_32 = C} -> 0.034673892748695465(411p,168n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+    {attribute_31 = C} -> 0.0427373944831517(403p,111n)
+    {attribute_32 = C} -> 0.034673892748695465(411p,168n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute_32 = A} -> 0.034357956388007205(424p,182n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+    {attribute_31 = C} -> 0.0427373944831517(403p,111n)
+    {attribute_32 = C} -> 0.034673892748695465(411p,168n)
+    {attribute_32 = A} -> 0.034357956388007205(424p,182n)
+[DEBUG] Iteration finished, best rule selected:
+    {attribute_30 = T} -> 0.050162144633012655(394p,57n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attribute_31 = T} -> 0.05010072621141695(413p,75n)
+    {attribute_31 = C} -> 0.0427373944831517(403p,111n)
+    {attribute_32 = C} -> 0.034673892748695465(411p,168n)
+    {attribute_32 = A} -> 0.034357956388007205(424p,182n)
+    {attribute_30 = T} -> 0.050162144633012655(394p,57n)
+
+Starting test (db:molecular-biology-promoters-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+[DEBUG] Iteration finished, best rule selected:
+    {p-46 = g} -> 0.042452830188679236(19p,10n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+    {p-46 = g} -> 0.042452830188679236(19p,10n)
+[DEBUG] Iteration finished, best rule selected:
+    {p-14 = a} -> 0.037735849056603765(14p,6n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+    {p-46 = g} -> 0.042452830188679236(19p,10n)
+    {p-14 = a} -> 0.037735849056603765(14p,6n)
+[DEBUG] Iteration finished, best rule selected:
+    {p-16 = t} -> 0.03301886792452831(17p,10n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+    {p-46 = g} -> 0.042452830188679236(19p,10n)
+    {p-14 = a} -> 0.037735849056603765(14p,6n)
+    {p-16 = t} -> 0.03301886792452831(17p,10n)
+[DEBUG] Iteration finished, best rule selected:
+    {p-16 = t,p-15 = t} -> 0.028301886792452838(8p,2n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {p-13 = c} -> 0.04245283018867925(15p,6n)
+    {p-46 = g} -> 0.042452830188679236(19p,10n)
+    {p-14 = a} -> 0.037735849056603765(14p,6n)
+    {p-16 = t} -> 0.03301886792452831(17p,10n)
+    {p-16 = t,p-15 = t} -> 0.028301886792452838(8p,2n)
+
+Starting test (db:tic-tac-toe-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+[DEBUG] Iteration finished, best rule selected:
+    {middle-middle-square = x,bottom-right-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+    {middle-middle-square = x,bottom-right-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Iteration finished, best rule selected:
+    {top-right-square = x,middle-middle-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+    {middle-middle-square = x,bottom-right-square = x} -> 0.032993231375386275(144p,28n)
+    {top-right-square = x,middle-middle-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Iteration finished, best rule selected:
+    {middle-middle-square = x,bottom-left-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+    {middle-middle-square = x,bottom-right-square = x} -> 0.032993231375386275(144p,28n)
+    {top-right-square = x,middle-middle-square = x} -> 0.032993231375386275(144p,28n)
+    {middle-middle-square = x,bottom-left-square = x} -> 0.032993231375386275(144p,28n)
+[DEBUG] Iteration finished, best rule selected:
+    {top-right-square = x,middle-middle-square = x,bottom-left-square = x} -> 0.03255738948139173(90p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+    {middle-middle-square = x,bottom-right-square = x} -> 0.032993231375386275(144p,28n)
+    {top-right-square = x,middle-middle-square = x} -> 0.032993231375386275(144p,28n)
+    {middle-middle-square = x,bottom-left-square = x} -> 0.032993231375386275(144p,28n)
+    {top-right-square = x,middle-middle-square = x,bottom-left-square = x} -> 0.03255738948139173(90p,0n)
+
+Starting test (db:monks-problems-1-train-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+[DEBUG] Iteration finished, best rule selected:
+    {attr1 = 1,attr2 = 3} -> 0.05241935483870967(16p,3n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+    {attr1 = 1,attr2 = 3} -> 0.05241935483870967(16p,3n)
+[DEBUG] Iteration finished, best rule selected:
+    {attr1 = 1,attr2 = 2} -> 0.05241935483870967(15p,2n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+    {attr1 = 1,attr2 = 3} -> 0.05241935483870967(16p,3n)
+    {attr1 = 1,attr2 = 2} -> 0.05241935483870967(15p,2n)
+[DEBUG] Iteration finished, best rule selected:
+    {attr5 = 4} -> 0.048387096774193554(23p,11n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+    {attr1 = 1,attr2 = 3} -> 0.05241935483870967(16p,3n)
+    {attr1 = 1,attr2 = 2} -> 0.05241935483870967(15p,2n)
+    {attr5 = 4} -> 0.048387096774193554(23p,11n)
+[DEBUG] Iteration finished, best rule selected:
+    {attr1 = 2,attr2 = 1} -> 0.04838709677419355(14p,2n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {attr1 = 1} -> 0.06854838709677419(31p,14n)
+    {attr1 = 1,attr2 = 3} -> 0.05241935483870967(16p,3n)
+    {attr1 = 1,attr2 = 2} -> 0.05241935483870967(15p,2n)
+    {attr5 = 4} -> 0.048387096774193554(23p,11n)
+    {attr1 = 2,attr2 = 1} -> 0.04838709677419355(14p,2n)
+
+Starting test (db:trains-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+[DEBUG] Finished by convergence (ants=16)
+[DEBUG] Current DRL:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {load_shape_4 = trianglod} -> 0.05(1p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+    {load_shape_4 = trianglod} -> 0.05(1p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+    {load_shape_4 = trianglod} -> 0.05(1p,0n)
+    {Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {load_shape_5 = circlelod,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+    {load_shape_4 = trianglod} -> 0.05(1p,0n)
+    {Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+    {load_shape_5 = circlelod,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+[DEBUG] Finished by convergence (ants=50)
+[DEBUG] Current DRL:
+    {Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+    {load_shape_4 = trianglod} -> 0.05(1p,0n)
+    {Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+    {load_shape_5 = circlelod,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+    {load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1} -> 0.15(3p,0n)
+
+Starting test (db:mushroom-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+[DEBUG] Iteration finished, best rule selected:
+    {odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+    {odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+[DEBUG] Iteration finished, best rule selected:
+    {odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+    {odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+    {odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)
+[DEBUG] Iteration finished, best rule selected:
+    {ring-type = p} -> 0.13499376115313574(3152p,816n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+    {odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+    {odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)
+    {ring-type = p} -> 0.13499376115313574(3152p,816n)
+[DEBUG] Iteration finished, best rule selected:
+    {stalk-surface-above-ring = s,ring-type = p} -> 0.13468151577675525(2992p,672n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {odor = n} -> 0.19455893037534175(3408p,120n)
+    {odor = n,stalk-surface-below-ring = s} -> 0.16055957862389486(2792p,80n)
+    {odor = n,stalk-shape = t} -> 0.14809740019360185(2496p,0n)
+    {ring-type = p} -> 0.13499376115313574(3152p,816n)
+    {stalk-surface-above-ring = s,ring-type = p} -> 0.13468151577675525(2992p,672n)
+
+Starting test (db:vote-pn.CSV)
+[DEBUG] Iteration finished, best rule selected:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+[DEBUG] Iteration finished, best rule selected:
+    {physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+    {physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+[DEBUG] Iteration finished, best rule selected:
+    {education-spending = n,export-administration-act-south-africa = y} -> 0.16077685295283392(224p,27n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+    {physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+    {education-spending = n,export-administration-act-south-africa = y} -> 0.16077685295283392(224p,27n)
+[DEBUG] Iteration finished, best rule selected:
+    {education-spending = n} -> 0.158525564803805(231p,33n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+    {physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+    {education-spending = n,export-administration-act-south-africa = y} -> 0.16077685295283392(224p,27n)
+    {education-spending = n} -> 0.158525564803805(231p,33n)
+[DEBUG] Iteration finished, best rule selected:
+    {mx-missile = y,education-spending = n} -> 0.15598890210067382(190p,9n)
+[DEBUG] Finished by reaching max number of iterations
+[DEBUG] Current DRL:
+    {adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+    {physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+    {education-spending = n,export-administration-act-south-africa = y} -> 0.16077685295283392(224p,27n)
+    {education-spending = n} -> 0.158525564803805(231p,33n)
+    {mx-missile = y,education-spending = n} -> 0.15598890210067382(190p,9n)
+

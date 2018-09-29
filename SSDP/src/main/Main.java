@@ -43,6 +43,7 @@ public class Main {
     	
     	SSDP_ACO.No_rules_converg = 10;
     	SSDP_ACO.DEBUG = false;
+    	SSDP_ACO.INFO = false;
     	
 //    	for (int mcpr : mcprs) {
 //			for (int noa : noas) {
@@ -57,11 +58,12 @@ public class Main {
 //		}
     	
     	SSDP_ACO.Min_cases_per_rule = 1;
-		SSDP_ACO.No_of_ants = 100;
+		SSDP_ACO.No_of_ants = 50;
+		SSDP_ACO.No_of_batches = 100;
 		Const.random = new Random(Const.SEEDS[0]);
 		for (String string : databases) {
 			System.out.println("Starting test (db:"+string+")");
-			test(5, string);	
+			test(5, string);
 		}
     	
 //    	for (Long seed : Const.SEEDS) {
