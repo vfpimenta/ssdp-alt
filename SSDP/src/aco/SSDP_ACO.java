@@ -41,7 +41,7 @@ public class SSDP_ACO {
 		D.itemQualidade = new HashMap<>();
 		
 		if(TRACK) {
-			System.out.println("Best Average");
+			System.out.println("idx Best Average");
 		}
 		
 		//while(D.numeroExemplos > Max_uncovered_cases && D.numeroExemplosNegativo > 0 && D.numeroExemplosPositivo > 0) {
@@ -50,6 +50,7 @@ public class SSDP_ACO {
 			int j = 1; /* convergence test index */
 			int b = 1; /* batch num */
 			int s = 0; /* stall num */
+			int idx = 1;
 			
 			// Initialize all trails with the same amount of pheromone;
 			double[] trails = new double[D.numeroItens];
@@ -87,7 +88,7 @@ public class SSDP_ACO {
 					constructs a classification rule Rt by adding
 					one term at a time to the current rule;
 					 */
-					Pattern Rt = RULE_BUILDING.Rt(trails, X, Min_cases_per_rule, tipoAvaliacao, b);
+					Pattern Rt = RULE_BUILDING.Rt(trails, X, Min_cases_per_rule, tipoAvaliacao, b, R);
 					if(DEBUG) {
 						System.out.println("[DEBUG] Built NEW rule: "+Rt.toString2());
 					}
@@ -152,39 +153,28 @@ public class SSDP_ACO {
 //						Double suppP = Avaliador.suppPositivo(R.get(0));
 //						Double suppN = Avaliador.suppNegativo(R.get(0));
 //						Double cov = Avaliador.cov(R.get(0));
-						System.out.println(bestQ+" "+meanQ);
+						System.out.println(idx+" "+bestQ+" "+meanQ);
 					}
-				} while(t < No_of_ants && j < No_rules_converg);
+					
+					idx++;
+				} while(t < No_of_ants /*&& j < No_rules_converg*/);
 				
 				b++;
 			}
 			
 			// Choose the best rule Rbest among all rules Rt constructed by all the ants;
 			Collections.sort(R);
-			Pattern Rbest = null;
-			Pattern Rbackup = null;
 			for (Pattern r : R) {
 				if(relevant(r, DiscoveredRuleList)) {
-					Rbest = r;
-					break;
-				} else if(Rbackup == null && different(r, DiscoveredRuleList)) {
-					Rbackup = r;
+					DiscoveredRuleList.add(r);
+					if(DiscoveredRuleList.size() >= k) {
+						break;
+					}
 				}
-			}
-			
-			if(Rbest != null) {
-				DiscoveredRuleList.add(Rbest);
-			}else if(Rbackup != null){
-				DiscoveredRuleList.add(Rbackup);
 			}
 			
 			if(DEBUG || INFO) {
-				System.out.println("[DEBUG] Iteration finished, best rule selected:");
-				if(Rbest != null) {
-					System.out.println(BLANK+Rbest.toString2());
-				}else if(Rbackup != null){
-					System.out.println(BLANK+Rbackup.toString2());
-				}
+				System.out.println("[DEBUG] Iteration finished");
 				
 				if(t == No_of_ants) {
 					System.out.println("[DEBUG] Finished by reaching max number of iterations");
@@ -197,14 +187,6 @@ public class SSDP_ACO {
 					System.out.println(BLANK+DiscoveredRuleList.get(i).toString2());
 				}
 			}
-			
-			// TrainingSet = TrainingSet-{set of cases correctly covered by Rbest};
-//			if(D.PadroesExcluidos == null) {
-//				D.PadroesExcluidos = new HashSet<Pattern>(DiscoveredRuleList);
-//			} else {
-//				D.PadroesExcluidos.addAll(DiscoveredRuleList);
-//			}
-			//D.RecarregaArquivo();
 		}
 		
 		return DiscoveredRuleList.toArray(new Pattern[0]);

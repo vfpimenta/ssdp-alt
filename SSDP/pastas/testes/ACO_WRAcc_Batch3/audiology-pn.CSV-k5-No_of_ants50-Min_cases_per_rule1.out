@@ -1,0 +1,25 @@
+### Base:audiology-pn
+Average WRAcc: 0.17504111520087715
+Average Qg: 7.876363636363637
+Time(s): 63.682
+Average size: 7.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 3956833
+TP: 55.6
+FP: 8.0
+Chi_Quad: 182.17411209350797
+p_value: 0.0
+conf: 0.876866466866467
+cov: 0.28141592920353986
+Lift: 3.476698623014413
+supp: 0.24601769911504423
+suppP: 0.9754385964912281
+suppN: 0.047337278106508875
+DiffSupp: 0.9281013183847192
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{age_gt_60 = t,history_nausea = f,m_m_sn_gt_1k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,tymp = a} -> 0.17524864907197119(56p,9n)
+{age_gt_60 = t,history_vomiting = f,m_m_sn_gt_1k = f,m_p_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,s_sn_gt_1k = f,tymp = a} -> 0.17524864907197119(56p,9n)
+{age_gt_60 = t,history_vomiting = f,m_m_sn_gt_1k = f,m_p_sn_gt_2k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,tymp = a} -> 0.17413266504816355(56p,10n)
+{age_gt_60 = t,history_vomiting = f,m_m_sn_gt_1k = f,mod_sn_gt_3k = f,notch_4k = f,notch_at_4k = f,s_sn_gt_1k = f,tymp = a} -> 0.17413266504816355(56p,10n)

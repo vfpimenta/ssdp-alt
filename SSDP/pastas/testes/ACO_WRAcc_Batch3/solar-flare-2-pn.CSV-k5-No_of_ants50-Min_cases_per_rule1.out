@@ -1,0 +1,25 @@
+### Base:solar-flare-2-pn
+Average WRAcc: 0.05329685415485993
+Average Qg: 71.50871794871794
+Time(s): 37.833
+Average size: 7.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1127539
+TP: 135.0
+FP: 116.8
+Chi_Quad: 234.59359646242882
+p_value: 0.0071501643256408395
+conf: 0.870509977827051
+cov: 0.23621013133208252
+Lift: 2.8035155177149136
+supp: 0.12664165103189493
+suppP: 0.40785498489425975
+suppN: 0.15891156462585035
+DiffSupp: 0.2489434202684094
+
+### Top-5 DPs:
+{spot_distribution = X} -> 0.21409223869984406(331p,0n)
+{Activity = 1} -> 0.03557511906480012(318p,584n)
+{largest_spot_size = S,spot_distribution = X,Activity = 1,Evolution = 3,Previous_24_hour_flare_activity_code = 1,Historically-complex = 1,Did_region_become_historically_complex = 2,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 0.012289282583978964(19p,0n)
+{largest_spot_size = A,spot_distribution = X,Activity = 1,Evolution = 2,Previous_24_hour_flare_activity_code = 1,Historically-complex = 1,Did_region_become_historically_complex = 1,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 0.0032340217326260437(5p,0n)
+{largest_spot_size = H,spot_distribution = X,Activity = 1,Evolution = 2,Previous_24_hour_flare_activity_code = 1,Historically-complex = 1,Did_region_become_historically_complex = 1,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 0.0012936086930504173(2p,0n)

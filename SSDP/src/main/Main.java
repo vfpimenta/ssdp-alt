@@ -42,7 +42,7 @@ public class Main {
     			"trains-pn.CSV","mushroom-pn.CSV","vote-pn.CSV"};
     	
     	SSDP_ACO.No_rules_converg = 10;
-    	SSDP_ACO.DEBUG = false;
+    	SSDP_ACO.DEBUG = true;
     	SSDP_ACO.INFO = false;
     	SSDP_ACO.TRACK = false;
     	
@@ -60,19 +60,19 @@ public class Main {
     	
     	SSDP_ACO.Min_cases_per_rule = 1;
 		SSDP_ACO.No_of_ants = 50;
-		SSDP_ACO.No_of_batches = 150;
+		SSDP_ACO.No_of_batches = 100;
 		SSDP_ACO.Max_stall = 100;
-		for (String string : databases) {
-			System.out.println("Starting test (db:"+string+")");
-			test(5, string);
-		}
+//		for (String string : databases) {
+//			System.out.println("Starting test (db:"+string+")");
+//			test(5, string);
+//		}
     	
 //    	for (Long seed : Const.SEEDS) {
 //    		Const.random = new Random(seed);
 //    		test(5, databases[0], seed);
 //    	}
     	
-//    	test(5, "audiology-pn.CSV");
+    	test(5, "nursery-pn.CSV");
     }
     
     public static void test(int k, String database) throws FileNotFoundException, UnsupportedEncodingException {

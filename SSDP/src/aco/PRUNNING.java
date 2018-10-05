@@ -21,7 +21,7 @@ public class PRUNNING {
 				});
 				
 				Pattern _Rt = new Pattern(itens, tipoAvaliacao);
-				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0 && SSDP_ACO.different(_Rt, RuleList)) {
+				if(_Rt.getQualidade() >= Rt.getQualidade() && _Rt.getItens().size() > 0 && SSDP_ACO.relevant(_Rt, RuleList)) {
 					Rt = _Rt;
 				}
 			}

@@ -2,6 +2,7 @@ package aco;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.stream.IntStream;
 
 import org.apache.commons.math3.distribution.CauchyDistribution;
@@ -95,7 +96,7 @@ public class RULE_BUILDING {
 		return contains;
 	}
 	
-	public static Pattern Rt(double[] trails, int[] X, int Min_cases_per_rule, String tipoAvaliacao, int b) {
+	public static Pattern Rt(double[] trails, int[] X, int Min_cases_per_rule, String tipoAvaliacao, int b, List<Pattern> RuleList) {
 		HashSet<Integer> itens = new HashSet<Integer>();
 		double[] P = P(trails, X, tipoAvaliacao);
 		RandomCollection<Integer> rc = new RandomCollection<>();
@@ -127,8 +128,8 @@ public class RULE_BUILDING {
 				HashSet<Integer> tmpItens = new HashSet<Integer>();
 				itens.forEach(x->{tmpItens.add(x);}); tmpItens.add(selected);
 				Pattern tmp = new Pattern(tmpItens, tipoAvaliacao);
-				int coverage = tmp.getTP() /*+ tmp.getFP()*/;
-				if(coverage >= Min_cases_per_rule) {
+				int coverage = tmp.getTP();
+				if(coverage >= Min_cases_per_rule && SSDP_ACO.relevant(tmp, RuleList)) {
 					itens.add(selected);
 					X[D.itemAtributo[selected]] = 0;
 				}
