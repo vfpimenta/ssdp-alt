@@ -1,0 +1,25 @@
+### Base:solar-flare-2-pn
+Average WRAcc: 0.04359461295579906
+Average Qg: 67.4
+Time(s): 28.444
+Average size: 9.8
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 908254
+TP: 67.4
+FP: 0.0
+Chi_Quad: 215.86882573865833
+p_value: 0.06836563906955875
+conf: 1.0
+cov: 0.06322701688555347
+Lift: 3.2205438066465257
+supp: 0.06322701688555347
+suppP: 0.20362537764350455
+suppN: 0.0
+DiffSupp: 0.20362537764350455
+
+### Top-5 DPs:
+{spot_distribution = X} -> 0.21409223869984406(331p,0n)
+{largest_spot_size = A,spot_distribution = X,Activity = 1,Evolution = 1,Previous_24_hour_flare_activity_code = 1,Historically-complex = 2,Did_region_become_historically_complex = 2,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 0.0012936086930504173(2p,0n)
+{largest_spot_size = A,spot_distribution = X,Activity = 1,Evolution = 2,Previous_24_hour_flare_activity_code = 1,Historically-complex = 2,Did_region_become_historically_complex = 1,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 0.0012936086930504173(2p,0n)
+{largest_spot_size = S,spot_distribution = X,Activity = 1,Evolution = 2,Previous_24_hour_flare_activity_code = 1,Historically-complex = 1,Did_region_become_historically_complex = 1,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 1,X-class_flares_production_by_this_region = 0} -> 6.468043465252087E-4(1p,0n)
+{largest_spot_size = R,spot_distribution = X,Activity = 2,Evolution = 2,Previous_24_hour_flare_activity_code = 1,Historically-complex = 2,Did_region_become_historically_complex = 2,Area = 1,Area_of_the_largest_spot = 1,C-class_flares_production_by_this_region = 0,M-class_flares_production_by_this_region = 0,X-class_flares_production_by_this_region = 0} -> 6.468043465252087E-4(1p,0n)

@@ -1,0 +1,25 @@
+### Base:audiology-pn
+Average WRAcc: 0.12543660427598088
+Average Qg: 5.179282183537504
+Time(s): 9.897
+Average size: 16.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 794976
+TP: 45.6
+FP: 22.8
+Chi_Quad: 99.60166960910104
+p_value: 9.769962616701378E-16
+conf: 0.7018439189629341
+cov: 0.30265486725663715
+Lift: 2.782749573431984
+supp: 0.20176991150442478
+suppP: 0.8
+suppN: 0.1349112426035503
+DiffSupp: 0.6650887573964497
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{airBoneGap = f,history_dizziness = f,history_fullness = f,history_heredity = f,history_nausea = f,history_ringing = f,m_m_sn_gt_1k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_sn_2_3k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_sn_gt_1k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = f,tymp = a,viith_nerve_signs = f} -> 0.12733965071657924(54p,46n)
+{air = mild,airBoneGap = f,history_recruitment = f,history_ringing = f,history_roaring = f,m_m_sn_gt_1k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_sn_gt_3k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_s_sn_gt_500 = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_500 = f,tymp = a,viith_nerve_signs = f} -> 0.10995379434568096(42p,26n)
+{ar_c = normal,boneAbnormal = f,history_dizziness = f,history_heredity = f,history_nausea = f,m_m_gt_2k = f,m_m_sn_gt_1k = f,m_sn_2_3k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,notch_4k = f,notch_at_4k = f,tymp = a} -> 0.1068799436134388(35p,8n)
+{ar_u = normal,history_roaring = f,m_m_sn_gt_1k = f,m_m_sn_gt_500 = f,m_s_gt_500 = f,m_s_sn = f,m_sn_gt_1k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,mod_s_sn_gt_500 = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_500 = f,o_ar_c = normal,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f} -> 0.10656668494008929(43p,32n)

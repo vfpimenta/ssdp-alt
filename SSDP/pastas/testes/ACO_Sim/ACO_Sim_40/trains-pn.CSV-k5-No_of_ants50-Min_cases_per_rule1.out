@@ -1,0 +1,25 @@
+### Base:trains-pn
+Average WRAcc: 0.11999999999999997
+Average Qg: 2.4
+Time(s): 0.434
+Average size: 11.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 410969
+TP: 2.8
+FP: 0.4
+Chi_Quad: 3.2704761904761903
+p_value: 0.16060781152463097
+conf: 0.9199999999999999
+cov: 0.31999999999999995
+Lift: 1.8399999999999999
+supp: 0.27999999999999997
+suppP: 0.5599999999999999
+suppN: 0.08
+DiffSupp: 0.4799999999999999
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+{length_2 = short,shape_4 = closedrect,Rectangle_next_to_rectangle = 0} -> 0.15(3p,0n)
+{num_wheels_2 = 2,shape_2 = openrect,num_wheels_3 = 2,length_3 = short,num_loads_3 = 1,load_shape_3 = trianglod,num_wheels_4 = 3,length_4 = long,num_loads_4 = 1,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Hexagon_next_to_hexagon = 0,Circle_next_to_circle = 0} -> 0.1(2p,0n)
+{Number_of_different_loads = 2,num_wheels_2 = 2,length_2 = short,num_loads_2 = 1,num_wheels_3 = 2,length_3 = short,num_loads_3 = 1,load_shape_3 = trianglod,num_loads_4 = 1,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Triangle_next_to_triangle = 1,Triangle_next_to_hexagon = 0,Hexagon_next_to_hexagon = 0,Hexagon_next_to_circle = 0,Circle_next_to_circle = 0} -> 0.1(2p,0n)
+{num_wheels_2 = 2,num_wheels_3 = 2,length_3 = short,num_loads_3 = 1,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_hexagon = 0,Hexagon_next_to_hexagon = 0,Circle_next_to_circle = 0} -> 0.04999999999999999(3p,2n)

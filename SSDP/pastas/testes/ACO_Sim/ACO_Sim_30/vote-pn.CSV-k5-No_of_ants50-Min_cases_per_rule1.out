@@ -1,0 +1,25 @@
+### Base:vote-pn
+Average WRAcc: 0.09671977804201345
+Average Qg: 43.8
+Time(s): 7.936
+Average size: 2.4
+Coverage of all k DPs in relation to D+: 96.25468164794007%
+Number of individuals generated: 179402
+TP: 111.8
+FP: 1.8
+Chi_Quad: 116.35713985820897
+p_value: 7.904787935331115E-14
+conf: 0.9860242542413085
+cov: 0.26114942528735635
+Lift: 1.6064440097189856
+supp: 0.25701149425287356
+suppP: 0.41872659176029964
+suppN: 0.010714285714285714
+DiffSupp: 0.4080123060460139
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{immigration = n,education-spending = n,duty-free-exports = y} -> 0.06731668648434404(79p,2n)
+{anti-satellite-test-ban = y,synfuels-corporation-cutback = y,education-spending = n} -> 0.06695204122076893(77p,1n)
+{handicapped-infants = n,physician-fee-freeze = n,el-salvador-aid = n} -> 0.066064209274673(76p,1n)
+{water-project-cost-sharing = n,crime = n} -> 0.0656995640110979(74p,0n)

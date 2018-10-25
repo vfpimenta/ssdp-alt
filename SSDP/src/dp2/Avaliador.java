@@ -11,6 +11,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import org.apache.commons.math3.stat.inference.ChiSquareTest;
 
+import util.Const;
+
 
 /**
  *
@@ -21,6 +23,78 @@ public class Avaliador {
     public static final String TIPO_QG = "Qg";
     public static final String TIPO_SUB = "Sub";
     public static final String TIPO_WRACC = "WRAcc";
+    
+    public static double similaridade(Pattern p1, Pattern p2, String metricaSimilaridade){
+        //REF: A Survey of Binary Similarity and Distance Measures (http://www.iiisci.org/Journal/CV$/sci/pdfs/GS315JG.pdf)
+        double onlyA = 0.0;
+        double onlyB = 0.0;
+        double bothAB = 0.0;
+        double neitherAB = 0.0;
+        double Acount = 0.0;
+        double Bcount =0.0;
+        
+        //POSITIVO
+        boolean[] A = p1.getVrP();
+        boolean[] B = p2.getVrP();
+        for(int i = 0; i < A.length; i++){
+            if(A[i]){
+                Acount++;
+            }
+            if(B[i]){
+                Bcount++;
+            }
+            if(A[i] && !B[i]){
+                onlyA++;
+            }
+            if(B[i] && !A[i]){
+                onlyB++;
+            }
+            if(A[i] && B[i]){
+                bothAB++;
+            }
+            if(!A[i] && !B[i]){
+                neitherAB++;                        
+            }
+        }
+        
+        
+        //NEGATIVO
+        A = p1.getVrN();
+        B = p2.getVrN();
+        for(int i = 0; i < A.length; i++){
+            if(A[i]){
+                Acount++;
+            }
+            if(B[i]){
+                Bcount++;
+            }
+            if(A[i] && !B[i]){
+                onlyA++;
+            }
+            if(B[i] && !A[i]){
+                onlyB++;
+            }
+            if(A[i] && B[i]){
+                bothAB++;
+            }
+            if(!A[i] && !B[i]){
+                neitherAB++;                        
+            }
+        }
+        
+        double valor = 0;
+        switch(metricaSimilaridade){
+            case Const.SIMILARIDADE_JACCARD://
+                valor = bothAB/(onlyA + onlyB + bothAB);
+                break;            
+            case Const.SIMILARIDADE_SOKAL_MICHENER://
+                valor = (bothAB + neitherAB) / (onlyA + onlyB + bothAB + neitherAB);
+                break;            
+        }
+        
+        return valor;
+        
+    }
     
     //Avaliação individual   
     public static double avaliar(int TP, int FP, String tipo){

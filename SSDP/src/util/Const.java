@@ -34,6 +34,9 @@ public class Const {
     public final static String CAMINHO_RELATORIO = "../DP2/pastas/relatorios/";
     public final static String CAMINHO_DICIONARIOS = "../DP2/pastas/dicionarios/";
     public final static String CAMINHO_INDICE = "../DP2/pastas/indice.txt";
+    
+    public final static String SIMILARIDADE_JACCARD = "JACCARD";
+    public final static String SIMILARIDADE_SOKAL_MICHENER = "SOKAL_MICHENER";
        
     public static Random random;   
     public final static long[] SEEDS = {179424673, 125164703, 132011827, 124987441, 123979721 , 119777719, 117705823 , 112131119, 108626351, 107980007, 

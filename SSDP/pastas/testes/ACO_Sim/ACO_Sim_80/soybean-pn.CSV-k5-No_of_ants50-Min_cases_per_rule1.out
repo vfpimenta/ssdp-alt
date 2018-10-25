@@ -1,0 +1,25 @@
+### Base:soybean-pn
+Average WRAcc: 0.0851376988524917
+Average Qg: 0.8499498868376929
+Time(s): 16.24
+Average size: 6.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 508211
+TP: 84.2
+FP: 109.2
+Chi_Quad: 218.87705774664988
+p_value: 0.0
+conf: 0.4517547374049971
+cov: 0.28316251830161054
+Lift: 3.3537878874740543
+supp: 0.12327964860907761
+suppP: 0.9152173913043479
+suppN: 0.1847715736040609
+DiffSupp: 0.7304458177002869
+
+### Top-5 DPs:
+{leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-pods = norm,mold-growth = absent,seed-discolor = absent,roots = norm} -> 0.09075026420773052(90p,118n)
+{temp = norm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,lodging = yes,fruit-spots = absent,seed-discolor = absent,roots = norm} -> 0.08951979575081084(80p,60n)
+{temp = norm,leafspot-size = gt-1/8,fruit-spots = absent,seed = norm} -> 0.08281438576257961(80p,94n)
+{temp = norm,plant-growth = norm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,seed-discolor = absent} -> 0.08154747486007172(79p,94n)
+{leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,lodging = yes,seed-discolor = absent,roots = norm} -> 0.0810565736812658(92p,180n)

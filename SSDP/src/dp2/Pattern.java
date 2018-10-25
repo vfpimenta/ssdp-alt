@@ -11,6 +11,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 
+import util.Const;
+
 /**
  *
  * @author Tarcísio Pontes
@@ -36,6 +38,8 @@ public class Pattern implements Comparable<Pattern>, Serializable{
     public static int numeroIndividuosGerados = 0;
     public static int[] vrPCount;
     public static int[] vrNCount;
+    
+    public static String medidaSimilaridade = Const.SIMILARIDADE_JACCARD;
     
     public Pattern(HashSet<Integer> itens, String tipoAvaliacao){
         this.itens = itens;

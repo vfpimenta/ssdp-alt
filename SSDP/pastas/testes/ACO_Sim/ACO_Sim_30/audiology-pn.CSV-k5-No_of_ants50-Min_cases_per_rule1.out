@@ -1,0 +1,25 @@
+### Base:audiology-pn
+Average WRAcc: 0.0745399013235179
+Average Qg: 11.3
+Time(s): 9.145
+Average size: 5.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 794976
+TP: 23.0
+FP: 1.4
+Chi_Quad: 74.59188102059211
+p_value: 3.9006162744215087E-10
+conf: 0.9452380952380952
+cov: 0.10796460176991149
+Lift: 3.7477861319966586
+supp: 0.10176991150442478
+suppP: 0.4035087719298246
+suppN: 0.008284023668639054
+DiffSupp: 0.39522474826118553
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{bone = unmeasured,history_vomiting = f,m_m_gt_2k = f,m_sn_gt_3k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal} -> 0.061711958649855125(20p,4n)
+{age_gt_60 = t,boneAbnormal = t,history_noise = f,tymp = a} -> 0.04963192105881432(15p,0n)
+{age_gt_60 = t,o_ar_c = normal,speech = very_good} -> 0.04301433158430574(13p,0n)
+{age_gt_60 = t,air = normal,history_nausea = f,mod_sn_gt_3k = f,notch_4k = f,tymp = a} -> 0.04189834756049808(13p,1n)

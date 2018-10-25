@@ -1,0 +1,25 @@
+### Base:audiology-pn
+Average WRAcc: 0.06505991072127809
+Average Qg: 10.85
+Time(s): 12.251
+Average size: 27.0
+Coverage of all k DPs in relation to D+: 96.49122807017544%
+Number of individuals generated: 794976
+TP: 20.0
+FP: 1.0
+Chi_Quad: 66.33752315079555
+p_value: 2.3479669186698972E-8
+conf: 0.9553571428571429
+cov: 0.09292035398230089
+Lift: 3.787907268170426
+supp: 0.08849557522123894
+suppP: 0.3508771929824562
+suppN: 0.005917159763313609
+DiffSupp: 0.3449600332191426
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{age_gt_60 = t,ar_c = normal,m_s_sn_gt_2k = f,speech = very_good} -> 0.03970553684705145(12p,0n)
+{air = mild,airBoneGap = f,boneAbnormal = f,bser = degraded,history_buzzing = f,history_dizziness = f,history_fluctuating = f,history_fullness = f,history_heredity = f,history_nausea = f,history_recruitment = f,history_ringing = f,history_roaring = f,history_vomiting = f,late_wave_poor = f,m_at_2k = f,m_cond_lt_1k = f,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = f,m_m_sn_gt_2k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_s_sn_gt_2k = f,m_s_sn_gt_4k = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_2k = f,m_sn_gt_3k = f,m_sn_gt_4k = f,m_sn_gt_500 = f,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = f,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f,static_normal = t,tymp = a,viith_nerve_signs = f,wave_V_delayed = f,waveform_ItoV_prolonged = f} -> 0.03966637951288276(13p,3n)
+{age_gt_60 = t,o_ar_c = normal,o_ar_u = elevated} -> 0.03639674210979716(11p,0n)
+{age_gt_60 = t,air = mild,airBoneGap = f,ar_c = normal,bone = mild,boneAbnormal = t,bser = degraded,history_buzzing = f,history_dizziness = f,history_fluctuating = f,history_fullness = f,history_heredity = f,history_nausea = f,history_noise = f,history_recruitment = f,history_ringing = f,history_roaring = f,history_vomiting = f,late_wave_poor = f,m_at_2k = f,m_cond_lt_1k = f,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = f,m_m_sn_gt_2k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_s_sn_gt_1k = f,m_s_sn_gt_2k = f,m_s_sn_gt_3k = f,m_s_sn_gt_4k = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_2k = f,m_sn_gt_3k = f,m_sn_gt_4k = f,m_sn_gt_500 = f,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = f,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f,static_normal = t,tymp = a,viith_nerve_signs = f,wave_V_delayed = f,waveform_ItoV_prolonged = f} -> 0.03308794737254287(10p,0n)

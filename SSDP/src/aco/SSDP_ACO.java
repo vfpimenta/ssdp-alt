@@ -35,7 +35,7 @@ public class SSDP_ACO {
 		return 0;
 	}
 	
-	public static Pattern[] run(int k, String tipoAvaliacao) throws FileNotFoundException{
+	public static Pattern[] run(int k, String tipoAvaliacao, double similaridade) throws FileNotFoundException{
 		List<Pattern> DiscoveredRuleList = new ArrayList<>();
 		D.PadroesExcluidos = new HashSet<>();
 		D.itemQualidade = new HashMap<>();
@@ -165,7 +165,7 @@ public class SSDP_ACO {
 			// Choose the best rule Rbest among all rules Rt constructed by all the ants;
 			Collections.sort(R);
 			for (Pattern r : R) {
-				if(relevant(r, DiscoveredRuleList)) {
+				if(!similar(r, DiscoveredRuleList, similaridade)) {
 					DiscoveredRuleList.add(r);
 					if(DiscoveredRuleList.size() >= k) {
 						break;
@@ -190,6 +190,15 @@ public class SSDP_ACO {
 		}
 		
 		return DiscoveredRuleList.toArray(new Pattern[0]);
+	}
+	
+	public static boolean similar(Pattern p, List<Pattern> Pk, double similaridade){
+		for(int i = 0; i  < Pk.size(); i++){
+            if(Avaliador.similaridade(p, Pk.get(i), Pattern.medidaSimilaridade) > similaridade){
+                return true;
+            }
+        }
+        return false;
 	}
 	
 	public static boolean relevant(Pattern p, List<Pattern> Pk){

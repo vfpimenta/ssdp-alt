@@ -1,0 +1,25 @@
+### Base:trains-pn
+Average WRAcc: 0.09
+Average Qg: 1.8
+Time(s): 0.881
+Average size: 23.2
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 820798
+TP: 1.8
+FP: 0.0
+Chi_Quad: 2.4999999999999996
+p_value: 0.19983824158910846
+conf: 1.0
+cov: 0.18
+Lift: 2.0
+supp: 0.18
+suppP: 0.36
+suppN: 0.0
+DiffSupp: 0.36
+
+### Top-5 DPs:
+{Rectangle_next_to_triangle = 1} -> 0.2(4p,0n)
+{num_wheels_2 = 2,shape_2 = openrect,num_wheels_3 = 2,length_3 = short,num_loads_3 = 1,load_shape_3 = trianglod,num_wheels_4 = 3,length_4 = long,num_loads_4 = 1,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Hexagon_next_to_hexagon = 0,Circle_next_to_circle = 0} -> 0.1(2p,0n)
+{Number_of_cars = 4,Number_of_different_loads = 3,num_wheels_2 = 2,length_2 = short,shape_2 = dblopnrect,num_loads_2 = 1,load_shape_2 = trianglod,num_wheels_3 = 3,length_3 = long,shape_3 = closedrect,num_loads_3 = 1,load_shape_3 = rectanglod,num_wheels_4 = 2,length_4 = short,shape_4 = closedrect,num_loads_4 = 1,load_shape_4 = circlelod,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 1,Triangle_next_to_triangle = 0,Triangle_next_to_hexagon = 0,Triangle_next_to_circle = 0,Hexagon_next_to_hexagon = 0,Hexagon_next_to_circle = 0,Circle_next_to_circle = 0} -> 0.05(1p,0n)
+{Number_of_cars = 5,Number_of_different_loads = 2,num_wheels_2 = 2,length_2 = short,shape_2 = opentrap,num_loads_2 = 1,load_shape_2 = trianglod,num_wheels_3 = 2,length_3 = short,shape_3 = dblopnrect,num_loads_3 = 1,load_shape_3 = trianglod,num_wheels_4 = 2,length_4 = short,shape_4 = ellipse,num_loads_4 = 1,load_shape_4 = rectanglod,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = rectanglod,Rectangle_next_to_rectangle = 1,Rectangle_next_to_triangle = 1,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Triangle_next_to_triangle = 1,Triangle_next_to_hexagon = 0,Triangle_next_to_circle = 0,Hexagon_next_to_hexagon = 0,Hexagon_next_to_circle = 0,Circle_next_to_circle = 0} -> 0.05(1p,0n)
+{Number_of_cars = 4,Number_of_different_loads = 3,num_wheels_2 = 2,length_2 = short,shape_2 = ushaped,num_loads_2 = 1,load_shape_2 = trianglod,num_wheels_3 = 2,length_3 = short,shape_3 = opentrap,num_loads_3 = 1,load_shape_3 = rectanglod,num_wheels_4 = 2,length_4 = short,shape_4 = closedrect,num_loads_4 = 2,load_shape_4 = circlelod,num_wheels_5 = 2,length_5 = short,shape_5 = openrect,num_loads_5 = 1,load_shape_5 = circlelod,Rectangle_next_to_rectangle = 0,Rectangle_next_to_triangle = 1,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 1,Triangle_next_to_triangle = 0,Triangle_next_to_hexagon = 0,Triangle_next_to_circle = 0,Hexagon_next_to_hexagon = 0,Hexagon_next_to_circle = 0,Circle_next_to_circle = 0} -> 0.05(1p,0n)

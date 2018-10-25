@@ -42,7 +42,7 @@ public class Main {
     			"trains-pn.CSV","mushroom-pn.CSV","vote-pn.CSV"};
     	
     	SSDP_ACO.No_rules_converg = 10;
-    	SSDP_ACO.DEBUG = true;
+    	SSDP_ACO.DEBUG = false;
     	SSDP_ACO.INFO = false;
     	SSDP_ACO.TRACK = false;
     	
@@ -62,17 +62,17 @@ public class Main {
 		SSDP_ACO.No_of_ants = 50;
 		SSDP_ACO.No_of_batches = 100;
 		SSDP_ACO.Max_stall = 100;
-//		for (String string : databases) {
-//			System.out.println("Starting test (db:"+string+")");
-//			test(5, string);
-//		}
+		for (String string : databases) {
+			System.out.println("Starting test (db:"+string+")");
+			test(5, string);
+		}
     	
 //    	for (Long seed : Const.SEEDS) {
 //    		Const.random = new Random(seed);
 //    		test(5, databases[0], seed);
 //    	}
     	
-    	test(5, "nursery-pn.CSV");
+//    	test(5, "audiology-pn.CSV");
     }
     
     public static void test(int k, String database) throws FileNotFoundException, UnsupportedEncodingException {
@@ -97,7 +97,10 @@ public class Main {
         //String tipoAvaliacao = Avaliador.TIPO_SUB; //Fitness
         D.valorAlvo = "p"; //target value of dataset
         
-        
+        //min_similarity
+        double similaridade = 0.20;
+        //Similarity function
+        Pattern.medidaSimilaridade = Const.SIMILARIDADE_JACCARD; //similarity 
         //====================================================================
         //= END ==============================================================
         //====================================================================
@@ -110,7 +113,7 @@ public class Main {
         //Rodando SSDP
         long t0 = System.currentTimeMillis(); //Initial time
         //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
-        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao); //run SSDP
+        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run SSDP
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file

@@ -1,0 +1,25 @@
+### Base:vote-pn
+Average WRAcc: 0.1458105430043599
+Average Qg: 64.14761904761905
+Time(s): 7.323
+Average size: 2.2
+Coverage of all k DPs in relation to D+: 95.13108614232209%
+Number of individuals generated: 179402
+TP: 169.0
+FP: 3.0
+Chi_Quad: 178.40622821549573
+p_value: 0.0
+conf: 0.9831832215319466
+cov: 0.39540229885057465
+Lift: 1.6018153609228343
+supp: 0.38850574712643676
+suppP: 0.6329588014981273
+suppN: 0.017857142857142856
+DiffSupp: 0.6151016586409844
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{handicapped-infants = y,physician-fee-freeze = n} -> 0.13353943717796274(152p,1n)
+{aid-to-nicaraguan-contras = y,education-spending = n,superfund-right-to-sue = n} -> 0.1318113357114546(158p,6n)
+{physician-fee-freeze = n,aid-to-nicaraguan-contras = y,duty-free-exports = y} -> 0.12962346413000397(146p,0n)
+{water-project-cost-sharing = y,physician-fee-freeze = n} -> 0.11651208878319462(136p,3n)

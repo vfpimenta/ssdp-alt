@@ -1,0 +1,25 @@
+### Base:vote-pn
+Average WRAcc: 0.1287546571541815
+Average Qg: 71.68333333333332
+Time(s): 6.703
+Average size: 2.0
+Coverage of all k DPs in relation to D+: 94.7565543071161%
+Number of individuals generated: 179402
+TP: 148.2
+FP: 2.0
+Chi_Quad: 154.1838202941159
+p_value: 0.0
+conf: 0.9880751864699369
+cov: 0.34528735632183905
+Lift: 1.6097854161588856
+supp: 0.3406896551724138
+suppP: 0.5550561797752809
+suppN: 0.011904761904761904
+DiffSupp: 0.543151417870519
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{adoption-of-the-budget-resolution = y,physician-fee-freeze = n,religious-groups-in-schools = n} -> 0.11364248910027744(128p,0n)
+{physician-fee-freeze = n,immigration = y} -> 0.10674593737613951(125p,3n)
+{physician-fee-freeze = n,synfuels-corporation-cutback = y} -> 0.10476416963931828(118p,0n)
+{water-project-cost-sharing = n,physician-fee-freeze = n} -> 0.10105430043598888(117p,2n)
