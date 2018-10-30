@@ -50,6 +50,11 @@ public class D {
     public static int[][] Dp;
     public static int[][] Dn;
     
+    public static String weightMode = Const.MODO_PESO_ADITIVO;
+    public static double[] vrPCount = new double[numeroExemplosPositivo];
+    public static double[] vrNCount = new double[numeroExemplosNegativo];
+    public static double gamma = 0.5;
+    
     public static int[] itensUtilizados;
     public static int numeroItensUtilizados;
     

@@ -1,25 +1,25 @@
 ### Base:soybean-pn
-Average WRAcc: 0.04801442263375985
-Average Qg: 5.751260504201681
-Time(s): 16.155
-Average size: 6.2
-Coverage of all k DPs in relation to D+: 98.91304347826086%
-Number of individuals generated: 508211
-TP: 42.6
-FP: 30.2
-Chi_Quad: 172.24829680467846
+Average WRAcc: 0.08647406476894418
+Average Qg: 0.9386462016191862
+Time(s): 13.362
+Average size: 5.4
+Coverage of all k DPs in relation to D+: 97.82608695652173%
+Number of individuals generated: 508414
+TP: 83.2
+FP: 96.0
+Chi_Quad: 233.99491554570332
 p_value: 0.0
-conf: 0.7266723805102571
-cov: 0.10658857979502197
-Lift: 5.394752564005495
-supp: 0.062371888726207914
-suppP: 0.4630434782608696
-suppN: 0.05109983079526227
-DiffSupp: 0.41194364746560735
+conf: 0.47851613181833025
+cov: 0.2623718887262079
+Lift: 3.5524621525208646
+supp: 0.12181551976573939
+suppP: 0.9043478260869566
+suppN: 0.16243654822335024
+DiffSupp: 0.7419112778636063
 
 ### Top-5 DPs:
-{leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-pods = norm,mold-growth = absent,seed-discolor = absent,roots = norm} -> 0.09075026420773052(90p,118n)
-{leafspot-size = gt-1/8,fruiting-bodies = present,seed = norm,shriveling = absent} -> 0.04541157454945347(36p,1n)
-{area-damaged = whole-field,leafspot-size = gt-1/8,leaf-shread = present,leaf-malf = absent} -> 0.03721845531191518(30p,4n)
-{precip = gt-norm,temp = norm,crop-hist = same-lst-two-yrs,plant-growth = norm,leaf-malf = absent,lodging = yes,fruit-spots = absent,seed = norm} -> 0.03583792972610286(30p,11n)
-{crop-hist = same-lst-sev-yrs,seed-tmt = none,leafspots-marg = w-s-marg,leaf-malf = absent,lodging = yes,fruit-pods = norm,mold-growth = absent,roots = norm} -> 0.030853889373597235(27p,17n)
+{leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-pods = norm,seed = norm,roots = norm} -> 0.09075026420773052(90p,118n)
+{temp = norm,leafspot-size = gt-1/8,leaf-malf = absent,leaf-mild = absent,fruit-spots = absent,roots = norm} -> 0.08833648810582885(80p,66n)
+{leafspot-size = gt-1/8,leaf-mild = absent,fruit-pods = norm,roots = norm} -> 0.08503094392365093(90p,147n)
+{temp = norm,hail = yes,leafspot-size = gt-1/8,fruit-spots = absent,roots = norm} -> 0.08445215214077932(76p,60n)
+{temp = norm,leafspot-size = gt-1/8,leaf-malf = absent,lodging = yes,fruit-spots = absent,seed = norm} -> 0.08380047546673126(80p,89n)

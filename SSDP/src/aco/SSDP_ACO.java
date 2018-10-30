@@ -56,6 +56,11 @@ public class SSDP_ACO {
 			double[] trails = new double[D.numeroItens];
 			Arrays.fill(trails, (double) 1/D.numeroItens);
 			
+			double[] weights = new double[D.numeroItens];
+			Arrays.fill(weights, 1.0);
+			Arrays.fill(D.vrPCount, 0.0);
+			Arrays.fill(D.vrNCount, 0.0);
+			
 			List<Pattern> R = new ArrayList<>();
 			Pattern best = null;
 			
@@ -88,7 +93,7 @@ public class SSDP_ACO {
 					constructs a classification rule Rt by adding
 					one term at a time to the current rule;
 					 */
-					Pattern Rt = RULE_BUILDING.Rt(trails, X, Min_cases_per_rule, tipoAvaliacao, b, R);
+					Pattern Rt = RULE_BUILDING.Rt(trails, weights, X, Min_cases_per_rule, tipoAvaliacao, b, R);
 					if(DEBUG) {
 						System.out.println("[DEBUG] Built NEW rule: "+Rt.toString2());
 					}
@@ -115,10 +120,10 @@ public class SSDP_ACO {
 						trails[i] = trails[i] + trails[i] * Rt.getQualidade();
 					}
 					
-//					double sumTrails = DoubleStream.of(trails).sum();
-//					for (int i = 0; i < trails.length; i++) {
-//						trails[i] = trails[i] / sumTrails;
-//					}
+					double sumTrails = DoubleStream.of(trails).sum();
+					for (int i = 0; i < trails.length; i++) {
+						trails[i] = trails[i] / sumTrails;
+					}
 					
 					if(DEBUG) {
 						System.out.println("[DEBUG] Trails updated");
@@ -133,6 +138,8 @@ public class SSDP_ACO {
 					
 					t = t + 1;
 					R.add(Rt);
+					updateOcorrencias(Rt);
+					weights = updateWeights(weights, tipoAvaliacao);
 					if(best == null || Rt.getQualidade() > best.getQualidade()) {
 						best = Rt;
 						s = 0;
@@ -192,6 +199,45 @@ public class SSDP_ACO {
 		return DiscoveredRuleList.toArray(new Pattern[0]);
 	}
 	
+	private static void updateOcorrencias(Pattern rt) {
+		for(int i = 0; i < D.numeroExemplosPositivo; i++) {
+			if(rt.getVrP()[i]) {
+				D.vrPCount[i]++;
+			}
+		}
+		
+		for(int i = 0; i < D.numeroExemplosNegativo; i++) {
+			if(rt.getVrN()[i]) {
+				D.vrNCount[i]++;
+			}
+		}
+	}
+	
+	private static double[] updateWeights(double[] weights, String tipoAvaliacao) {
+		for(int i = 0; i < D.numeroItens; i++) {
+			HashSet<Integer> itens = new HashSet<>(); itens.add(i);
+			Pattern p = new Pattern(itens, tipoAvaliacao);
+			
+			double pesoItem = 1.0;
+			for(int j = 0; j < D.numeroExemplosPositivo; j++) {
+				if(p.getVrP()[j]) {
+					double pesoExemplo = 1.0;
+					if(Const.MODO_PESO_ADITIVO.equals(D.weightMode)) {
+						pesoExemplo = 1/D.vrPCount[j]+1;
+					}else if(Const.MODO_PESO_MULTIPLICATIVO.equals(D.weightMode)) {
+						pesoExemplo = Math.pow(D.gamma, D.vrPCount[j]);
+					}
+					
+					pesoItem *= pesoExemplo;
+				}
+			}
+			
+			weights[i] = pesoItem;
+		}
+		
+		return weights;
+	}
+
 	public static boolean similar(Pattern p, List<Pattern> Pk, double similaridade){
 		for(int i = 0; i  < Pk.size(); i++){
             if(Avaliador.similaridade(p, Pk.get(i), Pattern.medidaSimilaridade) > similaridade){

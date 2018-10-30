@@ -1,0 +1,25 @@
+### Base:nursery-pn
+Average WRAcc: 0.04448559670781894
+Average Qg: 864.8
+Time(s): 65.021
+Average size: 6.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 147880
+TP: 864.8
+FP: 0.0
+Chi_Quad: 2593.600123466317
+p_value: 0.12582655343329038
+conf: 1.0
+cov: 0.0667283950617284
+Lift: 3.0
+supp: 0.0667283950617284
+suppP: 0.20018518518518516
+suppN: 0.0
+DiffSupp: 0.20018518518518516
+
+### Top-5 DPs:
+{health = not_recom} -> 0.22222222222222224(4320p,0n)
+{parents = usual,has_nurs = critical,form = complete,children = more,housing = convenient,finance = convenient,social = nonprob,health = not_recom} -> 5.1440329218107E-5(1p,0n)
+{parents = pretentious,has_nurs = improper,form = completed,children = 3,housing = convenient,finance = inconv,social = slightly_prob,health = not_recom} -> 5.1440329218107E-5(1p,0n)
+{parents = usual,has_nurs = very_crit,form = completed,children = 3,housing = convenient,finance = inconv,social = slightly_prob,health = not_recom} -> 5.1440329218107E-5(1p,0n)
+{parents = usual,has_nurs = improper,form = foster,children = more,housing = convenient,finance = convenient,social = slightly_prob,health = not_recom} -> 5.1440329218107E-5(1p,0n)

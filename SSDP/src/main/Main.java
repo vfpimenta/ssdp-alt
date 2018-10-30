@@ -39,7 +39,8 @@ public class Main {
     			"shuttle-landing-control-pn.CSV","car-pn.CSV","solar-flare-2-pn.CSV","soybean-pn.CSV",
     			"kr-vs-kp-pn.CSV","spect-test-pn.CSV","lung-cancer-pn.CSV","splice-pn.CSV",
     			"molecular-biology-promoters-pn.CSV","tic-tac-toe-pn.CSV","monks-problems-1-train-pn.CSV",
-    			"trains-pn.CSV","mushroom-pn.CSV","vote-pn.CSV"};
+    			"trains-pn.CSV","mushroom-pn.CSV","vote-pn.CSV"
+    			};
     	
     	SSDP_ACO.No_rules_converg = 10;
     	SSDP_ACO.DEBUG = false;
@@ -98,7 +99,7 @@ public class Main {
         D.valorAlvo = "p"; //target value of dataset
         
         //min_similarity
-        double similaridade = 0.20;
+        double similaridade = 0.90;
         //Similarity function
         Pattern.medidaSimilaridade = Const.SIMILARIDADE_JACCARD; //similarity 
         //====================================================================

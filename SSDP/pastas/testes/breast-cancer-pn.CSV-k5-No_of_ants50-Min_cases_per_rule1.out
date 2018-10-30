@@ -1,25 +1,25 @@
 ### Base:breast-cancer-pn
-Average WRAcc: 0.033165435962638753
-Average Qg: 10.738095238095237
-Time(s): 4.341
+Average WRAcc: 0.05447454643258838
+Average Qg: 4.427056277056277
+Time(s): 3.455
 Average size: 2.4
-Coverage of all k DPs in relation to D+: 86.56716417910447%
-Number of individuals generated: 205493
-TP: 58.4
-FP: 11.2
-Chi_Quad: 11.656019790878684
-p_value: 0.01789772576706896
-conf: 0.8813019533262014
-cov: 0.24335664335664334
-Lift: 1.253991834086038
-supp: 0.20419580419580416
-suppP: 0.29054726368159206
-suppN: 0.13176470588235295
-DiffSupp: 0.1587825577992391
+Coverage of all k DPs in relation to D+: 88.05970149253731%
+Number of individuals generated: 205490
+TP: 126.2
+FP: 31.2
+Chi_Quad: 20.403324192858037
+p_value: 7.831656080918848E-5
+conf: 0.8156225338345127
+cov: 0.5503496503496503
+Lift: 1.160537535704829
+supp: 0.44125874125874126
+suppP: 0.6278606965174129
+suppN: 0.36705882352941177
+DiffSupp: 0.26080187298800117
 
 ### Top-5 DPs:
 {inv-nodes = 0-2,node-caps = no,irradiat = no} -> 0.0671304220255269(145p,34n)
-{tumor-size = 10-14,node-caps = no} -> 0.028057606728935397(27p,0n)
-{menopause = ge40,deg-malig = 1,irradiat = no} -> 0.027678615091202504(29p,1n)
-{deg-malig = 2,breast = right} -> 0.022091544818817553(52p,13n)
-{menopause = ge40,breast-quad = left_up} -> 0.02086899114871142(39p,8n)
+{inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+{node-caps = no} -> 0.050198053694557196(176p,54n)
+{menopause = ge40,inv-nodes = 0-2,irradiat = no} -> 0.047789622964448136(72p,11n)
+{menopause = ge40,inv-nodes = 0-2,node-caps = no} -> 0.04561347743165924(77p,14n)

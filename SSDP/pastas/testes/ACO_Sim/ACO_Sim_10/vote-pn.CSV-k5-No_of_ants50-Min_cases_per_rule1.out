@@ -1,0 +1,25 @@
+### Base:vote-pn
+Average WRAcc: 0.059995243757431614
+Average Qg: 23.53333333333333
+Time(s): 8.775
+Average size: 2.8
+Coverage of all k DPs in relation to D+: 97.00374531835206%
+Number of individuals generated: 179402
+TP: 69.8
+FP: 1.4
+Chi_Quad: 83.79263804434065
+p_value: 3.8770478409344555E-4
+conf: 0.9775093123930333
+cov: 0.1636781609195402
+Lift: 1.592571351651571
+supp: 0.16045977011494253
+suppP: 0.26142322097378273
+suppN: 0.008333333333333333
+DiffSupp: 0.2530898876404494
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{adoption-of-the-budget-resolution = y,anti-satellite-test-ban = n,synfuels-corporation-cutback = y} -> 0.02841062227506936(32p,0n)
+{physician-fee-freeze = n,education-spending = y,crime = y} -> 0.020420134760206102(23p,0n)
+{immigration = y,synfuels-corporation-cutback = y,education-spending = n,crime = y} -> 0.017233452239397543(21p,1n)
+{physician-fee-freeze = n,el-salvador-aid = y,superfund-right-to-sue = n} -> 0.01634562029330162(20p,1n)

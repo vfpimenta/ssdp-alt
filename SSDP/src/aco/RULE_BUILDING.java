@@ -39,7 +39,7 @@ public class RULE_BUILDING {
 		return arg;
 	}
 	
-	private static double[] P(double[] trails, int[] X, String tipoAvaliacao) {
+	private static double[] P(double[] trails, double[] weigths, int[] X, String tipoAvaliacao) {
 		double[] P = new double[D.numeroItens];
 		double[] Pup = new double[D.numeroItens];
 		double Pdown = 0.0;
@@ -52,7 +52,7 @@ public class RULE_BUILDING {
 				D.itemQualidade.put(i, Pi.getQualidade());
 			}
 			
-			Pup[i] = D.itemQualidade.get(i) * trails[i];
+			Pup[i] = D.itemQualidade.get(i) * trails[i] * weigths[i];
 		}
 		
 		Pup = clearN(Pup);
@@ -96,9 +96,9 @@ public class RULE_BUILDING {
 		return contains;
 	}
 	
-	public static Pattern Rt(double[] trails, int[] X, int Min_cases_per_rule, String tipoAvaliacao, int b, List<Pattern> RuleList) {
+	public static Pattern Rt(double[] trails, double[] weigths, int[] X, int Min_cases_per_rule, String tipoAvaliacao, int b, List<Pattern> RuleList) {
 		HashSet<Integer> itens = new HashSet<Integer>();
-		double[] P = P(trails, X, tipoAvaliacao);
+		double[] P = P(trails, weigths, X, tipoAvaliacao);
 		RandomCollection<Integer> rc = new RandomCollection<>();
 		rc.addAll(P, IntStream.rangeClosed(0, D.numeroItens-1).boxed().toArray(Integer[]::new));
 		

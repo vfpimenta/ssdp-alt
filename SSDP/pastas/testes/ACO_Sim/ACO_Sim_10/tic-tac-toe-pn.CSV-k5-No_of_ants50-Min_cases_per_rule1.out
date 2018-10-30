@@ -1,0 +1,25 @@
+### Base:tic-tac-toe-pn
+Average WRAcc: 0.03650263030583026
+Average Qg: 63.18709677419355
+Time(s): 14.877
+Average size: 2.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 143476
+TP: 135.6
+FP: 18.4
+Chi_Quad: 52.47555983142767
+p_value: 1.5490897453673825E-11
+conf: 0.9598253275109171
+cov: 0.16075156576200417
+Lift: 1.4688700698968986
+supp: 0.14154488517745303
+suppP: 0.21661341853035143
+suppN: 0.055421686746987955
+DiffSupp: 0.1611917317833635
+
+### Top-5 DPs:
+{middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+{bottom-left-square = x,bottom-middle-square = x,bottom-right-square = x} -> 0.028216404217206167(78p,0n)
+{top-left-square = x,middle-left-square = x,bottom-left-square = x} -> 0.028216404217206167(78p,0n)
+{top-right-square = x,middle-right-square = x,bottom-right-square = x} -> 0.028216404217206167(78p,0n)
+{top-left-square = x,top-middle-square = x,top-right-square = x} -> 0.028216404217206167(78p,0n)

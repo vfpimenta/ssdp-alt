@@ -1,0 +1,25 @@
+### Base:vote-pn
+Average WRAcc: 0.19029092350376534
+Average Qg: 36.15629629629629
+Time(s): 7.489
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 97.75280898876404%
+Number of individuals generated: 179614
+TP: 228.0
+FP: 8.6
+Chi_Quad: 272.36771261425645
+p_value: 0.0
+conf: 0.9655213216252456
+cov: 0.5439080459770115
+Lift: 1.5730403554568606
+supp: 0.5241379310344827
+suppP: 0.853932584269663
+suppN: 0.05119047619047619
+DiffSupp: 0.8027421080791868
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{physician-fee-freeze = n,education-spending = n} -> 0.1932302814110186(224p,4n)
+{physician-fee-freeze = n,aid-to-nicaraguan-contras = y} -> 0.188791121680539(219p,4n)
+{physician-fee-freeze = n,anti-satellite-test-ban = y} -> 0.1772493063812921(206p,4n)
+{adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)

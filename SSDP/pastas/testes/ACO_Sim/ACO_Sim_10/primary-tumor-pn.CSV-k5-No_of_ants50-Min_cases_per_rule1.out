@@ -1,0 +1,25 @@
+### Base:primary-tumor-pn
+Average WRAcc: 0.04010755214451666
+Average Qg: 1.8081759111027402
+Time(s): 15.522
+Average size: 3.2
+Coverage of all k DPs in relation to D+: 90.47619047619048%
+Number of individuals generated: 215214
+TP: 24.4
+FP: 19.2
+Chi_Quad: 31.03323087676774
+p_value: 6.250527361248981E-5
+conf: 0.624853507312278
+cov: 0.12861356932153392
+Lift: 2.521730225938836
+supp: 0.071976401179941
+suppP: 0.29047619047619044
+suppN: 0.07529411764705882
+DiffSupp: 0.21518207282913163
+
+### Top-5 DPs:
+{mediastinum = yes} -> 0.08614613517111754(52p,40n)
+{histologic-type = epidermoid,neck = no} -> 0.03479781763124234(17p,4n)
+{age = 30-59,lung = no,peritoneum = no,neck = no,supraclavicular = no,abdominal = no} -> 0.03359699271673584(27p,36n)
+{pleura = no,neck = no,supraclavicular = yes,abdominal = no} -> 0.026000469888010025(16p,13n)
+{lung = no,pleura = no,brain = yes} -> 0.019996345315477587(10p,3n)

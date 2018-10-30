@@ -1,0 +1,25 @@
+### Base:audiology-pn
+Average WRAcc: 0.049185527449291264
+Average Qg: 7.8
+Time(s): 14.828
+Average size: 40.6
+Coverage of all k DPs in relation to D+: 98.24561403508771%
+Number of individuals generated: 794976
+TP: 15.0
+FP: 0.4
+Chi_Quad: 52.78059949100672
+p_value: 6.309028906632541E-5
+conf: 0.9928571428571429
+cov: 0.06814159292035396
+Lift: 3.9365914786967418
+supp: 0.0663716814159292
+suppP: 0.26315789473684215
+suppN: 0.002366863905325444
+DiffSupp: 0.2607910308315167
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{age_gt_60 = t,air = normal,airBoneGap = f,ar_c = normal,ar_u = normal,boneAbnormal = f,bser = degraded,history_buzzing = f,history_dizziness = f,history_fluctuating = f,history_fullness = f,history_heredity = f,history_nausea = f,history_recruitment = f,history_ringing = f,history_roaring = f,history_vomiting = f,late_wave_poor = f,m_at_2k = f,m_cond_lt_1k = f,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = f,m_m_sn_gt_2k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_s_sn_gt_1k = f,m_s_sn_gt_2k = f,m_s_sn_gt_3k = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_3k = f,m_sn_gt_500 = f,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = f,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f,static_normal = t,tymp = a,viith_nerve_signs = f,wave_V_delayed = f,waveform_ItoV_prolonged = f} -> 0.019852768423525725(6p,0n)
+{age_gt_60 = t,air = mild,airBoneGap = f,ar_c = normal,bone = mild,boneAbnormal = t,bser = degraded,history_buzzing = f,history_fluctuating = f,history_fullness = f,history_heredity = f,history_nausea = f,history_noise = f,history_recruitment = f,history_ringing = f,history_roaring = f,history_vomiting = f,late_wave_poor = f,m_at_2k = f,m_cond_lt_1k = f,m_gt_1k = f,m_m_gt_2k = f,m_m_sn_gt_1k = f,m_m_sn_gt_2k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_s_sn_gt_1k = f,m_s_sn_gt_2k = f,m_s_sn_gt_3k = f,m_s_sn_gt_4k = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_2k = f,m_sn_gt_3k = f,m_sn_gt_4k = f,m_sn_gt_500 = f,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = f,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal,o_ar_u = normal,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f,speech = good,static_normal = t,tymp = a,viith_nerve_signs = f,wave_V_delayed = f,waveform_ItoV_prolonged = f} -> 0.016543973686271436(5p,0n)
+{age_gt_60 = t,air = mild,airBoneGap = f,ar_c = normal,ar_u = normal,bone = unmeasured,boneAbnormal = f,bser = degraded,history_buzzing = f,history_dizziness = f,history_fluctuating = f,history_fullness = f,history_heredity = f,history_nausea = f,history_noise = f,history_recruitment = f,history_ringing = f,history_roaring = f,history_vomiting = f,late_wave_poor = f,m_at_2k = f,m_cond_lt_1k = f,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = f,m_m_sn_gt_500 = f,m_p_sn_gt_2k = f,m_s_gt_500 = f,m_s_sn = f,m_s_sn_gt_1k = f,m_s_sn_gt_2k = f,m_s_sn_gt_3k = f,m_s_sn_gt_4k = f,m_sn_2_3k = f,m_sn_gt_1k = f,m_sn_gt_2k = f,m_sn_gt_3k = f,m_sn_gt_4k = f,m_sn_gt_500 = f,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = f,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = f,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_1k = f,mod_sn_gt_2k = f,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = f,o_ar_c = normal,o_ar_u = normal,s_sn_gt_1k = f,s_sn_gt_2k = f,s_sn_gt_4k = f,static_normal = t,tymp = a,viith_nerve_signs = f,wave_V_delayed = f,waveform_ItoV_prolonged = f} -> 0.016543973686271436(5p,0n)
+{age_gt_60 = t,o_ar_c = normal,o_ar_u = absent,tymp = a} -> 0.016543973686271436(5p,0n)

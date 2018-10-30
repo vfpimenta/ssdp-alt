@@ -1,0 +1,25 @@
+### Base:monks-problems-1-train-pn
+Average WRAcc: 0.04354838709677419
+Average Qg: 2.4833333333333334
+Time(s): 0.797
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 91.93548387096774%
+Number of individuals generated: 91143
+TP: 19.6
+FP: 8.8
+Chi_Quad: 6.268629416250972
+p_value: 0.04446532553411102
+conf: 0.7159150326797385
+cov: 0.2290322580645161
+Lift: 1.431830065359477
+supp: 0.15806451612903225
+suppP: 0.3161290322580645
+suppN: 0.14193548387096774
+DiffSupp: 0.17419354838709675
+
+### Top-5 DPs:
+{attr1 = 1} -> 0.06854838709677419(31p,14n)
+{attr1 = 2,attr2 = 1} -> 0.04838709677419355(14p,2n)
+{attr3 = 1,attr5 = 4} -> 0.03629032258064515(13p,4n)
+{attr3 = 2,attr6 = 2} -> 0.03225806451612904(21p,13n)
+{attr5 = 3} -> 0.032258064516129024(19p,11n)
