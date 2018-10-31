@@ -1,10 +1,10 @@
 ### Base:spect-test-pn
 Average WRAcc: 0.0291400955131688
 Average Qg: 42.6
-Time(s): 2.419
+Time(s): 3.838
 Average size: 1.4
 Coverage of all k DPs in relation to D+: 73.83720930232558%
-Number of individuals generated: 227316
+Number of individuals generated: 440757
 TP: 79.4
 FP: 1.0
 Chi_Quad: 9.031975957146567

@@ -1,10 +1,10 @@
 ### Base:shuttle-landing-control-pn
 Average WRAcc: 0.08000000000000002
 Average Qg: 2.56
-Time(s): 0.177
+Time(s): 0.171
 Average size: 3.6
 Coverage of all k DPs in relation to D+: 100.0%
-Number of individuals generated: 90232
+Number of individuals generated: 167879
 TP: 4.8
 FP: 1.2
 Chi_Quad: 2.513736263736264

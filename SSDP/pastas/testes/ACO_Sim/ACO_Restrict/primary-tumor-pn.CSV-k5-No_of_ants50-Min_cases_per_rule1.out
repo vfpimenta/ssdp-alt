@@ -1,10 +1,10 @@
 ### Base:primary-tumor-pn
 Average WRAcc: 0.08489832145560863
 Average Qg: 1.4765739653831478
-Time(s): 11.46
+Time(s): 13.545
 Average size: 2.0
 Coverage of all k DPs in relation to D+: 61.904761904761905%
-Number of individuals generated: 218607
+Number of individuals generated: 397909
 TP: 49.0
 FP: 32.6
 Chi_Quad: 71.98978163613177

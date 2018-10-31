@@ -10,8 +10,8 @@ for arg in Time WRAcc Qg Chi_Quad p_value Lift DiffSupp "Average size" cov conf 
     else 
       echo "$metric"
     fi
-    if [[ "$file" =~ "tumor" ]] || [[ "$file" =~ "kr-vs-kp" ]] || [[ "$file" =~ "tic-tac" ]]; then
-      echo " NaN"
-    fi
+    # if [[ "$file" =~ "tumor" ]] || [[ "$file" =~ "kr-vs-kp" ]] || [[ "$file" =~ "tic-tac" ]]; then
+    #   echo " NaN"
+    # fi
   done 
 done 

@@ -1,10 +1,10 @@
 ### Base:car-pn
 Average WRAcc: 0.05868055555555555
 Average Qg: 233.0812641570489
-Time(s): 10.317
+Time(s): 14.705
 Average size: 1.0
 Coverage of all k DPs in relation to D+: 99.00826446280992%
-Number of individuals generated: 107593
+Number of individuals generated: 209460
 TP: 464.4
 FP: 54.0
 Chi_Quad: 172.8003675930949

@@ -58,8 +58,9 @@ public class SSDP_ACO {
 			
 			double[] weights = new double[D.numeroItens];
 			Arrays.fill(weights, 1.0);
-			Arrays.fill(D.vrPCount, 0.0);
-			Arrays.fill(D.vrNCount, 0.0);
+			
+			D.vrPCount = new double[D.numeroExemplosPositivo];
+		    D.vrNCount = new double[D.numeroExemplosNegativo];
 			
 			List<Pattern> R = new ArrayList<>();
 			Pattern best = null;
@@ -223,7 +224,7 @@ public class SSDP_ACO {
 				if(p.getVrP()[j]) {
 					double pesoExemplo = 1.0;
 					if(Const.MODO_PESO_ADITIVO.equals(D.weightMode)) {
-						pesoExemplo = 1/D.vrPCount[j]+1;
+						pesoExemplo = 1/(D.vrPCount[j]+1);
 					}else if(Const.MODO_PESO_MULTIPLICATIVO.equals(D.weightMode)) {
 						pesoExemplo = Math.pow(D.gamma, D.vrPCount[j]);
 					}

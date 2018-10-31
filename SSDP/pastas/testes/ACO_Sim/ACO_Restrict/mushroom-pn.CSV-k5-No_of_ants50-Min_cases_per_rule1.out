@@ -1,10 +1,10 @@
 ### Base:mushroom-pn
 Average WRAcc: 0.17867242866053765
 Average Qg: 27.58320835860613
-Time(s): 167.621
+Time(s): 285.906
 Average size: 2.0
 Coverage of all k DPs in relation to D+: 97.71863117870723%
-Number of individuals generated: 570828
+Number of individuals generated: 1133481
 TP: 3171.2
 FP: 148.8
 Chi_Quad: 4321.61004220349

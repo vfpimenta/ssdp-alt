@@ -1,10 +1,10 @@
 ### Base:soybean-pn
 Average WRAcc: 0.08647406476894418
 Average Qg: 0.9386462016191862
-Time(s): 13.362
+Time(s): 20.244
 Average size: 5.4
 Coverage of all k DPs in relation to D+: 97.82608695652173%
-Number of individuals generated: 508414
+Number of individuals generated: 988690
 TP: 83.2
 FP: 96.0
 Chi_Quad: 233.99491554570332

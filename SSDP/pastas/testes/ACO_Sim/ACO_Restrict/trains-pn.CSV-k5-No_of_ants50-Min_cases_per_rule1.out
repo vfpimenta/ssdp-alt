@@ -1,10 +1,10 @@
 ### Base:trains-pn
 Average WRAcc: 0.16
 Average Qg: 2.8
-Time(s): 0.405
+Time(s): 0.607
 Average size: 8.2
 Coverage of all k DPs in relation to D+: 100.0%
-Number of individuals generated: 410966
+Number of individuals generated: 784493
 TP: 3.6
 FP: 0.4
 Chi_Quad: 4.487619047619047

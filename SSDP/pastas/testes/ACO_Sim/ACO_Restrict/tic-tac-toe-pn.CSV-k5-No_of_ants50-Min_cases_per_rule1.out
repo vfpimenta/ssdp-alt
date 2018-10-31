@@ -1,10 +1,10 @@
 ### Base:tic-tac-toe-pn
 Average WRAcc: 0.040324092032374345
 Average Qg: 4.759510567296997
-Time(s): 13.724
+Time(s): 18.489
 Average size: 1.8
 Coverage of all k DPs in relation to D+: 58.46645367412141%
-Number of individuals generated: 143405
+Number of individuals generated: 274554
 TP: 188.4
 FP: 40.8
 Chi_Quad: 41.4577365004107

@@ -1,10 +1,10 @@
 ### Base:vote-pn
 Average WRAcc: 0.19029092350376534
 Average Qg: 36.15629629629629
-Time(s): 7.489
+Time(s): 8.41
 Average size: 1.6
 Coverage of all k DPs in relation to D+: 97.75280898876404%
-Number of individuals generated: 179614
+Number of individuals generated: 332330
 TP: 228.0
 FP: 8.6
 Chi_Quad: 272.36771261425645

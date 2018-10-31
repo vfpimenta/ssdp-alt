@@ -1,10 +1,10 @@
 ### Base:breast-cancer-pn
 Average WRAcc: 0.05447454643258838
 Average Qg: 4.427056277056277
-Time(s): 3.455
+Time(s): 5.223
 Average size: 2.4
 Coverage of all k DPs in relation to D+: 88.05970149253731%
-Number of individuals generated: 205490
+Number of individuals generated: 404051
 TP: 126.2
 FP: 31.2
 Chi_Quad: 20.403324192858037

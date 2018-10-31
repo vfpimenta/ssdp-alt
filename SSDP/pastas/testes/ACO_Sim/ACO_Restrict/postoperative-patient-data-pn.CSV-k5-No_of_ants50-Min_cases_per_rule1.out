@@ -1,10 +1,10 @@
 ### Base:postoperative-patient-data-pn
 Average WRAcc: 0.026666666666666665
 Average Qg: 5.66
-Time(s): 0.688
+Time(s): 1.091
 Average size: 2.4
 Coverage of all k DPs in relation to D+: 71.875%
-Number of individuals generated: 122141
+Number of individuals generated: 233714
 TP: 15.2
 FP: 2.8
 Chi_Quad: 2.6203555328887917

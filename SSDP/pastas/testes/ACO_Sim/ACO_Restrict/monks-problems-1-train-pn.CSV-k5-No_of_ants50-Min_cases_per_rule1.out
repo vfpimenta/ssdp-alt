@@ -1,10 +1,10 @@
 ### Base:monks-problems-1-train-pn
 Average WRAcc: 0.050806451612903224
 Average Qg: 3.03
-Time(s): 0.565
+Time(s): 1.026
 Average size: 1.4
 Coverage of all k DPs in relation to D+: 87.09677419354838%
-Number of individuals generated: 91137
+Number of individuals generated: 173580
 TP: 21.4
 FP: 8.8
 Chi_Quad: 8.159911499524446
