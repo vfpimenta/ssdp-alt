@@ -9,8 +9,11 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
+
 import org.apache.commons.math3.stat.inference.ChiSquareTest;
 
+import util.Binary;
 import util.Const;
 
 
@@ -136,7 +139,74 @@ public class Avaliador {
         return sub;
     }
     
-    public static double chi_quad(int TP, int FP){
+    public static double H(Pattern[] subgroupSet) {
+    	double summation = 0.0;
+    	for (boolean[] B : Binary.list(subgroupSet.length)) {
+    		double p = fraction(subgroupSet, B);
+    		if(p == 0.0) p = 1.0;
+    		summation += p * Math.log(p);
+    	}
+    	
+    	return -summation;
+    }
+    
+    private static double fraction(Pattern[] subgroupSet, boolean[] b) {
+    	int fraction = 0;
+    	for(int t = 0; t < D.numeroExemplos; t++) {
+    		int match = 0;
+    		for(int i = 0; i < b.length; i++) {
+				Pattern g = subgroupSet[i];
+				if(t < D.numeroExemplosPositivo) {
+					if (patternContemplaExemplo(g.getItens(), D.Dp[t]) != b[i]) {
+						break;
+					}
+					match++;
+				} else {
+					if (patternContemplaExemplo(g.getItens(), D.Dn[t-D.numeroExemplosPositivo]) != b[i]) {
+						break;
+					}
+					match++;
+				}
+    		}
+    		
+    		fraction += match == b.length ? 1 : 0;
+    	}
+    	
+    	return (double) fraction/D.numeroExemplos;
+	}
+
+	public static double CR(Pattern[] subgroupSet) {
+    	double summation = 0.0;
+    	for(int t = 0; t < D.numeroExemplos; t++) {
+    		double c_ = expectedCoverCount(subgroupSet);
+    		summation += Math.abs(coverCount(t, subgroupSet) - c_) / c_;
+    	}
+    	
+    	return (double) 1/D.numeroExemplos * summation;
+    }
+    
+    private static double expectedCoverCount(Pattern[] subgroupSet) {
+    	int summation = 0;
+    	for(int t = 0; t < D.numeroExemplos; t++) {
+    		summation += coverCount(t, subgroupSet);
+    	} 
+		return (double) 1/D.numeroExemplos * summation;
+	}
+
+	private static int coverCount(int t, Pattern[]subgroupSet) {
+		int coverCount = 0;
+		for(Pattern g : subgroupSet) {
+			if(t < D.numeroExemplosPositivo) {
+				coverCount += patternContemplaExemplo(g.getItens(), D.Dp[t]) ? 1 : 0;
+			}else {
+				coverCount += patternContemplaExemplo(g.getItens(), D.Dn[t-D.numeroExemplosPositivo]) ? 1 : 0;
+			}
+		}
+		
+		return coverCount;
+	}
+
+	public static double chi_quad(int TP, int FP){
         //Só é preciso isso para calcular via função pronta!
         long[][] n = new long[2][2];
         n[0][0] = TP;

@@ -115,6 +115,8 @@ public class Main {
         long t0 = System.currentTimeMillis(); //Initial time
         //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
         Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run SSDP
+        double r = Avaliador.CR(p);
+        double h = Avaliador.H(p);
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file
