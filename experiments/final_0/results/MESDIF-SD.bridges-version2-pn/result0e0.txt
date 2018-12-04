@@ -1,0 +1,42 @@
+GENERATED RULE 0
+   Antecedent
+	Variable LENGTH = MEDIUM
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable PURPOSE = HIGHWAY
+	Variable LENGTH = MEDIUM
+	Variable REL-L = S
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable LENGTH = MEDIUM
+	Variable REL-L = S
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable RIVER = M
+	Variable PURPOSE = RR
+	Variable LANES = Label 0 	 (-1.5 1.0 3.5)
+	Variable T-OR-D = THROUGH
+	Variable SPAN = MEDIUM
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable RIVER = M
+	Variable LANES = Label 0 	 (-1.5 1.0 3.5)
+	Variable T-OR-D = THROUGH
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable RIVER = M
+	Variable LANES = Label 0 	 (-1.5 1.0 3.5)
+	Variable T-OR-D = THROUGH
+	Variable SPAN = MEDIUM
+   Consecuent: p
+

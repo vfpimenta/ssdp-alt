@@ -1,0 +1,42 @@
+GENERATED RULE 0
+   Antecedent
+	Variable histologic-type = epidermoid
+	Variable lung = no
+	Variable neck = no
+	Variable abdominal = no
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable histologic-type = epidermoid
+	Variable lung = no
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable lung = no
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable supraclavicular = no
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable histologic-type = adeno
+	Variable bone = no
+	Variable supraclavicular = no
+	Variable mediastinum = no
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable age = 30-59
+	Variable sex = female
+	Variable bone = no
+	Variable bone-marrow = no
+	Variable supraclavicular = no
+	Variable mediastinum = no
+   Consecuent: n
+

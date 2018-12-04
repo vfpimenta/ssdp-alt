@@ -1,0 +1,169 @@
+@relation molecular-biology-promoters-pn
+@attribute instance{S10,AMPC,AROH,DEOP2,LEU1_TRNA,MALEFG,MALK,RECA,RPOB,RRNAB_P1,RRNAB_P2,RRNDEX_P2,RRND_P1,RRNE_P1,RRNG_P1,RRNG_P2,RRNX_P1,TNAA,TYRT,ARAC,LACI,MALT,TRP,TRPP2,THR,BIOB,FOL,UVRBP1,UVRBP3,LEXA,PORI-L,SPOT42,M1RNA,GLNS,TUFB,SUBB-E,STR,SPC,RPOA,RPLJ,PORI-R,ALAS,ARABAD,BIOA,DEOP1,GALP2,HIS,HISJ,ILVGEDA,LACP1,LPP,TRPR,UVRB_P2,867,1169,802,521,918,1481,1024,1149,313,780,1384,507,39,1203,988,1171,753,630,660,1216,835,35,1218,668,413,991,751,850,93,1108,915,1019,19,1320,91,217,957,260,557,1355,244,464,296,648,230,1163,1321,663,799,987,1226,794,1442}
+@attribute p-50{t,g,a,c}
+@attribute p-49{a,g,t,c}
+@attribute p-48{c,a,t,g}
+@attribute p-47{t,c,a,g}
+@attribute p-46{a,t,g,c}
+@attribute p-45{g,t,a,c}
+@attribute p-44{c,g,a,t}
+@attribute p-43{a,c,t,g}
+@attribute p-42{a,t,g,c}
+@attribute p-41{t,g,a,c}
+@attribute p-40{a,t,c,g}
+@attribute p-39{c,g,a,t}
+@attribute p-38{g,a,t,c}
+@attribute p-37{c,g,a,t}
+@attribute p-36{t,g,c,a}
+@attribute p-35{t,c,g,a}
+@attribute p-34{g,t,c,a}
+@attribute p-33{c,t,a,g}
+@attribute p-32{g,c,a,t}
+@attribute p-31{t,a,g,c}
+@attribute p-30{t,c,a,g}
+@attribute p-29{c,g,a,t}
+@attribute p-28{g,c,t,a}
+@attribute p-27{g,t,c,a}
+@attribute p-26{t,g,c,a}
+@attribute p-25{g,a,t,c}
+@attribute p-24{g,t,a,c}
+@attribute p-23{t,c,g,a}
+@attribute p-22{t,g,a,c}
+@attribute p-21{a,g,t,c}
+@attribute p-20{a,t,g,c}
+@attribute p-19{g,t,a,c}
+@attribute p-18{t,c,g,a}
+@attribute p-17{a,c,t,g}
+@attribute p-16{t,g,a,c}
+@attribute p-15{g,t,a,c}
+@attribute p-14{t,g,c,a}
+@attribute p-13{a,g,c,t}
+@attribute p-12{t,c,g,a}
+@attribute p-11{a,c,t,g}
+@attribute p-10{a,c,g,t}
+@attribute p-9{t,g,c,a}
+@attribute p-8{g,c,a,t}
+@attribute p-7{c,t,a,g}
+@attribute p-6{g,a,t,c}
+@attribute p-5{c,a,g,t}
+@attribute p-4{g,c,a,t}
+@attribute p-3{g,c,t,a}
+@attribute p-2{g,c,a,t}
+@attribute p-1{c,a,g,t}
+@attribute p1{t,c,g,a}
+@attribute p2{t,c,a,g}
+@attribute p3{g,c,a,t}
+@attribute p4{t,c,g,a}
+@attribute p5{c,g,t,a}
+@attribute p6{g,a,c,t}
+@attribute p7{t,a,g,c}
+@attribute y{n,p}
+@inputs instance, p-50, p-49, p-48, p-47, p-46, p-45, p-44, p-43, p-42, p-41, p-40, p-39, p-38, p-37, p-36, p-35, p-34, p-33, p-32, p-31, p-30, p-29, p-28, p-27, p-26, p-25, p-24, p-23, p-22, p-21, p-20, p-19, p-18, p-17, p-16, p-15, p-14, p-13, p-12, p-11, p-10, p-9, p-8, p-7, p-6, p-5, p-4, p-3, p-2, p-1, p1, p2, p3, p4, p5, p6, p7
+@outputs y
+@data
+S10,t,a,c,t,a,g,c,a,a,t,a,c,g,c,t,t,g,c,g,t,t,c,g,g,t,g,g,t,t,a,a,g,t,a,t,g,t,a,t,a,a,t,g,c,g,c,g,g,g,c,t,t,g,t,c,g,t,n
+AMPC,t,g,c,t,a,t,c,c,t,g,a,c,a,g,t,t,g,t,c,a,c,g,c,t,g,a,t,t,g,g,t,g,t,c,g,t,t,a,c,a,a,t,c,t,a,a,c,g,c,a,t,c,g,c,c,a,a,n
+AROH,g,t,a,c,t,a,g,a,g,a,a,c,t,a,g,t,g,c,a,t,t,a,g,c,t,t,a,t,t,t,t,t,t,t,g,t,t,a,t,c,a,t,g,c,t,a,a,c,c,a,c,c,c,g,g,c,g,n
+DEOP2,a,a,t,t,g,t,g,a,t,g,t,g,t,a,t,c,g,a,a,g,t,g,t,g,t,t,g,c,g,g,a,g,t,a,g,a,t,g,t,t,a,g,a,a,t,a,c,t,a,a,c,a,a,a,c,t,c,n
+LEU1_TRNA,t,c,g,a,t,a,a,t,t,a,a,c,t,a,t,t,g,a,c,g,a,a,a,a,g,c,t,g,a,a,a,a,c,c,a,c,t,a,g,a,a,t,g,c,g,c,c,t,c,c,g,t,g,g,t,a,g,n
+MALEFG,a,g,g,g,g,c,a,a,g,g,a,g,g,a,t,g,g,a,a,a,g,a,g,g,t,t,g,c,c,g,t,a,t,a,a,a,g,a,a,a,c,t,a,g,a,g,t,c,c,g,t,t,t,a,g,g,t,n
+MALK,c,a,g,g,g,g,g,t,g,g,a,g,g,a,t,t,t,a,a,g,c,c,a,t,c,t,c,c,t,g,a,t,g,a,c,g,c,a,t,a,g,t,c,a,g,c,c,c,a,t,c,a,t,g,a,a,t,n
+RECA,t,t,t,c,t,a,c,a,a,a,a,c,a,c,t,t,g,a,t,a,c,t,g,t,a,t,g,a,g,c,a,t,a,c,a,g,t,a,t,a,a,t,t,g,c,t,t,c,a,a,c,a,g,a,a,c,a,n
+RPOB,c,g,a,c,t,t,a,a,t,a,t,a,c,t,g,c,g,a,c,a,g,g,a,c,g,t,c,c,g,t,t,c,t,g,t,g,t,a,a,a,t,c,g,c,a,a,t,g,a,a,a,t,g,g,t,t,t,n
+RRNAB_P1,t,t,t,t,a,a,a,t,t,t,c,c,t,c,t,t,g,t,c,a,g,g,c,c,g,g,a,a,t,a,a,c,t,c,c,c,t,a,t,a,a,t,g,c,g,c,c,a,c,c,a,c,t,g,a,c,a,n
+RRNAB_P2,g,c,a,a,a,a,a,t,a,a,a,t,g,c,t,t,g,a,c,t,c,t,g,t,a,g,c,g,g,g,a,a,g,g,c,g,t,a,t,t,a,t,g,c,a,c,a,c,c,c,c,g,c,g,c,c,g,n
+RRNDEX_P2,c,c,t,g,a,a,a,t,t,c,a,g,g,g,t,t,g,a,c,t,c,t,g,a,a,a,g,a,g,g,a,a,a,g,c,g,t,a,a,t,a,t,a,c,g,c,c,a,c,c,t,c,g,c,g,a,c,n
+RRND_P1,g,a,t,c,a,a,a,a,a,a,a,t,a,c,t,t,g,t,g,c,a,a,a,a,a,a,t,t,g,g,g,a,t,c,c,c,t,a,t,a,a,t,g,c,g,c,c,t,c,c,g,t,t,g,a,g,a,n
+RRNE_P1,c,t,g,c,a,a,t,t,t,t,t,c,t,a,t,t,g,c,g,g,c,c,t,g,c,g,g,a,g,a,a,c,t,c,c,c,t,a,t,a,a,t,g,c,g,c,c,t,c,c,a,t,c,g,a,c,a,n
+RRNG_P1,t,t,t,a,t,a,t,t,t,t,t,c,g,c,t,t,g,t,c,a,g,g,c,c,g,g,a,a,t,a,a,c,t,c,c,c,t,a,t,a,a,t,g,c,g,c,c,a,c,c,a,c,t,g,a,c,a,n
+RRNG_P2,a,a,g,c,a,a,a,g,a,a,a,t,g,c,t,t,g,a,c,t,c,t,g,t,a,g,c,g,g,g,a,a,g,g,c,g,t,a,t,t,a,t,g,c,a,c,a,c,c,g,c,c,g,c,g,c,c,n
+RRNX_P1,a,t,g,c,a,t,t,t,t,t,c,c,g,c,t,t,g,t,c,t,t,c,c,t,g,a,g,c,c,g,a,c,t,c,c,c,t,a,t,a,a,t,g,c,g,c,c,t,c,c,a,t,c,g,a,c,a,n
+TNAA,a,a,a,c,a,a,t,t,t,c,a,g,a,a,t,a,g,a,c,a,a,a,a,a,c,t,c,t,g,a,g,t,g,t,a,a,t,a,a,t,g,t,a,g,c,c,t,c,g,t,g,t,c,t,t,g,c,n
+TYRT,t,c,t,c,a,a,c,g,t,a,a,c,a,c,t,t,t,a,c,a,g,c,g,g,c,g,c,g,t,c,a,t,t,t,g,a,t,a,t,g,a,t,g,c,g,c,c,c,c,g,c,t,t,c,c,c,g,n
+ARAC,g,c,a,a,a,t,a,a,t,c,a,a,t,g,t,g,g,a,c,t,t,t,t,c,t,g,c,c,g,t,g,a,t,t,a,t,a,g,a,c,a,c,t,t,t,t,g,t,t,a,c,g,c,g,t,t,t,n
+LACI,g,a,c,a,c,c,a,t,c,g,a,a,t,g,g,c,g,c,a,a,a,a,c,c,t,t,t,c,g,c,g,g,t,a,t,g,g,c,a,t,g,a,t,a,g,c,g,c,c,c,g,g,a,a,g,a,g,n
+MALT,a,a,a,a,a,c,g,t,c,a,t,c,g,c,t,t,g,c,a,t,t,a,g,a,a,a,g,g,t,t,t,c,t,g,g,c,c,g,a,c,c,t,t,a,t,a,a,c,c,a,t,t,a,a,t,t,a,n
+TRP,t,c,t,g,a,a,a,t,g,a,g,c,t,g,t,t,g,a,c,a,a,t,t,a,a,t,c,a,t,c,g,a,a,c,t,a,g,t,t,a,a,c,t,a,g,t,a,c,g,c,a,a,g,t,t,c,a,n
+TRPP2,a,c,c,g,g,a,a,g,a,a,a,a,c,c,g,t,g,a,c,a,t,t,t,t,a,a,c,a,c,g,t,t,t,g,t,t,a,c,a,a,g,g,t,a,a,a,g,g,c,g,a,c,g,c,c,g,c,n
+THR,a,a,a,t,t,a,a,a,a,t,t,t,t,a,t,t,g,a,c,t,t,a,g,g,t,c,a,c,t,a,a,a,t,a,c,t,t,t,a,a,c,c,a,a,t,a,t,a,g,g,c,a,t,a,g,c,g,n
+BIOB,t,t,g,t,c,a,t,a,a,t,c,g,a,c,t,t,g,t,a,a,a,c,c,a,a,a,t,t,g,a,a,a,a,g,a,t,t,t,a,g,g,t,t,t,a,c,a,a,g,t,c,t,a,c,a,c,c,n
+FOL,c,a,t,c,c,t,c,g,c,a,c,c,a,g,t,c,g,a,c,g,a,c,g,g,t,t,t,a,c,g,c,t,t,t,a,c,g,t,a,t,a,g,t,g,g,c,g,a,c,a,a,t,t,t,t,t,t,n
+UVRBP1,t,c,c,a,g,t,a,t,a,a,t,t,t,g,t,t,g,g,c,a,t,a,a,t,t,a,a,g,t,a,c,g,a,c,g,a,g,t,a,a,a,a,t,t,a,c,a,t,a,c,c,t,g,c,c,c,g,n
+UVRBP3,a,c,a,g,t,t,a,t,c,c,a,c,t,a,t,t,c,c,t,g,t,g,g,a,t,a,a,c,c,a,t,g,t,g,t,a,t,t,a,g,a,g,t,t,a,g,a,a,a,a,c,a,c,g,a,g,g,n
+LEXA,t,g,t,g,c,a,g,t,t,t,a,t,g,g,t,t,c,c,a,a,a,a,t,c,g,c,c,t,t,t,t,g,c,t,g,t,a,t,a,t,a,c,t,c,a,c,a,g,c,a,t,a,a,c,t,g,t,n
+PORI-L,c,t,g,t,t,g,t,t,c,a,g,t,t,t,t,t,g,a,g,t,t,g,t,g,t,a,t,a,a,c,c,c,c,t,c,a,t,t,c,t,g,a,t,c,c,c,a,g,c,t,t,a,t,a,c,g,g,n
+SPOT42,a,t,t,a,c,a,a,a,a,a,g,t,g,c,t,t,t,c,t,g,a,a,c,t,g,a,a,c,a,a,a,a,a,a,g,a,g,t,a,a,a,g,t,t,a,g,t,c,g,c,g,t,a,g,g,g,t,n
+M1RNA,a,t,g,c,g,c,a,a,c,g,c,g,g,g,g,t,g,a,c,a,a,g,g,g,c,g,c,g,c,a,a,a,c,c,c,t,c,t,a,t,a,c,t,g,c,g,c,g,c,c,g,a,a,g,c,t,g,n
+GLNS,t,a,a,a,a,a,a,c,t,a,a,c,a,g,t,t,g,t,c,a,g,c,c,t,g,t,c,c,c,g,c,t,t,a,t,a,a,g,a,t,c,a,t,a,c,g,c,c,g,t,t,a,t,a,c,g,t,n
+TUFB,a,t,g,c,a,a,t,t,t,t,t,t,a,g,t,t,g,c,a,t,g,a,a,c,t,c,g,c,a,t,g,t,c,t,c,c,a,t,a,g,a,a,t,g,c,g,c,g,c,t,a,c,t,t,g,a,t,n
+SUBB-E,c,c,t,t,g,a,a,a,a,a,g,a,g,g,t,t,g,a,c,g,c,t,g,c,a,a,g,g,c,t,c,t,a,t,a,c,g,c,a,t,a,a,t,g,c,g,c,c,c,c,g,c,a,a,c,g,c,n
+STR,t,c,g,t,t,g,t,a,t,a,t,t,t,c,t,t,g,a,c,a,c,c,t,t,t,t,c,g,g,c,a,t,c,g,c,c,c,t,a,a,a,a,t,t,c,g,g,c,g,t,c,c,t,c,a,t,a,n
+SPC,c,c,g,t,t,t,a,t,t,t,t,t,t,c,t,a,c,c,c,a,t,a,t,c,c,t,t,g,a,a,g,c,g,g,t,g,t,t,a,t,a,a,t,g,c,c,g,c,g,c,c,c,t,c,g,a,t,n
+RPOA,t,t,c,g,c,a,t,a,t,t,t,t,t,c,t,t,g,c,a,a,a,g,t,t,g,g,g,t,t,g,a,g,c,t,g,g,c,t,a,g,a,t,t,a,g,c,c,a,g,c,c,a,a,t,c,t,t,n
+RPLJ,t,g,t,a,a,a,c,t,a,a,t,g,c,c,t,t,t,a,c,g,t,g,g,g,c,g,g,t,g,a,t,t,t,t,g,t,c,t,a,c,a,a,t,c,t,t,a,c,c,c,c,c,a,c,g,t,a,n
+PORI-R,g,a,t,c,g,c,a,c,g,a,t,c,t,g,t,a,t,a,c,t,t,a,t,t,t,g,a,g,t,a,a,a,t,t,a,a,c,c,c,a,c,g,a,t,c,c,c,a,g,c,c,a,t,t,c,t,t,n
+ALAS,a,a,c,g,c,a,t,a,c,g,g,t,a,t,t,t,t,a,c,c,t,t,c,c,c,a,g,t,c,a,a,g,a,a,a,a,c,t,t,a,t,c,t,t,a,t,t,c,c,c,a,c,t,t,t,t,c,n
+ARABAD,t,t,a,g,c,g,g,a,t,c,c,t,a,c,c,t,g,a,c,g,c,t,t,t,t,t,a,t,c,g,c,a,a,c,t,c,t,c,t,a,c,t,g,t,t,t,c,t,c,c,a,t,a,c,c,c,g,n
+BIOA,g,c,c,t,t,c,t,c,c,a,a,a,a,c,g,t,g,t,t,t,t,t,t,g,t,t,g,t,t,a,a,t,t,c,g,g,t,g,t,a,g,a,c,t,t,g,t,a,a,a,c,c,t,a,a,a,t,n
+DEOP1,c,a,g,a,a,a,c,g,t,t,t,t,a,t,t,c,g,a,a,c,a,t,c,g,a,t,c,t,c,g,t,c,t,t,g,t,g,t,t,a,g,a,a,t,t,c,t,a,a,c,a,t,a,c,g,g,t,n
+GALP2,c,a,c,t,a,a,t,t,t,a,t,t,c,c,a,t,g,t,c,a,c,a,c,t,t,t,t,c,g,c,a,t,c,t,t,t,g,t,t,a,t,g,c,t,a,t,g,g,t,t,a,t,t,t,c,a,t,n
+HIS,a,t,a,t,a,a,a,a,a,a,g,t,t,c,t,t,g,c,t,t,t,c,t,a,a,c,g,t,g,a,a,a,g,t,g,g,t,t,t,a,g,g,t,t,a,a,a,a,g,a,c,a,t,c,a,g,t,n
+HISJ,c,a,a,g,g,t,a,g,a,a,t,g,c,t,t,t,g,c,c,t,t,g,t,c,g,g,c,c,t,g,a,t,t,a,a,t,g,g,c,a,c,g,a,t,a,g,t,c,g,c,a,t,c,g,g,a,t,n
+ILVGEDA,g,g,c,c,a,a,a,a,a,a,t,a,t,c,t,t,g,t,a,c,t,a,t,t,t,a,c,a,a,a,a,c,c,t,a,t,g,g,t,a,a,c,t,c,t,t,t,a,g,g,c,a,t,t,c,c,t,n
+LACP1,t,a,g,g,c,a,c,c,c,c,a,g,g,c,t,t,t,a,c,a,c,t,t,t,a,t,g,c,t,t,c,c,g,g,c,t,c,g,t,a,t,g,t,t,g,t,g,t,g,g,a,a,t,t,g,t,g,n
+LPP,c,c,a,t,c,a,a,a,a,a,a,a,t,a,t,t,c,t,c,a,a,c,a,t,a,a,a,a,a,a,c,t,t,t,g,t,g,t,a,a,t,a,c,t,t,g,t,a,a,c,g,c,t,a,c,a,t,n
+TRPR,t,g,g,g,g,a,c,g,t,c,g,t,t,a,c,t,g,a,t,c,c,g,c,a,c,g,t,t,t,a,t,g,a,t,a,t,g,c,t,a,t,c,g,t,a,c,t,c,t,t,t,a,g,c,g,a,g,n
+UVRB_P2,t,c,a,g,a,a,a,t,a,t,t,a,t,g,g,t,g,a,t,g,a,a,c,t,g,t,t,t,t,t,t,t,a,t,c,c,a,g,t,a,t,a,a,t,t,t,g,t,t,g,g,c,a,t,a,a,t,n
+867,a,t,a,t,g,a,a,c,g,t,t,g,a,g,a,c,t,g,c,c,g,c,t,g,a,g,t,t,a,t,c,a,g,c,t,g,t,g,a,a,c,g,a,c,a,t,t,c,t,g,g,c,g,t,c,t,a,p
+1169,c,g,a,a,c,g,a,g,t,c,a,a,t,c,a,g,a,c,c,g,c,t,t,t,g,a,c,t,c,t,g,g,t,a,t,t,a,c,t,g,t,g,a,a,c,a,t,t,a,t,t,c,g,t,c,t,c,p
+802,c,a,a,t,g,g,c,c,t,c,t,a,a,a,c,g,g,g,t,c,t,t,g,a,g,g,g,g,t,t,t,t,t,t,g,c,t,g,a,a,a,g,g,a,g,g,a,a,c,t,a,t,a,t,g,c,g,p
+521,t,t,g,a,c,c,t,a,c,t,a,c,g,c,c,a,g,c,a,t,t,t,t,g,g,c,g,g,t,g,t,a,a,g,c,t,a,a,c,c,a,t,t,c,c,g,g,t,t,g,a,c,t,c,a,a,t,p
+918,c,g,t,c,t,a,t,c,g,g,t,g,a,a,c,c,t,c,c,g,g,t,a,t,c,a,a,c,g,c,t,g,g,a,a,g,g,t,g,a,c,g,c,t,a,a,c,g,c,a,g,a,t,g,c,a,g,p
+1481,g,c,c,a,a,t,c,a,a,t,c,a,a,g,a,a,c,t,t,g,a,a,g,g,g,t,g,g,t,a,t,c,a,g,c,c,a,a,c,a,g,c,c,t,g,a,c,a,t,c,c,t,t,c,g,t,t,p
+1024,t,g,g,a,t,g,g,a,c,g,t,t,c,a,a,c,a,t,t,g,a,g,g,a,a,g,g,c,a,t,a,a,c,g,c,t,a,c,t,a,c,c,t,g,a,t,g,t,t,t,a,c,t,c,c,a,a,p
+1149,g,a,g,g,t,g,g,c,t,a,t,g,t,g,t,a,t,g,a,c,c,g,a,a,c,g,a,g,t,c,a,a,t,c,a,g,a,c,c,g,c,t,t,t,g,a,c,t,c,t,g,g,t,a,t,t,a,p
+313,c,g,t,a,g,c,g,c,a,t,c,a,g,t,g,c,t,t,t,c,t,t,a,c,t,g,t,g,a,g,t,a,c,g,c,a,c,c,a,g,c,g,c,c,a,g,a,g,g,a,c,g,a,c,g,a,c,p
+780,c,g,a,c,c,g,a,a,g,c,g,a,g,c,c,t,c,g,t,c,c,t,c,a,a,t,g,g,c,c,t,c,t,a,a,a,c,g,g,g,t,c,t,t,g,a,g,g,g,g,t,t,t,t,t,t,g,p
+1384,c,t,a,c,g,g,t,g,g,g,t,a,c,a,a,t,a,t,g,c,t,g,g,a,t,g,g,a,g,a,t,g,c,g,t,t,c,a,c,t,t,c,t,g,g,t,c,t,a,c,t,g,a,c,t,c,g,p
+507,a,t,a,g,t,c,t,c,a,g,a,g,t,c,t,t,g,a,c,c,t,a,c,t,a,c,g,c,c,a,g,c,a,t,t,t,t,g,g,c,g,g,t,g,t,a,a,g,c,t,a,a,c,c,a,t,t,p
+39,a,a,c,t,c,a,a,g,g,c,t,g,a,t,a,c,g,g,c,g,a,g,a,c,t,t,g,c,g,a,g,c,c,t,t,g,t,c,c,t,t,g,c,g,g,t,a,c,a,c,a,g,c,a,g,c,g,p
+1203,t,t,a,c,t,g,t,g,a,a,c,a,t,t,a,t,t,c,g,t,c,t,c,c,g,c,g,a,c,t,a,c,g,a,t,g,a,g,a,t,g,c,c,t,g,a,g,t,g,c,t,t,c,c,g,t,t,p
+988,t,a,t,t,c,t,c,a,a,c,a,a,g,a,t,t,a,a,c,c,g,a,c,a,g,a,t,t,c,a,a,t,c,t,c,g,t,g,g,a,t,g,g,a,c,g,t,t,c,a,a,c,a,t,t,g,a,p
+1171,a,a,c,g,a,g,t,c,a,a,t,c,a,g,a,c,c,g,c,t,t,t,g,a,c,t,c,t,g,g,t,a,t,t,a,c,t,g,t,g,a,a,c,a,t,t,a,t,t,c,g,t,c,t,c,c,g,p
+753,a,a,g,t,g,c,t,t,a,g,c,t,t,c,a,a,g,g,t,c,a,c,g,g,a,t,a,c,g,a,c,c,g,a,a,g,c,g,a,g,c,c,t,c,g,t,c,c,t,c,a,a,t,g,g,c,c,p
+630,g,a,a,g,a,c,c,a,c,g,c,c,t,c,g,c,c,a,c,c,g,a,g,t,a,g,a,c,c,c,t,t,a,g,a,g,a,g,c,a,t,g,t,c,a,g,c,c,t,c,g,a,c,a,a,c,t,p
+660,t,t,a,g,a,g,a,g,c,a,t,g,t,c,a,g,c,c,t,c,g,a,c,a,a,c,t,t,g,c,a,t,a,a,a,t,g,c,t,t,t,c,t,t,g,t,a,g,a,c,g,t,g,c,c,c,t,p
+1216,t,a,t,t,c,g,t,c,t,c,c,g,c,g,a,c,t,a,c,g,a,t,g,a,g,a,t,g,c,c,t,g,a,g,t,g,c,t,t,c,c,g,t,t,a,c,t,g,g,a,t,t,g,t,c,a,c,p
+835,t,g,c,t,g,a,a,a,g,g,a,g,g,a,a,c,t,a,t,a,t,g,c,g,c,t,c,a,t,a,c,g,a,t,a,t,g,a,a,c,g,t,t,g,a,g,a,c,t,g,c,c,g,c,t,g,a,p
+35,c,a,t,g,a,a,c,t,c,a,a,g,g,c,t,g,a,t,a,c,g,g,c,g,a,g,a,c,t,t,g,c,g,a,g,c,c,t,t,g,t,c,c,t,t,g,c,g,g,t,a,c,a,c,a,g,c,p
+1218,t,t,c,g,t,c,t,c,c,g,c,g,a,c,t,a,c,g,a,t,g,a,g,a,t,g,c,c,t,g,a,g,t,g,c,t,t,c,c,g,t,t,a,c,t,g,g,a,t,t,g,t,c,a,c,c,a,p
+668,c,a,t,g,t,c,a,g,c,c,t,c,g,a,c,a,a,c,t,t,g,c,a,t,a,a,a,t,g,c,t,t,t,c,t,t,g,t,a,g,a,c,g,t,g,c,c,c,t,a,c,g,c,g,c,t,t,p
+413,a,g,g,a,g,g,a,a,c,t,a,c,g,c,a,a,g,g,t,t,g,g,a,a,c,a,t,c,g,g,a,g,a,g,a,t,g,c,c,a,g,c,c,a,g,c,g,c,a,c,c,t,g,c,a,c,g,p
+991,t,c,t,c,a,a,c,a,a,g,a,t,t,a,a,c,c,g,a,c,a,g,a,t,t,c,a,a,t,c,t,c,g,t,g,g,a,t,g,g,a,c,g,t,t,c,a,a,c,a,t,t,g,a,g,g,a,p
+751,t,g,a,a,g,t,g,c,t,t,a,g,c,t,t,c,a,a,g,g,t,c,a,c,g,g,a,t,a,c,g,a,c,c,g,a,a,g,c,g,a,g,c,c,t,c,g,t,c,c,t,c,a,a,t,g,g,p
+850,c,t,a,t,a,t,g,c,g,c,t,c,a,t,a,c,g,a,t,a,t,g,a,a,c,g,t,t,g,a,g,a,c,t,g,c,c,g,c,t,g,a,g,t,t,a,t,c,a,g,c,t,g,t,g,a,a,p
+93,g,c,g,g,c,a,g,c,a,c,g,t,t,t,c,c,a,c,g,c,g,g,t,g,a,g,a,g,c,c,t,c,a,g,g,a,t,t,c,a,t,g,t,c,g,a,t,g,t,c,t,t,c,c,g,g,t,p
+1108,a,t,c,c,c,t,a,a,t,g,t,c,t,a,c,t,t,c,c,g,g,t,c,a,a,t,c,c,a,t,c,t,a,c,g,t,t,a,a,c,c,g,a,g,g,t,g,g,c,t,a,t,g,t,g,t,a,p
+915,t,g,g,c,g,t,c,t,a,t,c,g,g,t,g,a,a,c,c,t,c,c,g,g,t,a,t,c,a,a,c,g,c,t,g,g,a,a,g,g,t,g,a,c,g,c,t,a,a,c,g,c,a,g,a,t,g,p
+1019,t,c,t,c,g,t,g,g,a,t,g,g,a,c,g,t,t,c,a,a,c,a,t,t,g,a,g,g,a,a,g,g,c,a,t,a,a,c,g,c,t,a,c,t,a,c,c,t,g,a,t,g,t,t,t,a,c,p
+19,t,a,t,t,g,g,c,t,t,g,c,t,c,a,a,g,c,a,t,g,a,a,c,t,c,a,a,g,g,c,t,g,a,t,a,c,g,g,c,g,a,g,a,c,t,t,g,c,g,a,g,c,c,t,t,g,t,p
+1320,t,a,g,a,g,g,g,t,g,t,a,c,t,c,c,a,a,g,a,a,g,a,g,g,a,a,g,a,t,g,a,g,g,c,t,a,g,a,c,g,t,c,t,c,t,g,c,a,t,g,g,a,g,t,a,t,g,p
+91,c,a,g,c,g,g,c,a,g,c,a,c,g,t,t,t,c,c,a,c,g,c,g,g,t,g,a,g,a,g,c,c,t,c,a,g,g,a,t,t,c,a,t,g,t,c,g,a,t,g,t,c,t,t,c,c,g,p
+217,t,t,a,c,g,t,t,g,g,c,g,a,c,c,g,c,t,a,g,g,a,c,t,t,t,c,t,t,g,t,t,g,a,t,t,t,t,c,c,a,t,g,c,g,g,t,g,t,t,t,t,g,c,g,c,a,a,p
+957,a,c,g,c,t,a,a,c,g,c,a,g,a,t,g,c,a,g,c,g,a,a,c,g,c,t,c,g,g,c,g,t,a,t,t,c,t,c,a,a,c,a,a,g,a,t,t,a,a,c,c,g,a,c,a,g,a,p
+260,g,g,t,g,t,t,t,t,g,c,g,c,a,a,t,g,t,t,a,a,t,c,g,c,t,t,t,g,t,a,c,a,c,c,t,c,a,g,g,c,a,t,g,t,a,a,a,c,g,t,c,t,t,c,g,t,a,p
+557,a,a,c,c,a,t,t,c,c,g,g,t,t,g,a,c,t,c,a,a,t,g,a,g,c,a,t,c,t,c,g,a,t,g,c,a,g,c,g,t,a,c,t,c,c,t,a,c,a,t,g,a,a,t,a,g,a,p
+1355,a,g,a,c,g,t,c,t,c,t,g,c,a,t,g,g,a,g,t,a,t,g,a,g,a,t,g,g,a,c,t,a,c,g,g,t,g,g,g,t,a,c,a,a,t,a,t,g,c,t,g,g,a,t,g,g,a,p
+244,t,g,t,t,g,a,t,t,t,t,c,c,a,t,g,c,g,g,t,g,t,t,t,t,g,c,g,c,a,a,t,g,t,t,a,a,t,c,g,c,t,t,t,g,t,a,c,a,c,c,t,c,a,g,g,c,a,p
+464,t,g,c,a,c,g,g,g,t,t,g,c,g,a,t,a,g,c,c,t,c,a,g,c,g,t,a,t,t,c,a,g,g,t,g,c,g,a,g,t,t,c,g,a,t,a,g,t,c,t,c,a,g,a,g,t,c,p
+296,a,g,g,c,a,t,g,t,a,a,a,c,g,t,c,t,t,c,g,t,a,g,c,g,c,a,t,c,a,g,t,g,c,t,t,t,c,t,t,a,c,t,g,t,g,a,g,t,a,c,g,c,a,c,c,a,g,p
+648,c,c,g,a,g,t,a,g,a,c,c,c,t,t,a,g,a,g,a,g,c,a,t,g,t,c,a,g,c,c,t,c,g,a,c,a,a,c,t,t,g,c,a,t,a,a,a,t,g,c,t,t,t,c,t,t,g,p
+230,c,g,c,t,a,g,g,a,c,t,t,t,c,t,t,g,t,t,g,a,t,t,t,t,c,c,a,t,g,c,g,g,t,g,t,t,t,t,g,c,g,c,a,a,t,g,t,t,a,a,t,c,g,c,t,t,t,p
+1163,t,a,t,g,a,c,c,g,a,a,c,g,a,g,t,c,a,a,t,c,a,g,a,c,c,g,c,t,t,t,g,a,c,t,c,t,g,g,t,a,t,t,a,c,t,g,t,g,a,a,c,a,t,t,a,t,t,p
+1321,a,g,a,g,g,g,t,g,t,a,c,t,c,c,a,a,g,a,a,g,a,g,g,a,a,g,a,t,g,a,g,g,c,t,a,g,a,c,g,t,c,t,c,t,g,c,a,t,g,g,a,g,t,a,t,g,a,p
+663,g,a,g,a,g,c,a,t,g,t,c,a,g,c,c,t,c,g,a,c,a,a,c,t,t,g,c,a,t,a,a,a,t,g,c,t,t,t,c,t,t,g,t,a,g,a,c,g,t,g,c,c,c,t,a,c,g,p
+799,c,c,t,c,a,a,t,g,g,c,c,t,c,t,a,a,a,c,g,g,g,t,c,t,t,g,a,g,g,g,g,t,t,t,t,t,t,g,c,t,g,a,a,a,g,g,a,g,g,a,a,c,t,a,t,a,t,p
+987,g,t,a,t,t,c,t,c,a,a,c,a,a,g,a,t,t,a,a,c,c,g,a,c,a,g,a,t,t,c,a,a,t,c,t,c,g,t,g,g,a,t,g,g,a,c,g,t,t,c,a,a,c,a,t,t,g,p
+1226,c,g,c,g,a,c,t,a,c,g,a,t,g,a,g,a,t,g,c,c,t,g,a,g,t,g,c,t,t,c,c,g,t,t,a,c,t,g,g,a,t,t,g,t,c,a,c,c,a,a,g,g,c,t,t,c,c,p
+794,c,t,c,g,t,c,c,t,c,a,a,t,g,g,c,c,t,c,t,a,a,a,c,g,g,g,t,c,t,t,g,a,g,g,g,g,t,t,t,t,t,t,g,c,t,g,a,a,a,g,g,a,g,g,a,a,c,p
+1442,t,a,a,c,a,t,t,a,a,t,a,a,a,t,a,a,g,g,a,g,g,c,t,c,t,a,a,t,g,g,c,a,c,t,c,a,t,t,a,g,c,c,a,a,t,c,a,a,t,c,a,a,g,a,a,c,t,p

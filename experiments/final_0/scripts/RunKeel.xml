@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/audiology-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/audiology-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/audiology-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/breast-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/breast-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/breast-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/bridges-version2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/bridges-version2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/bridges-version2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/car-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/car-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/car-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/kr-vs-kp-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/kr-vs-kp-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/kr-vs-kp-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/lung-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/lung-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/lung-cancer-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/molecular-biology-promoters-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/molecular-biology-promoters-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/molecular-biology-promoters-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/monks-problems-1-train-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/monks-problems-1-train-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/monks-problems-1-train-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/mushroom-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/mushroom-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/mushroom-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/nursery-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/nursery-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/nursery-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/postoperative-patienta-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/postoperative-patienta-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/postoperative-patienta-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/primary-tumor-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/primary-tumor-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/primary-tumor-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/shuttle-landing-control-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/shuttle-landing-control-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/shuttle-landing-control-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/solar-flare-2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/solar-flare-2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/solar-flare-2-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/soybean-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/soybean-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/soybean-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/spect-test-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/spect-test-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/spect-test-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/splice-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/splice-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/splice-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/tic-tac-toe-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/tic-tac-toe-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/tic-tac-toe-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/trains-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/trains-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/trains-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MESDIF.jar</executableFile>
+    <scriptFile>./MESDIF-SD/vote-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/vote-pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/vote-pn/config0.txt</scriptFile>
+  </sentence>
+</execution>
+

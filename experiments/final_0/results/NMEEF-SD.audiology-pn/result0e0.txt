@@ -1,0 +1,1724 @@
+GENERATED RULE 0
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 1
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 2
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn_gt_2k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 3
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 4
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 5
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 6
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 7
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+	Consecuent: p
+
+GENERATED RULE 8
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 9
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable middle_wave_poor = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 10
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 11
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_fullness = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 12
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 13
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_1k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 14
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 15
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 16
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 17
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 18
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable m_sn_lt_3k = f
+		Variable middle_wave_poor = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 19
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_lt_2k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+	Consecuent: p
+
+GENERATED RULE 20
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 21
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_fluctuating = f
+		Variable history_fullness = f
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_lt_2k = f
+		Variable m_sn_lt_3k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 22
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_fullness = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_1k = f
+		Variable middle_wave_poor = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 23
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 24
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_s_mixed = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 25
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+	Consecuent: p
+
+GENERATED RULE 26
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_lt_3k = f
+		Variable middle_wave_poor = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 27
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 28
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 29
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_fluctuating = f
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 30
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 31
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 32
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 33
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 34
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_fullness = f
+		Variable history_nausea = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_1k = f
+		Variable middle_wave_poor = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 35
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable mod_gt_4k = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 36
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable middle_wave_poor = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 37
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_3k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+	Consecuent: p
+
+GENERATED RULE 38
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable mod_gt_4k = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 39
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 40
+	Antecedent
+		Variable age_gt_60 = t
+		Variable bser = degraded
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 41
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_3k = f
+		Variable m_sn_gt_500 = f
+		Variable mod_gt_4k = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 42
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_nausea = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_gt_500 = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 43
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable bser = degraded
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_vomiting = f
+		Variable late_wave_poor = f
+		Variable m_at_2k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable mod_mixed = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 44
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_sn_lt_1k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 45
+	Antecedent
+		Variable age_gt_60 = t
+		Variable history_buzzing = f
+		Variable history_fullness = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable mod_mixed = f
+		Variable mod_sn = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 46
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable middle_wave_poor = f
+		Variable mod_gt_4k = f
+		Variable mod_mixed = f
+		Variable mod_s_mixed = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable wave_V_delayed = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 47
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_buzzing = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_recruitment = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable history_vomiting = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_sn = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_lt_1k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_1k = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_4k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_4k = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable s_sn_gt_4k = f
+		Variable tymp = a
+	Consecuent: p
+
+GENERATED RULE 48
+	Antecedent
+		Variable age_gt_60 = t
+		Variable airBoneGap = f
+		Variable history_heredity = f
+		Variable history_nausea = f
+		Variable history_ringing = f
+		Variable history_roaring = f
+		Variable m_at_2k = f
+		Variable m_cond_lt_1k = f
+		Variable m_gt_1k = f
+		Variable m_m_sn_gt_1k = f
+		Variable m_p_sn_gt_2k = f
+		Variable m_s_gt_500 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_sn_2_3k = f
+		Variable m_sn_gt_500 = f
+		Variable m_sn_lt_2k = f
+		Variable mod_mixed = f
+		Variable mod_s_sn_gt_500 = f
+		Variable mod_sn_gt_3k = f
+		Variable mod_sn_gt_500 = f
+		Variable notch_at_4k = f
+		Variable s_sn_gt_1k = f
+		Variable tymp = a
+		Variable viith_nerve_signs = f
+		Variable waveform_ItoV_prolonged = f
+	Consecuent: p
+
+GENERATED RULE 0
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_1k = f
+	Consecuent: n
+
+GENERATED RULE 1
+	Antecedent
+		Variable age_gt_60 = f
+	Consecuent: n
+
+GENERATED RULE 2
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+	Consecuent: n
+
+GENERATED RULE 3
+	Antecedent
+		Variable late_wave_poor = f
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 4
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_2k = f
+	Consecuent: n
+
+GENERATED RULE 5
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+	Consecuent: n
+
+GENERATED RULE 6
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 7
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 8
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_4k = f
+	Consecuent: n
+
+GENERATED RULE 9
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 10
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+	Consecuent: n
+
+GENERATED RULE 11
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_m_sn = f
+		Variable m_s_sn_gt_1k = f
+	Consecuent: n
+
+GENERATED RULE 12
+	Antecedent
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 13
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 14
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_s_sn_gt_1k = f
+	Consecuent: n
+
+GENERATED RULE 15
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn_gt_1k = f
+		Variable mod_s_mixed = f
+	Consecuent: n
+
+GENERATED RULE 16
+	Antecedent
+		Variable bser = degraded
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 17
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 18
+	Antecedent
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 19
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_4k = f
+	Consecuent: n
+
+GENERATED RULE 20
+	Antecedent
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 21
+	Antecedent
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+		Variable static_normal = t
+	Consecuent: n
+
+GENERATED RULE 22
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+	Consecuent: n
+
+GENERATED RULE 23
+	Antecedent
+		Variable age_gt_60 = f
+		Variable m_s_sn = f
+		Variable m_s_sn_gt_1k = f
+	Consecuent: n
+
+GENERATED RULE 24
+	Antecedent
+		Variable late_wave_poor = f
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+		Variable middle_wave_poor = f
+	Consecuent: n
+
+GENERATED RULE 25
+	Antecedent
+		Variable m_m_gt_2k = f
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_m_sn_gt_500 = f
+		Variable m_s_sn_gt_1k = f
+		Variable m_s_sn_gt_2k = f
+		Variable m_s_sn_gt_3k = f
+		Variable m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+		Variable m_sn_gt_6k = f
+	Consecuent: n
+
+GENERATED RULE 26
+	Antecedent
+		Variable m_m_sn = f
+		Variable m_m_sn_gt_2k = f
+		Variable m_sn_gt_4k = f
+	Consecuent: n
+

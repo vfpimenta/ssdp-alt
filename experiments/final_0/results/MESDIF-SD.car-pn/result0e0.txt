@@ -1,0 +1,35 @@
+GENERATED RULE 0
+   Antecedent
+	Variable persons = 2
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable doors = 3
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable persons = 2
+	Variable lug_boot = med
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable buying = med
+	Variable maint = med
+	Variable persons = 4
+	Variable safety = med
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable maint = med
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable maint = med
+	Variable persons = 4
+   Consecuent: n
+

@@ -1,0 +1,89 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: mesdif for subgroup discovery
+Input file name training: ../datasets/mushroom-pn/mushroom-pn.dat
+Input file name test: ../datasets/mushroom-pn/mushroom-pn.dat
+Rules file name: ../results/mesdif-sd.mushroom-pn/result0e0.txt
+Tracking file name: ../results/mesdif-sd.mushroom-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Number of individuals in the Elite Population: 3
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.0
+Rules representation: CAN
+Objective 1: COMP
+Objective 2: UNUS
+Objective 3: FCNF
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 8124
+Number of variables: 22
+@relation mushroom-pn
+@attribute cap-shape{x,b,s,f,k,c}
+@attribute cap-surface{s,y,f,g}
+@attribute cap-color{n,y,w,g,e,p,b,u,c,r}
+@attribute bruises?{t,f}
+@attribute odor{p,a,l,n,f,c,y,s,m}
+@attribute gill-attachment{f,a}
+@attribute gill-spacing{c,w}
+@attribute gill-size{n,b}
+@attribute gill-color{k,n,g,p,w,h,u,e,b,r,y,o}
+@attribute stalk-shape{e,t}
+@attribute stalk-root{e,c,b,r}
+@attribute stalk-surface-above-ring{s,f,k,y}
+@attribute stalk-surface-below-ring{s,f,y,k}
+@attribute stalk-color-above-ring{w,g,p,n,b,e,o,c,y}
+@attribute stalk-color-below-ring{w,p,g,b,n,e,y,o,c}
+@attribute veil-type{p}
+@attribute veil-color{w,n,o,y}
+@attribute ring-number{o,t,n}
+@attribute ring-type{p,e,l,f,n}
+@attribute spore-print-color{k,n,u,h,w,r,o,y,b}
+@attribute population{s,n,a,v,y,c}
+@attribute habitat{u,g,m,d,p,w,l}
+@attribute y{n,p}
+@inputs cap-shape, cap-surface, cap-color, bruises?, odor, gill-attachment, gill-spacing, gill-size, gill-color, stalk-shape, stalk-root, stalk-surface-above-ring, stalk-surface-below-ring, stalk-color-above-ring, stalk-color-below-ring, veil-type, veil-color, ring-number, ring-type, spore-print-color, population, habitat
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10030
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 1:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10025
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------

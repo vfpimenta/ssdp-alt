@@ -1,0 +1,125 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: mesdif for subgroup discovery
+Input file name training: ../datasets/molecular-biology-promoters-pn/molecular-biology-promoters-pn.dat
+Input file name test: ../datasets/molecular-biology-promoters-pn/molecular-biology-promoters-pn.dat
+Rules file name: ../results/mesdif-sd.molecular-biology-promoters-pn/result0e0.txt
+Tracking file name: ../results/mesdif-sd.molecular-biology-promoters-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Number of individuals in the Elite Population: 3
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.0
+Rules representation: CAN
+Objective 1: COMP
+Objective 2: UNUS
+Objective 3: FCNF
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 106
+Number of variables: 58
+@relation molecular-biology-promoters-pn
+@attribute instance{S10,AMPC,AROH,DEOP2,LEU1_TRNA,MALEFG,MALK,RECA,RPOB,RRNAB_P1,RRNAB_P2,RRNDEX_P2,RRND_P1,RRNE_P1,RRNG_P1,RRNG_P2,RRNX_P1,TNAA,TYRT,ARAC,LACI,MALT,TRP,TRPP2,THR,BIOB,FOL,UVRBP1,UVRBP3,LEXA,PORI-L,SPOT42,M1RNA,GLNS,TUFB,SUBB-E,STR,SPC,RPOA,RPLJ,PORI-R,ALAS,ARABAD,BIOA,DEOP1,GALP2,HIS,HISJ,ILVGEDA,LACP1,LPP,TRPR,UVRB_P2,867,1169,802,521,918,1481,1024,1149,313,780,1384,507,39,1203,988,1171,753,630,660,1216,835,35,1218,668,413,991,751,850,93,1108,915,1019,19,1320,91,217,957,260,557,1355,244,464,296,648,230,1163,1321,663,799,987,1226,794,1442}
+@attribute p-50{t,g,a,c}
+@attribute p-49{a,g,t,c}
+@attribute p-48{c,a,t,g}
+@attribute p-47{t,c,a,g}
+@attribute p-46{a,t,g,c}
+@attribute p-45{g,t,a,c}
+@attribute p-44{c,g,a,t}
+@attribute p-43{a,c,t,g}
+@attribute p-42{a,t,g,c}
+@attribute p-41{t,g,a,c}
+@attribute p-40{a,t,c,g}
+@attribute p-39{c,g,a,t}
+@attribute p-38{g,a,t,c}
+@attribute p-37{c,g,a,t}
+@attribute p-36{t,g,c,a}
+@attribute p-35{t,c,g,a}
+@attribute p-34{g,t,c,a}
+@attribute p-33{c,t,a,g}
+@attribute p-32{g,c,a,t}
+@attribute p-31{t,a,g,c}
+@attribute p-30{t,c,a,g}
+@attribute p-29{c,g,a,t}
+@attribute p-28{g,c,t,a}
+@attribute p-27{g,t,c,a}
+@attribute p-26{t,g,c,a}
+@attribute p-25{g,a,t,c}
+@attribute p-24{g,t,a,c}
+@attribute p-23{t,c,g,a}
+@attribute p-22{t,g,a,c}
+@attribute p-21{a,g,t,c}
+@attribute p-20{a,t,g,c}
+@attribute p-19{g,t,a,c}
+@attribute p-18{t,c,g,a}
+@attribute p-17{a,c,t,g}
+@attribute p-16{t,g,a,c}
+@attribute p-15{g,t,a,c}
+@attribute p-14{t,g,c,a}
+@attribute p-13{a,g,c,t}
+@attribute p-12{t,c,g,a}
+@attribute p-11{a,c,t,g}
+@attribute p-10{a,c,g,t}
+@attribute p-9{t,g,c,a}
+@attribute p-8{g,c,a,t}
+@attribute p-7{c,t,a,g}
+@attribute p-6{g,a,t,c}
+@attribute p-5{c,a,g,t}
+@attribute p-4{g,c,a,t}
+@attribute p-3{g,c,t,a}
+@attribute p-2{g,c,a,t}
+@attribute p-1{c,a,g,t}
+@attribute p1{t,c,g,a}
+@attribute p2{t,c,a,g}
+@attribute p3{g,c,a,t}
+@attribute p4{t,c,g,a}
+@attribute p5{c,g,t,a}
+@attribute p6{g,a,c,t}
+@attribute p7{t,a,g,c}
+@attribute y{n,p}
+@inputs instance, p-50, p-49, p-48, p-47, p-46, p-45, p-44, p-43, p-42, p-41, p-40, p-39, p-38, p-37, p-36, p-35, p-34, p-33, p-32, p-31, p-30, p-29, p-28, p-27, p-26, p-25, p-24, p-23, p-22, p-21, p-20, p-19, p-18, p-17, p-16, p-15, p-14, p-13, p-12, p-11, p-10, p-9, p-8, p-7, p-6, p-5, p-4, p-3, p-2, p-1, p1, p2, p3, p4, p5, p6, p7
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10039
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 1:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10039
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------

@@ -1,0 +1,80 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/primary-tumor-pn/primary-tumor-pn.dat
+Rules file name: ../results/nmeef-sd.primary-tumor-pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.primary-tumor-pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 339
+Number of variables: 17
+@relation primary-tumor-pn
+@attribute age{>=60,30-59,<30}
+@attribute sex{female,male}
+@attribute histologic-type{adeno,epidermoid,anaplastic}
+@attribute degree-of-diffe{poorly,fairly,well}
+@attribute bone{no,yes}
+@attribute bone-marrow{no,yes}
+@attribute lung{no,yes}
+@attribute pleura{no,yes}
+@attribute peritoneum{no,yes}
+@attribute liver{yes,no}
+@attribute brain{no,yes}
+@attribute skin{no,yes}
+@attribute neck{no,yes}
+@attribute supraclavicular{no,yes}
+@attribute axillar{no,yes}
+@attribute mediastinum{no,yes}
+@attribute abdominal{no,yes}
+@attribute y{p,n}
+@inputs age, sex, histologic-type, degree-of-diffe, bone, bone-marrow, lung, pleura, peritoneum, liver, brain, skin, neck, supraclavicular, axillar, mediastinum, abdominal
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 121
+	Number of Evaluations = 10059
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 127
+	Number of Evaluations = 10020

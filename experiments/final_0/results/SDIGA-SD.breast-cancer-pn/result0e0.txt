@@ -1,0 +1,57 @@
+GENERATED RULE 0
+   Antecedent
+	Variable node-caps = yes
+	Variable deg-malig = Label 2 	 (2.0 3.0 4.0)
+	Variable breast = left
+	Variable irradiat = yes
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable age = 50-59
+	Variable tumor-size = 20-24
+	Variable breast-quad = central
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable inv-nodes = 3-5
+	Variable node-caps = no
+	Variable breast = left
+   Consecuent: n
+
+GENERATED RULE 3
+   Antecedent
+	Variable age = 60-69
+	Variable deg-malig = Label 2 	 (2.0 3.0 4.0)
+	Variable breast = left
+	Variable breast-quad = left_up
+   Consecuent: n
+
+GENERATED RULE 4
+   Antecedent
+	Variable age = 50-59
+	Variable menopause = ge40
+	Variable tumor-size = 30-34
+	Variable deg-malig = Label 2 	 (2.0 3.0 4.0)
+	Variable breast = left
+	Variable irradiat = no
+   Consecuent: n
+
+GENERATED RULE 5
+   Antecedent
+	Variable age = 50-59
+	Variable inv-nodes = 6-8
+	Variable deg-malig = Label 2 	 (2.0 3.0 4.0)
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable irradiat = no
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable node-caps = no
+   Consecuent: p
+

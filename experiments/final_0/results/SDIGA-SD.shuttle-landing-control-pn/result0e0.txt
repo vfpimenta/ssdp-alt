@@ -1,0 +1,11 @@
+GENERATED RULE 0
+   Antecedent
+	Variable STABILITY = Label 0 	 (0.5 1.0 1.5)
+	Variable SIGN = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable VISIBILITY = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: n
+

@@ -1,0 +1,37 @@
+GENERATED RULE 0
+   Antecedent
+	Variable STABILITY = Label 0 	 (0.5 1.0 1.5)
+	Variable SIGN = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable STABILITY = Label 0 	 (0.5 1.0 1.5)
+	Variable SIGN = Label 0 	 (0.5 1.0 1.5)
+	Variable MAGNITUDE = Label 1 	 (1.0 2.5 4.0)
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable SIGN = Label 0 	 (0.5 1.0 1.5)
+	Variable WIND = Label 0 	 (0.5 1.0 1.5)
+	Variable MAGNITUDE = Label 0 	 (-0.5 1.0 2.5)
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable ERROR = Label 0 	 (-0.5 1.0 2.5)
+	Variable VISIBILITY = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable VISIBILITY = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable MAGNITUDE = Label 0 	 (-0.5 1.0 2.5)
+	Variable VISIBILITY = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: n
+

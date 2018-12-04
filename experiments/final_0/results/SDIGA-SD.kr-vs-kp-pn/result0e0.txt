@@ -1,0 +1,10 @@
+GENERATED RULE 0
+   Antecedent
+	Variable wkna8 = f
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable thrsk = f
+   Consecuent: n
+

@@ -1,0 +1,47 @@
+@relation trains-pn
+@attribute Number_of_cars integer[3,5]
+@attribute Number_of_different_loads integer[1,4]
+@attribute num_wheels_2 integer[2,3]
+@attribute length_2{long,short}
+@attribute shape_2{openrect,ushaped,opentrap,dblopnrect,closedrect}
+@attribute num_loads_2 integer[1,3]
+@attribute load_shape_2{rectanglod,trianglod,circlelod}
+@attribute num_wheels_3 integer[2,3]
+@attribute length_3{short,long}
+@attribute shape_3{slopetop,opentrap,hexagon,dblopnrect,closedrect,openrect,ushaped,jaggedtop}
+@attribute num_loads_3 integer[1,2]
+@attribute load_shape_3{trianglod,rectanglod,circlelod}
+@attribute num_wheels_4 integer[2,3]
+@attribute length_4{long,short}
+@attribute shape_4{openrect,closedrect,ellipse,jaggedtop}
+@attribute num_loads_4 integer[0,2]
+@attribute load_shape_4{hexagonlod,circlelod,trianglod,rectanglod}
+@attribute num_wheels_5 integer[2,2]
+@attribute length_5{short}
+@attribute shape_5{openrect,opentrap}
+@attribute num_loads_5 integer[1,1]
+@attribute load_shape_5{circlelod,rectanglod}
+@attribute Rectangle_next_to_rectangle integer[0,1]
+@attribute Rectangle_next_to_triangle integer[0,1]
+@attribute Rectangle_next_to_hexagon integer[0,0]
+@attribute Rectangle_next_to_circle integer[0,1]
+@attribute Triangle_next_to_triangle integer[0,1]
+@attribute Triangle_next_to_hexagon integer[0,1]
+@attribute Triangle_next_to_circle integer[0,1]
+@attribute Hexagon_next_to_hexagon integer[0,0]
+@attribute Hexagon_next_to_circle integer[0,1]
+@attribute Circle_next_to_circle integer[0,0]
+@attribute y{p,n}
+@inputs Number_of_cars, Number_of_different_loads, num_wheels_2, length_2, shape_2, num_loads_2, load_shape_2, num_wheels_3, length_3, shape_3, num_loads_3, load_shape_3, num_wheels_4, length_4, shape_4, num_loads_4, load_shape_4, num_wheels_5, length_5, shape_5, num_loads_5, load_shape_5, Rectangle_next_to_rectangle, Rectangle_next_to_triangle, Rectangle_next_to_hexagon, Rectangle_next_to_circle, Triangle_next_to_triangle, Triangle_next_to_hexagon, Triangle_next_to_circle, Hexagon_next_to_hexagon, Hexagon_next_to_circle, Circle_next_to_circle
+@outputs y
+@data
+5,4,2,long,openrect,3,rectanglod,2,short,slopetop,1,trianglod,3,long,openrect,1,hexagonlod,2,short,openrect,1,circlelod,0,1,0,0,0,1,0,0,1,0,p
+4,3,2,short,ushaped,1,trianglod,2,short,opentrap,1,rectanglod,2,short,closedrect,2,circlelod,2,short,openrect,1,circlelod,0,1,0,1,0,0,0,0,0,0,p
+4,2,2,short,openrect,1,circlelod,2,short,hexagon,1,trianglod,3,long,closedrect,1,trianglod,2,short,openrect,1,circlelod,0,0,0,0,1,0,1,0,0,0,p
+5,2,2,short,opentrap,1,trianglod,2,short,dblopnrect,1,trianglod,2,short,ellipse,1,rectanglod,2,short,openrect,1,rectanglod,1,1,0,0,1,0,0,0,0,0,p
+4,3,2,short,dblopnrect,1,trianglod,3,long,closedrect,1,rectanglod,2,short,closedrect,1,circlelod,2,short,openrect,1,circlelod,0,1,0,1,0,0,0,0,0,0,p
+3,2,2,long,closedrect,3,circlelod,2,short,openrect,1,trianglod,2,short,closedrect,1,circlelod,2,short,openrect,1,circlelod,0,0,0,0,0,0,1,0,0,0,n
+4,2,2,short,dblopnrect,1,circlelod,2,short,ushaped,1,trianglod,2,long,jaggedtop,0,circlelod,2,short,openrect,1,circlelod,0,0,0,0,0,0,1,0,0,0,n
+3,2,3,long,closedrect,1,rectanglod,2,short,ushaped,1,circlelod,2,short,closedrect,1,circlelod,2,short,openrect,1,circlelod,0,0,0,1,0,0,0,0,0,0,n
+5,2,2,short,opentrap,1,circlelod,2,long,jaggedtop,1,rectanglod,2,short,openrect,1,rectanglod,2,short,opentrap,1,circlelod,1,0,0,1,0,0,0,0,0,0,n
+3,1,2,short,ushaped,1,rectanglod,2,long,openrect,2,rectanglod,2,short,closedrect,1,circlelod,2,short,openrect,1,circlelod,1,0,0,0,0,0,0,0,0,0,n

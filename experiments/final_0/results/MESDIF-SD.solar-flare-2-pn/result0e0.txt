@@ -1,0 +1,58 @@
+GENERATED RULE 0
+   Antecedent
+	Variable spot_distribution = X
+	Variable Area = Label 0 	 (0.5 1.0 1.5)
+	Variable X-class_flares_production_by_this_region = Label 0 	 (-1.0 0.0 1.0)
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable spot_distribution = X
+	Variable Area = Label 0 	 (0.5 1.0 1.5)
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable spot_distribution = X
+	Variable Area = Label 0 	 (0.5 1.0 1.5)
+	Variable M-class_flares_production_by_this_region = Label 0 	 (-2.5 0.0 2.5)
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable largest_spot_size = A
+	Variable spot_distribution = X
+	Variable Evolution = Label 0 	 (0.0 1.0 2.0)
+	Variable Previous_24_hour_flare_activity_code = Label 2 	 (2.0 3.0 4.0)
+	Variable Historically-complex = Label 1 	 (1.0 1.5 2.0)
+	Variable Area_of_the_largest_spot = Label 1 	 (1.0 1.0 1.0)
+	Variable C-class_flares_production_by_this_region = Label 1 	 (0.0 4.0 8.0)
+	Variable M-class_flares_production_by_this_region = Label 1 	 (0.0 2.5 5.0)
+	Variable X-class_flares_production_by_this_region = Label 0 	 (-1.0 0.0 1.0)
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable largest_spot_size = A
+	Variable spot_distribution = X
+	Variable Activity = Label 1 	 (1.0 1.5 2.0)
+	Variable Evolution = Label 0 	 (0.0 1.0 2.0)
+	Variable Previous_24_hour_flare_activity_code = Label 2 	 (2.0 3.0 4.0)
+	Variable Historically-complex = Label 1 	 (1.0 1.5 2.0)
+	Variable Area_of_the_largest_spot = Label 1 	 (1.0 1.0 1.0)
+	Variable C-class_flares_production_by_this_region = Label 1 	 (0.0 4.0 8.0)
+	Variable M-class_flares_production_by_this_region = Label 1 	 (0.0 2.5 5.0)
+	Variable X-class_flares_production_by_this_region = Label 0 	 (-1.0 0.0 1.0)
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable spot_distribution = X
+	Variable Evolution = Label 0 	 (0.0 1.0 2.0)
+	Variable Previous_24_hour_flare_activity_code = Label 2 	 (2.0 3.0 4.0)
+	Variable Historically-complex = Label 1 	 (1.0 1.5 2.0)
+	Variable Area_of_the_largest_spot = Label 0 	 (1.0 1.0 1.0)
+	Variable C-class_flares_production_by_this_region = Label 1 	 (0.0 4.0 8.0)
+	Variable X-class_flares_production_by_this_region = Label 0 	 (-1.0 0.0 1.0)
+   Consecuent: n
+

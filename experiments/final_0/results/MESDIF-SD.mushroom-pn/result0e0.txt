@@ -1,0 +1,102 @@
+GENERATED RULE 0
+   Antecedent
+	Variable cap-surface = y
+	Variable bruises? = t
+	Variable odor = p
+	Variable gill-attachment = f
+	Variable gill-size = n
+	Variable stalk-root = e
+	Variable stalk-surface-above-ring = s
+	Variable stalk-color-above-ring = w
+	Variable stalk-color-below-ring = w
+	Variable veil-color = w
+	Variable ring-number = o
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable cap-surface = y
+	Variable bruises? = t
+	Variable odor = p
+	Variable gill-size = n
+	Variable stalk-root = e
+	Variable stalk-surface-above-ring = s
+	Variable stalk-color-above-ring = w
+	Variable stalk-color-below-ring = w
+	Variable veil-color = w
+	Variable ring-number = o
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable cap-surface = y
+	Variable bruises? = t
+	Variable odor = p
+	Variable stalk-surface-above-ring = s
+	Variable stalk-color-above-ring = w
+	Variable stalk-color-below-ring = w
+	Variable veil-color = w
+	Variable ring-number = o
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable cap-shape = x
+	Variable cap-surface = y
+	Variable cap-color = c
+	Variable bruises? = t
+	Variable odor = n
+	Variable gill-attachment = f
+	Variable gill-size = n
+	Variable stalk-shape = e
+	Variable stalk-surface-above-ring = k
+	Variable stalk-surface-below-ring = f
+	Variable stalk-color-below-ring = o
+	Variable veil-type = p
+	Variable veil-color = y
+	Variable ring-type = f
+	Variable spore-print-color = o
+	Variable population = s
+	Variable habitat = d
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable cap-shape = x
+	Variable cap-surface = y
+	Variable cap-color = c
+	Variable bruises? = t
+	Variable odor = n
+	Variable gill-size = n
+	Variable stalk-shape = e
+	Variable stalk-surface-above-ring = k
+	Variable stalk-surface-below-ring = f
+	Variable stalk-color-above-ring = c
+	Variable stalk-color-below-ring = o
+	Variable veil-type = p
+	Variable veil-color = y
+	Variable ring-type = f
+	Variable spore-print-color = o
+	Variable habitat = d
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable cap-shape = x
+	Variable cap-surface = y
+	Variable cap-color = c
+	Variable bruises? = t
+	Variable odor = n
+	Variable gill-attachment = f
+	Variable stalk-shape = e
+	Variable stalk-surface-above-ring = k
+	Variable stalk-surface-below-ring = f
+	Variable stalk-color-below-ring = o
+	Variable veil-type = p
+	Variable veil-color = y
+	Variable ring-type = p
+	Variable spore-print-color = o
+	Variable population = s
+	Variable habitat = d
+   Consecuent: p
+

@@ -1,0 +1,10 @@
+GENERATED RULE 0
+   Antecedent
+	Variable p-42 = a
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable p-41 = t
+   Consecuent: p
+

@@ -1,0 +1,35 @@
+GENERATED RULE 0
+   Antecedent
+	Variable safety = low
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable persons = 2
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable buying = vhigh
+   Consecuent: p
+
+GENERATED RULE 3
+   Antecedent
+	Variable lug_boot = small
+   Consecuent: p
+
+GENERATED RULE 4
+   Antecedent
+	Variable maint = vhigh
+   Consecuent: p
+
+GENERATED RULE 5
+   Antecedent
+	Variable lug_boot = med
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable safety = high
+   Consecuent: n
+

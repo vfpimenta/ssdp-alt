@@ -1,0 +1,447 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-sdiga for subgroup discovery
+Input file name training: ../datasets/lung-cancer-pn/lung-cancer-pn.dat
+Input file name test: ../datasets/lung-cancer-pn/lung-cancer-pn.dat
+Rules file name: ../results/sdiga-sd.lung-cancer-pn/result0e0.txt
+Tracking file name: ../results/sdiga-sd.lung-cancer-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.6
+Rules representation: CAN
+Objective 1: COMP(Weight: 0.4)
+Objective 2: FCNF(Weight: 0.3)
+Objective 3: UNUS(Weight: 0.3)
+Perform Local Search: true
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+Fuzzy sets parameters for variable attribute2:
+	Label 0: -0.5 0.0 0.5
+	Label 1: 0.0 0.5 1.0
+	Label 2: 0.5 1.0 1.5
+Fuzzy sets parameters for variable attribute3:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute4:
+	Label 0: -1.5 0.0 1.5
+	Label 1: 0.0 1.5 3.0
+	Label 2: 1.5 3.0 4.5
+Fuzzy sets parameters for variable attribute5:
+	Label 0: -1.0 0.0 1.0
+	Label 1: 0.0 1.0 2.0
+	Label 2: 1.0 2.0 3.0
+Fuzzy sets parameters for variable attribute6:
+	Label 0: -0.5 0.0 0.5
+	Label 1: 0.0 0.5 1.0
+	Label 2: 0.5 1.0 1.5
+Fuzzy sets parameters for variable attribute7:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute8:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute9:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute10:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute11:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute12:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute13:
+	Label 0: -1.5 0.0 1.5
+	Label 1: 0.0 1.5 3.0
+	Label 2: 1.5 3.0 4.5
+Fuzzy sets parameters for variable attribute14:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute15:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute16:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute17:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute18:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute19:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute20:
+	Label 0: -1.0 0.0 1.0
+	Label 1: 0.0 1.0 2.0
+	Label 2: 1.0 2.0 3.0
+Fuzzy sets parameters for variable attribute21:
+	Label 0: -1.0 0.0 1.0
+	Label 1: 0.0 1.0 2.0
+	Label 2: 1.0 2.0 3.0
+Fuzzy sets parameters for variable attribute22:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute23:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute24:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute25:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute26:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute27:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute28:
+	Label 0: 1.5 2.0 2.5
+	Label 1: 2.0 2.5 3.0
+	Label 2: 2.5 3.0 3.5
+Fuzzy sets parameters for variable attribute29:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute30:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute31:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute32:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute33:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute34:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute35:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute36:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute37:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute38:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute39:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute40:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute41:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute42:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute43:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute44:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute45:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute46:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute47:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute48:
+	Label 0: 1.5 2.0 2.5
+	Label 1: 2.0 2.5 3.0
+	Label 2: 2.5 3.0 3.5
+Fuzzy sets parameters for variable attribute49:
+	Label 0: 1.5 2.0 2.5
+	Label 1: 2.0 2.5 3.0
+	Label 2: 2.5 3.0 3.5
+Fuzzy sets parameters for variable attribute50:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute51:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute52:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute53:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute54:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attribute55:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute56:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attribute57:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 32
+Number of variables: 56
+@relation lung-cancer-pn
+@attribute attribute2 integer[0,1]
+@attribute attribute3 integer[1,3]
+@attribute attribute4 integer[0,3]
+@attribute attribute5 integer[0,2]
+@attribute attribute6 integer[0,1]
+@attribute attribute7 integer[1,3]
+@attribute attribute8 integer[1,3]
+@attribute attribute9 integer[1,3]
+@attribute attribute10 integer[1,3]
+@attribute attribute11 integer[1,3]
+@attribute attribute12 integer[1,3]
+@attribute attribute13 integer[0,3]
+@attribute attribute14 integer[1,3]
+@attribute attribute15 integer[1,3]
+@attribute attribute16 integer[1,3]
+@attribute attribute17 integer[1,3]
+@attribute attribute18 integer[1,2]
+@attribute attribute19 integer[1,2]
+@attribute attribute20 integer[0,2]
+@attribute attribute21 integer[0,2]
+@attribute attribute22 integer[1,2]
+@attribute attribute23 integer[1,2]
+@attribute attribute24 integer[1,2]
+@attribute attribute25 integer[1,3]
+@attribute attribute26 integer[1,3]
+@attribute attribute27 integer[1,3]
+@attribute attribute28 integer[2,3]
+@attribute attribute29 integer[1,3]
+@attribute attribute30 integer[1,3]
+@attribute attribute31 integer[1,3]
+@attribute attribute32 integer[1,3]
+@attribute attribute33 integer[1,3]
+@attribute attribute34 integer[1,3]
+@attribute attribute35 integer[1,3]
+@attribute attribute36 integer[1,3]
+@attribute attribute37 integer[1,3]
+@attribute attribute38 integer[1,3]
+@attribute attribute39 integer[1,3]
+@attribute attribute40 integer[1,3]
+@attribute attribute41 integer[1,3]
+@attribute attribute42 integer[1,3]
+@attribute attribute43 integer[1,3]
+@attribute attribute44 integer[1,3]
+@attribute attribute45 integer[1,3]
+@attribute attribute46 integer[1,3]
+@attribute attribute47 integer[1,3]
+@attribute attribute48 integer[2,3]
+@attribute attribute49 integer[2,3]
+@attribute attribute50 integer[1,3]
+@attribute attribute51 integer[1,3]
+@attribute attribute52 integer[1,3]
+@attribute attribute53 integer[1,3]
+@attribute attribute54 integer[1,3]
+@attribute attribute55 integer[1,2]
+@attribute attribute56 integer[1,2]
+@attribute attribute57 integer[1,2]
+@attribute y{n,p}
+@inputs attribute2, attribute3, attribute4, attribute5, attribute6, attribute7, attribute8, attribute9, attribute10, attribute11, attribute12, attribute13, attribute14, attribute15, attribute16, attribute17, attribute18, attribute19, attribute20, attribute21, attribute22, attribute23, attribute24, attribute25, attribute26, attribute27, attribute28, attribute29, attribute30, attribute31, attribute32, attribute33, attribute34, attribute35, attribute36, attribute37, attribute38, attribute39, attribute40, attribute41, attribute42, attribute43, attribute44, attribute45, attribute46, attribute47, attribute48, attribute49, attribute50, attribute51, attribute52, attribute53, attribute54, attribute55, attribute56, attribute57
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+	Variable attribute2: 0.25  0.75  1.25  
+	Variable attribute3: 1.5  2.5  3.5  
+	Variable attribute4: 0.75  2.25  3.75  
+	Variable attribute5: 0.5  1.5  2.5  
+	Variable attribute6: 0.25  0.75  1.25  
+	Variable attribute7: 1.5  2.5  3.5  
+	Variable attribute8: 1.5  2.5  3.5  
+	Variable attribute9: 1.5  2.5  3.5  
+	Variable attribute10: 1.5  2.5  3.5  
+	Variable attribute11: 1.5  2.5  3.5  
+	Variable attribute12: 1.5  2.5  3.5  
+	Variable attribute13: 0.75  2.25  3.75  
+	Variable attribute14: 1.5  2.5  3.5  
+	Variable attribute15: 1.5  2.5  3.5  
+	Variable attribute16: 1.5  2.5  3.5  
+	Variable attribute17: 1.5  2.5  3.5  
+	Variable attribute18: 1.25  1.75  2.25  
+	Variable attribute19: 1.25  1.75  2.25  
+	Variable attribute20: 0.5  1.5  2.5  
+	Variable attribute21: 0.5  1.5  2.5  
+	Variable attribute22: 1.25  1.75  2.25  
+	Variable attribute23: 1.25  1.75  2.25  
+	Variable attribute24: 1.25  1.75  2.25  
+	Variable attribute25: 1.5  2.5  3.5  
+	Variable attribute26: 1.5  2.5  3.5  
+	Variable attribute27: 1.5  2.5  3.5  
+	Variable attribute28: 2.25  2.75  3.25  
+	Variable attribute29: 1.5  2.5  3.5  
+	Variable attribute30: 1.5  2.5  3.5  
+	Variable attribute31: 1.5  2.5  3.5  
+	Variable attribute32: 1.5  2.5  3.5  
+	Variable attribute33: 1.5  2.5  3.5  
+	Variable attribute34: 1.5  2.5  3.5  
+	Variable attribute35: 1.5  2.5  3.5  
+	Variable attribute36: 1.5  2.5  3.5  
+	Variable attribute37: 1.5  2.5  3.5  
+	Variable attribute38: 1.5  2.5  3.5  
+	Variable attribute39: 1.5  2.5  3.5  
+	Variable attribute40: 1.5  2.5  3.5  
+	Variable attribute41: 1.5  2.5  3.5  
+	Variable attribute42: 1.5  2.5  3.5  
+	Variable attribute43: 1.5  2.5  3.5  
+	Variable attribute44: 1.5  2.5  3.5  
+	Variable attribute45: 1.5  2.5  3.5  
+	Variable attribute46: 1.5  2.5  3.5  
+	Variable attribute47: 1.5  2.5  3.5  
+	Variable attribute48: 2.25  2.75  3.25  
+	Variable attribute49: 2.25  2.75  3.25  
+	Variable attribute50: 1.5  2.5  3.5  
+	Variable attribute51: 1.5  2.5  3.5  
+	Variable attribute52: 1.5  2.5  3.5  
+	Variable attribute53: 1.5  2.5  3.5  
+	Variable attribute54: 1.5  2.5  3.5  
+	Variable attribute55: 1.25  1.75  2.25  
+	Variable attribute56: 1.25  1.75  2.25  
+	Variable attribute57: 1.25  1.75  2.25  
+Information Gain of the variables:
+	Variable attribute2: 0.022961438
+	Variable attribute3: 0.03193903
+	Variable attribute4: 0.11263013
+	Variable attribute5: 0.032969117
+	Variable attribute6: 0.0063542128
+	Variable attribute7: 0.1273678
+	Variable attribute8: 0.111781836
+	Variable attribute9: 0.09210068
+	Variable attribute10: 0.029846966
+	Variable attribute11: 0.040366054
+	Variable attribute12: 0.07515836
+	Variable attribute13: 0.049867988
+	Variable attribute14: 0.12978739
+	Variable attribute15: 0.109389484
+	Variable attribute16: 0.11417329
+	Variable attribute17: 0.031876266
+	Variable attribute18: 0.0131290555
+	Variable attribute19: 0.0131290555
+	Variable attribute20: 0.040414095
+	Variable attribute21: 0.0746752
+	Variable attribute22: 0.0056470037
+	Variable attribute23: 0.010705113
+	Variable attribute24: 0.0056470037
+	Variable attribute25: 0.06876099
+	Variable attribute26: 0.056059122
+	Variable attribute27: 0.123708546
+	Variable attribute28: -0.0010294914
+	Variable attribute29: 0.08221692
+	Variable attribute30: 0.09655571
+	Variable attribute31: 0.09035689
+	Variable attribute32: 0.08047342
+	Variable attribute33: 0.08047342
+	Variable attribute34: 0.051296175
+	Variable attribute35: 0.11317897
+	Variable attribute36: 0.09820473
+	Variable attribute37: 0.025958776
+	Variable attribute38: 0.102499604
+	Variable attribute39: 0.048112392
+	Variable attribute40: 0.060605288
+	Variable attribute41: 0.05654663
+	Variable attribute42: 0.04612887
+	Variable attribute43: 0.06922364
+	Variable attribute44: 0.029292941
+	Variable attribute45: 0.054169834
+	Variable attribute46: 0.040718496
+	Variable attribute47: 0.054076612
+	Variable attribute48: 0.009428382
+	Variable attribute49: 0.009428382
+	Variable attribute50: 0.037524045
+	Variable attribute51: 0.037524045
+	Variable attribute52: 0.062249422
+	Variable attribute53: 0.059678078
+	Variable attribute54: 0.09248704
+	Variable attribute55: 0.0016080141
+	Variable attribute56: 0.010705113
+	Variable attribute57: 7.1686506E-4
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+   # 3338 generations, 10002 evaluations
+	Rule support improved by local search from 0.0 to 0.68421054
+
+Class 1:
+   # 3296 generations, 10003 evaluations
+	Rule support improved by local search from 0.0 to 0.84615386

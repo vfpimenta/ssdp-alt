@@ -1,0 +1,15 @@
+GENERATED RULE 0
+	Antecedent
+		Variable p-35 = t
+	Consecuent: n
+
+GENERATED RULE 0
+	Antecedent
+		Variable p-33 = g
+	Consecuent: p
+
+GENERATED RULE 1
+	Antecedent
+		Variable p-21 = c
+	Consecuent: p
+

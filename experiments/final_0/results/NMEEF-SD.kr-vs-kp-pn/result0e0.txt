@@ -1,0 +1,294 @@
+GENERATED RULE 0
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable wkna8 = f
+		Variable wknck = f
+	Consecuent: p
+
+GENERATED RULE 1
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+		Variable wknck = f
+	Consecuent: p
+
+GENERATED RULE 2
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wknck = f
+	Consecuent: p
+
+GENERATED RULE 3
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable skach = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 4
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable stlmt = f
+	Consecuent: p
+
+GENERATED RULE 5
+	Antecedent
+		Variable bkon8 = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable rxmsq = f
+		Variable skach = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 6
+	Antecedent
+		Variable bkon8 = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable rxmsq = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 7
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skach = f
+		Variable spcop = f
+		Variable stlmt = f
+	Consecuent: p
+
+GENERATED RULE 8
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skach = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 9
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skach = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 10
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 11
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+	Consecuent: p
+
+GENERATED RULE 12
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 13
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable skach = f
+		Variable spcop = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 14
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 15
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable skach = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+	Consecuent: p
+
+GENERATED RULE 16
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 17
+	Antecedent
+		Variable bkon8 = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable rxmsq = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 18
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 19
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable skach = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 20
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable spcop = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 21
+	Antecedent
+		Variable bxqsq = f
+		Variable hdchk = f
+		Variable mulch = f
+		Variable skrxp = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wkna8 = f
+	Consecuent: p
+
+GENERATED RULE 0
+	Antecedent
+		Variable katri = n
+		Variable rimmx = f
+	Consecuent: n
+
+GENERATED RULE 1
+	Antecedent
+		Variable katri = n
+		Variable rimmx = f
+		Variable spcop = f
+	Consecuent: n
+
+GENERATED RULE 2
+	Antecedent
+		Variable hdchk = f
+		Variable rimmx = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 3
+	Antecedent
+		Variable hdchk = f
+		Variable rimmx = f
+		Variable spcop = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 4
+	Antecedent
+		Variable hdchk = f
+		Variable rimmx = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 5
+	Antecedent
+		Variable rimmx = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 6
+	Antecedent
+		Variable hdchk = f
+		Variable rimmx = f
+		Variable stlmt = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 7
+	Antecedent
+		Variable rimmx = f
+		Variable spcop = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 8
+	Antecedent
+		Variable rimmx = f
+		Variable spcop = f
+		Variable stlmt = f
+		Variable wknck = t
+	Consecuent: n
+
+GENERATED RULE 9
+	Antecedent
+		Variable rimmx = f
+		Variable stlmt = f
+		Variable wknck = t
+	Consecuent: n
+

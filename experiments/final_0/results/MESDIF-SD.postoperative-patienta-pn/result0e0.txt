@@ -1,0 +1,36 @@
+GENERATED RULE 0
+   Antecedent
+	Variable CORE-STBL = stable
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable L-BP = high
+	Variable CORE-STBL = stable
+	Variable BP-STBL = mod-stable
+	Variable COMFORT = Label 1 	 (5.0 10.0 15.0)
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable L-O2 = excellent
+	Variable CORE-STBL = stable
+   Consecuent: p
+
+GENERATED RULE 0
+   Antecedent
+	Variable BP-STBL = stable
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable L-BP = high
+	Variable BP-STBL = stable
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable CORE-STBL = unstable
+	Variable BP-STBL = stable
+   Consecuent: n
+

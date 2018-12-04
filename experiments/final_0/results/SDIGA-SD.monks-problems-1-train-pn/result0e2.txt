@@ -1,0 +1,109 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-sdiga for subgroup discovery
+Input file name training: ../datasets/monks-problems-1-train-pn/monks-problems-1-train-pn.dat
+Input file name test: ../datasets/monks-problems-1-train-pn/monks-problems-1-train-pn.dat
+Rules file name: ../results/sdiga-sd.monks-problems-1-train-pn/result0e0.txt
+Tracking file name: ../results/sdiga-sd.monks-problems-1-train-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.6
+Rules representation: CAN
+Objective 1: COMP(Weight: 0.4)
+Objective 2: FCNF(Weight: 0.3)
+Objective 3: UNUS(Weight: 0.3)
+Perform Local Search: true
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+Fuzzy sets parameters for variable attr1:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attr2:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attr3:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable attr4:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable attr5:
+	Label 0: -0.5 1.0 2.5
+	Label 1: 1.0 2.5 4.0
+	Label 2: 2.5 4.0 5.5
+Fuzzy sets parameters for variable attr6:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 124
+Number of variables: 6
+@relation monks-problems-1-train-pn
+@attribute attr1 integer[1,3]
+@attribute attr2 integer[1,3]
+@attribute attr3 integer[1,2]
+@attribute attr4 integer[1,3]
+@attribute attr5 integer[1,4]
+@attribute attr6 integer[1,2]
+@attribute y{n,p}
+@inputs attr1, attr2, attr3, attr4, attr5, attr6
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+	Variable attr1: 1.5  2.5  3.5  
+	Variable attr2: 1.5  2.5  3.5  
+	Variable attr3: 1.25  1.75  2.25  
+	Variable attr4: 1.5  2.5  3.5  
+	Variable attr5: 1.75  3.25  4.75  
+	Variable attr6: 1.25  1.75  2.25  
+Information Gain of the variables:
+	Variable attr1: 0.16237903
+	Variable attr2: 0.13807702
+	Variable attr3: 0.0025399923
+	Variable attr4: 0.14672065
+	Variable attr5: 0.20078367
+	Variable attr6: 0.0011382699
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+   # 3313 generations, 10003 evaluations
+	Rule not improved by Local search. Support = 0.24193548
+   # 3338 generations, 10001 evaluations
+	Rule not improved by Local search. Support = 0.27419356
+   # 3276 generations, 10001 evaluations
+	Rule not improved by Local search. Support = 0.14516129
+   # 3304 generations, 10001 evaluations
+	Rule not improved by Local search. Support = 0.6451613
+   # 3291 generations, 10003 evaluations
+	Rule not stored (low confidence or support)
+
+Class 1:
+   # 3268 generations, 10003 evaluations
+	Rule not improved by Local search. Support = 0.62903225
+   # 3291 generations, 10002 evaluations
+	Rule not improved by Local search. Support = 0.67741936
+   # 3303 generations, 10003 evaluations
+	Rule not stored (low confidence or support)

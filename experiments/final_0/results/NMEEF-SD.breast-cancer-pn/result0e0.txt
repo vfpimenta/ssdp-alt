@@ -1,0 +1,29 @@
+GENERATED RULE 0
+	Antecedent
+		Variable node-caps = no
+	Consecuent: p
+
+GENERATED RULE 1
+	Antecedent
+		Variable inv-nodes = 0-2
+		Variable node-caps = no
+		Variable irradiat = no
+	Consecuent: p
+
+GENERATED RULE 2
+	Antecedent
+		Variable inv-nodes = 0-2
+	Consecuent: p
+
+GENERATED RULE 3
+	Antecedent
+		Variable inv-nodes = 0-2
+		Variable node-caps = no
+	Consecuent: p
+
+GENERATED RULE 4
+	Antecedent
+		Variable inv-nodes = 0-2
+		Variable irradiat = no
+	Consecuent: p
+

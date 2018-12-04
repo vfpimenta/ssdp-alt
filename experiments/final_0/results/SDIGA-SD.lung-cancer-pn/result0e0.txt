@@ -1,0 +1,10 @@
+GENERATED RULE 0
+   Antecedent
+	Variable attribute57 = Label 2 	 (1.5 2.0 2.5)
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable attribute56 = Label 2 	 (1.5 2.0 2.5)
+   Consecuent: p
+

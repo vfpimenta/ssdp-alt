@@ -1,0 +1,10 @@
+GENERATED RULE 0
+   Antecedent
+	Variable population = s
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable odor = n
+   Consecuent: p
+

@@ -1,0 +1,77 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/postoperative-patienta-pn/postoperative-patienta-pn.dat
+Rules file name: ../results/nmeef-sd.postoperative-patienta-pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.postoperative-patienta-pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+Fuzzy sets parameters for variable COMFORT:
+	Label 0: 0.0 5.0 10.0
+	Label 1: 5.0 10.0 15.0
+	Label 2: 10.0 15.0 20.0
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 90
+Number of variables: 8
+@relation postoperative-patient-data-pn
+@attribute L-CORE{mid,high,low}
+@attribute L-SURF{low,high,mid}
+@attribute L-O2{excellent,good}
+@attribute L-BP{mid,high,low}
+@attribute SURF-STBL{stable,unstable}
+@attribute CORE-STBL{stable,unstable,mod-stable}
+@attribute BP-STBL{stable,mod-stable,unstable}
+@attribute COMFORT integer[5,15]
+@attribute y{p,n}
+@inputs L-CORE, L-SURF, L-O2, L-BP, SURF-STBL, CORE-STBL, BP-STBL, COMFORT
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+	Variable COMFORT: 7.5  12.5  17.5  
+Information Gain of the variables:
+	Variable COMFORT: 0.013884008
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 222
+	Number of Evaluations = 10011
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 129
+	Number of Evaluations = 10075

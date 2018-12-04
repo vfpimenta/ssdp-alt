@@ -1,0 +1,139 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: mesdif for subgroup discovery
+Input file name training: ../datasets/solar-flare-2-pn/solar-flare-2-pn.dat
+Input file name test: ../datasets/solar-flare-2-pn/solar-flare-2-pn.dat
+Rules file name: ../results/mesdif-sd.solar-flare-2-pn/result0e0.txt
+Tracking file name: ../results/mesdif-sd.solar-flare-2-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Number of individuals in the Elite Population: 3
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.0
+Rules representation: CAN
+Objective 1: COMP
+Objective 2: UNUS
+Objective 3: FCNF
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+Fuzzy sets parameters for variable Activity:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable Evolution:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable Previous_24_hour_flare_activity_code:
+	Label 0: 0.0 1.0 2.0
+	Label 1: 1.0 2.0 3.0
+	Label 2: 2.0 3.0 4.0
+Fuzzy sets parameters for variable Historically-complex:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable Did_region_become_historically_complex:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable Area:
+	Label 0: 0.5 1.0 1.5
+	Label 1: 1.0 1.5 2.0
+	Label 2: 1.5 2.0 2.5
+Fuzzy sets parameters for variable Area_of_the_largest_spot:
+	Label 0: 1.0 1.0 1.0
+	Label 1: 1.0 1.0 1.0
+	Label 2: 1.0 1.0 1.0
+Fuzzy sets parameters for variable C-class_flares_production_by_this_region:
+	Label 0: -4.0 0.0 4.0
+	Label 1: 0.0 4.0 8.0
+	Label 2: 4.0 8.0 12.0
+Fuzzy sets parameters for variable M-class_flares_production_by_this_region:
+	Label 0: -2.5 0.0 2.5
+	Label 1: 0.0 2.5 5.0
+	Label 2: 2.5 5.0 7.5
+Fuzzy sets parameters for variable X-class_flares_production_by_this_region:
+	Label 0: -1.0 0.0 1.0
+	Label 1: 0.0 1.0 2.0
+	Label 2: 1.0 2.0 3.0
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 1066
+Number of variables: 12
+@relation solar-flare-2-pn
+@attribute largest_spot_size{A,R,S,X,K,H}
+@attribute spot_distribution{X,O,I,C}
+@attribute Activity integer[1,2]
+@attribute Evolution integer[1,3]
+@attribute Previous_24_hour_flare_activity_code integer[1,3]
+@attribute Historically-complex integer[1,2]
+@attribute Did_region_become_historically_complex integer[1,2]
+@attribute Area integer[1,2]
+@attribute Area_of_the_largest_spot integer[1,1]
+@attribute C-class_flares_production_by_this_region integer[0,8]
+@attribute M-class_flares_production_by_this_region integer[0,5]
+@attribute X-class_flares_production_by_this_region integer[0,2]
+@attribute y{p,n}
+@inputs largest_spot_size, spot_distribution, Activity, Evolution, Previous_24_hour_flare_activity_code, Historically-complex, Did_region_become_historically_complex, Area, Area_of_the_largest_spot, C-class_flares_production_by_this_region, M-class_flares_production_by_this_region, X-class_flares_production_by_this_region
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+	Variable Activity: 1.25  1.75  2.25  
+	Variable Evolution: 1.5  2.5  3.5  
+	Variable Previous_24_hour_flare_activity_code: 1.5  2.5  3.5  
+	Variable Historically-complex: 1.25  1.75  2.25  
+	Variable Did_region_become_historically_complex: 1.25  1.75  2.25  
+	Variable Area: 1.25  1.75  2.25  
+	Variable Area_of_the_largest_spot: 1.0  1.0  1.0  
+	Variable C-class_flares_production_by_this_region: 2.0  6.0  10.0  
+	Variable M-class_flares_production_by_this_region: 1.25  3.75  6.25  
+	Variable X-class_flares_production_by_this_region: 0.5  1.5  2.5  
+Information Gain of the variables:
+	Variable Activity: -0.022558749
+	Variable Evolution: 0.025083423
+	Variable Previous_24_hour_flare_activity_code: 9.1183186E-4
+	Variable Historically-complex: -0.049227655
+	Variable Did_region_become_historically_complex: 0.1285047
+	Variable Area: -0.0024760365
+	Variable Area_of_the_largest_spot: 0.0
+	Variable C-class_flares_production_by_this_region: -0.003689587
+	Variable M-class_flares_production_by_this_region: -2.0039082E-4
+	Variable X-class_flares_production_by_this_region: -1.3822317E-4
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10011
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 1:
+
+Genetic Algorithm execution finished
+	Number of Generations = 164
+	Number of Evaluations = 10044
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------

@@ -1,0 +1,33 @@
+GENERATED RULE 0
+   Antecedent
+	Variable attr1 = Label 1 	 (1.0 2.0 3.0)
+	Variable attr2 = Label 1 	 (1.0 2.0 3.0)
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable attr1 = Label 2 	 (2.0 3.0 4.0)
+	Variable attr2 = Label 2 	 (2.0 3.0 4.0)
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable attr1 = Label 0 	 (0.0 1.0 2.0)
+	Variable attr2 = Label 0 	 (0.0 1.0 2.0)
+   Consecuent: n
+
+GENERATED RULE 3
+   Antecedent
+	Variable attr5 = Label 0 	 (-0.5 1.0 2.5)
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable attr5 = Label 1 	 (1.0 2.5 4.0)
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable attr5 = Label 2 	 (2.5 4.0 5.5)
+   Consecuent: p
+

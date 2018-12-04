@@ -1,0 +1,73 @@
+GENERATED RULE 0
+	Antecedent
+		Variable attribute2 = Label 0 	 (-0.5 0.0 0.5)
+	Consecuent: n
+
+GENERATED RULE 1
+	Antecedent
+		Variable attribute2 = Label 0 	 (-0.5 0.0 0.5)
+		Variable attribute54 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: n
+
+GENERATED RULE 2
+	Antecedent
+		Variable attribute26 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute36 = Label 0 	 (0.0 1.0 2.0)
+	Consecuent: n
+
+GENERATED RULE 3
+	Antecedent
+		Variable attribute2 = Label 0 	 (-0.5 0.0 0.5)
+		Variable attribute36 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute54 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: n
+
+GENERATED RULE 0
+	Antecedent
+		Variable attribute35 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute50 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+
+GENERATED RULE 1
+	Antecedent
+		Variable attribute35 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute50 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute51 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+
+GENERATED RULE 2
+	Antecedent
+		Variable attribute35 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute46 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute50 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute51 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+
+GENERATED RULE 3
+	Antecedent
+		Variable attribute35 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute46 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute48 = Label 0 	 (1.5 2.0 2.5)
+		Variable attribute49 = Label 0 	 (1.5 2.0 2.5)
+		Variable attribute50 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+
+GENERATED RULE 4
+	Antecedent
+		Variable attribute17 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute41 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+
+GENERATED RULE 5
+	Antecedent
+		Variable attribute17 = Label 0 	 (0.0 1.0 2.0)
+		Variable attribute41 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute46 = Label 1 	 (1.0 2.0 3.0)
+		Variable attribute47 = Label 1 	 (1.0 2.0 3.0)
+	Consecuent: p
+

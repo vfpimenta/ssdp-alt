@@ -1,0 +1,87 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/bridges-version2-pn/bridges-version2-pn.dat
+Rules file name: ../results/nmeef-sd.bridges-version2-pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.bridges-version2-pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+Fuzzy sets parameters for variable LOCATION:
+	Label 0: -24.5 1.0 26.5
+	Label 1: 1.0 26.5 52.0
+	Label 2: 26.5 52.0 77.5
+Fuzzy sets parameters for variable LANES:
+	Label 0: -1.5 1.0 3.5
+	Label 1: 1.0 3.5 6.0
+	Label 2: 3.5 6.0 8.5
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 105
+Number of variables: 12
+@relation bridges-version2-pn
+@attribute IDENTIF{E1,E2,E3,E5,E6,E7,E8,E9,E10,E11,E12,E14,E13,E15,E16,E17,E18,E19,E20,E21,E23,E22,E24,E25,E27,E26,E30,E29,E28,E32,E31,E34,E33,E36,E35,E38,E37,E39,E4,E40,E41,E42,E44,E43,E46,E45,E47,E58,E48,E94,E49,E95,E87,E51,E50,E89,E53,E52,E54,E56,E55,E57,E59,E92,E61,E60,E62,E63,E65,E64,E66,E70,E69,E101,E73,E72,E67,E75,E74,E71,E68,E78,E77,E76,E93,E79,E108,E107N,E105,E103,E97,E96,E99,E98,E81,E80,E88,E82,E102,E83,E86,E85,E84,E91,E90}
+@attribute RIVER{M,A,O,Y}
+@attribute LOCATION real[1.0,52.0]
+@attribute ERECTED{CRAFTS,EMERGING,MATURE,MODERN}
+@attribute PURPOSE{HIGHWAY,AQUEDUCT,RR,WALK}
+@attribute LENGTH{MEDIUM,SHORT,LONG}
+@attribute LANES integer[1,6]
+@attribute CLEAR-G{N,G}
+@attribute T-OR-D{THROUGH,DECK}
+@attribute MATERIAL{WOOD,IRON,STEEL}
+@attribute SPAN{SHORT,MEDIUM,LONG}
+@attribute REL-L{S,S-F,F}
+@attribute y{n,p}
+@inputs IDENTIF, RIVER, LOCATION, ERECTED, PURPOSE, LENGTH, LANES, CLEAR-G, T-OR-D, MATERIAL, SPAN, REL-L
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+	Variable LOCATION: 13.75  39.25  64.75  
+	Variable LANES: 2.25  4.75  7.25  
+Information Gain of the variables:
+	Variable LOCATION: 0.09547669
+	Variable LANES: 0.06247145
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 118
+	Number of Evaluations = 10087
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 119
+	Number of Evaluations = 10009

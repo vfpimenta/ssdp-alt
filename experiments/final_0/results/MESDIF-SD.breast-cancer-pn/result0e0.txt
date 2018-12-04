@@ -1,0 +1,36 @@
+GENERATED RULE 0
+   Antecedent
+	Variable tumor-size = 15-19
+	Variable node-caps = yes
+	Variable irradiat = no
+   Consecuent: n
+
+GENERATED RULE 1
+   Antecedent
+	Variable irradiat = no
+   Consecuent: n
+
+GENERATED RULE 2
+   Antecedent
+	Variable node-caps = yes
+	Variable irradiat = no
+   Consecuent: n
+
+GENERATED RULE 0
+   Antecedent
+	Variable deg-malig = Label 1 	 (1.0 2.0 3.0)
+   Consecuent: p
+
+GENERATED RULE 1
+   Antecedent
+	Variable deg-malig = Label 0 	 (0.0 1.0 2.0)
+	Variable irradiat = no
+   Consecuent: p
+
+GENERATED RULE 2
+   Antecedent
+	Variable inv-nodes = 0-2
+	Variable deg-malig = Label 0 	 (0.0 1.0 2.0)
+	Variable breast-quad = central
+   Consecuent: p
+

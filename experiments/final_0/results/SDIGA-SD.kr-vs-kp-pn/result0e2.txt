@@ -1,0 +1,91 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-sdiga for subgroup discovery
+Input file name training: ../datasets/kr-vs-kp-pn/kr-vs-kp-pn.dat
+Input file name test: ../datasets/kr-vs-kp-pn/kr-vs-kp-pn.dat
+Rules file name: ../results/sdiga-sd.kr-vs-kp-pn/result0e0.txt
+Tracking file name: ../results/sdiga-sd.kr-vs-kp-pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.6
+Rules representation: CAN
+Objective 1: COMP(Weight: 0.4)
+Objective 2: FCNF(Weight: 0.3)
+Objective 3: UNUS(Weight: 0.3)
+Perform Local Search: true
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 3196
+Number of variables: 36
+@relation kr-vs-kp-pn
+@attribute bkblk{f,t}
+@attribute bknwy{f,t}
+@attribute bkon8{f,t}
+@attribute bkona{f,t}
+@attribute bkspr{f,t}
+@attribute bkxbq{f,t}
+@attribute bkxcr{f,t}
+@attribute bkxwp{f,t}
+@attribute blxwp{f,t}
+@attribute bxqsq{f,t}
+@attribute cntxt{f,t}
+@attribute dsopp{f,t}
+@attribute dwipd{l,g}
+@attribute hdchk{f,t}
+@attribute katri{n,w,b}
+@attribute mulch{f,t}
+@attribute qxmsq{f,t}
+@attribute r2ar8{t,f}
+@attribute reskd{f,t}
+@attribute reskr{f,t}
+@attribute rimmx{f,t}
+@attribute rkxwp{f,t}
+@attribute rxmsq{f,t}
+@attribute simpl{f,t}
+@attribute skach{f,t}
+@attribute skewr{t,f}
+@attribute skrxp{f,t}
+@attribute spcop{f,t}
+@attribute stlmt{f,t}
+@attribute thrsk{f,t}
+@attribute wkcti{f,t}
+@attribute wkna8{f,t}
+@attribute wknck{f,t}
+@attribute wkovl{t,f}
+@attribute wkpos{t,f}
+@attribute wtoeg{n,t}
+@attribute y{p,n}
+@inputs bkblk, bknwy, bkon8, bkona, bkspr, bkxbq, bkxcr, bkxwp, blxwp, bxqsq, cntxt, dsopp, dwipd, hdchk, katri, mulch, qxmsq, r2ar8, reskd, reskr, rimmx, rkxwp, rxmsq, simpl, skach, skewr, skrxp, spcop, stlmt, thrsk, wkcti, wkna8, wknck, wkovl, wkpos, wtoeg
+@outputs y
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+   # 3345 generations, 10001 evaluations
+	Rule support improved by local search from 0.0 to 0.9880168
+
+Class 1:
+   # 3288 generations, 10003 evaluations
+	Rule support improved by local search from 0.0 to 0.9659463
