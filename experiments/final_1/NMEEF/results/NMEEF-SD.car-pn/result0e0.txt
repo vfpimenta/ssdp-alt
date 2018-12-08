@@ -1,0 +1,10 @@
+GENERATED RULE 0
+	Antecedent
+		Variable persons = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable safety = 'low'
+	Consecuent: 'p'
+

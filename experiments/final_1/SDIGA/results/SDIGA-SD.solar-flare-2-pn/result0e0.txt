@@ -1,0 +1,15 @@
+GENERATED RULE 0
+   Antecedent
+	Variable spot_distribution = 'X'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable X-class_flares_production_by_this_region = '1'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable Did_region_become_historically_complex = '2'
+   Consecuent: 'n'
+

@@ -1,0 +1,24 @@
+### Base:soybean-pn
+Average WRAcc: 0.0074942817515525504
+Average Qg: 0.16606498194945848
+Time(s): 0.021
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1
+TP: 92.0
+FP: 553.0
+Chi_Quad: 6.263901677619066
+p_value: 0.012322253390022464
+conf: 0.14263565891472868
+cov: 0.9443631039531479
+Lift: 1.0589147286821705
+supp: 0.13469985358711567
+suppP: 1.0
+suppN: 0.9357021996615905
+DiffSupp: 0.06429780033840948
+Similarity: 0.0
+CR: 0.11127379209370346
+H: 0.21478954712148415
+
+### Top-1 DPs:
+{shriveling = absent} -> 0.0074942817515525504(92p,553n)

@@ -1,0 +1,61 @@
+GENERATED RULE 0
+   Antecedent
+	Variable node-caps = 'no'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable menopause = 'ge40'
+	Variable tumor-size = '25-29'
+	Variable deg-malig = '3'
+	Variable breast = 'right'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable deg-malig = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 3
+   Antecedent
+	Variable age = '40-49'
+	Variable menopause = 'premeno'
+	Variable breast = 'right'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable node-caps = 'yes'
+	Variable breast-quad = 'right_low'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable age = '60-69'
+	Variable deg-malig = '3'
+	Variable breast = 'left'
+	Variable breast-quad = 'left_up'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable age = '50-59'
+	Variable node-caps = 'yes'
+	Variable breast-quad = 'right_up'
+   Consecuent: 'n'
+
+GENERATED RULE 3
+   Antecedent
+	Variable age = '30-39'
+	Variable deg-malig = '1'
+	Variable breast-quad = 'left_up'
+   Consecuent: 'n'
+
+GENERATED RULE 4
+   Antecedent
+	Variable node-caps = 'yes'
+	Variable deg-malig = '3'
+	Variable breast = 'left'
+	Variable irradiat = 'yes'
+   Consecuent: 'n'
+

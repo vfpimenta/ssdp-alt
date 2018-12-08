@@ -1,0 +1,83 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: mesdif for subgroup discovery
+Input file name training: ../datasets/vote_pn/vote_pn.dat
+Input file name test: ../datasets/vote_pn/vote_pn.dat
+Rules file name: ../results/mesdif-sd.vote_pn/result0e0.txt
+Tracking file name: ../results/mesdif-sd.vote_pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Number of individuals in the Elite Population: 3
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.0
+Rules representation: CAN
+Objective 1: COMP
+Objective 2: UNUS
+Objective 3: FCNF
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 435
+Number of variables: 16
+@relation base
+@attribute handicapped-infants{'n','y'}
+@attribute water-project-cost-sharing{'n','y'}
+@attribute adoption-of-the-budget-resolution{'n','y'}
+@attribute physician-fee-freeze{'n','y'}
+@attribute el-salvador-aid{'n','y'}
+@attribute religious-groups-in-schools{'n','y'}
+@attribute anti-satellite-test-ban{'n','y'}
+@attribute aid-to-nicaraguan-contras{'n','y'}
+@attribute mx-missile{'n','y'}
+@attribute immigration{'n','y'}
+@attribute synfuels-corporation-cutback{'n','y'}
+@attribute education-spending{'n','y'}
+@attribute superfund-right-to-sue{'n','y'}
+@attribute crime{'n','y'}
+@attribute duty-free-exports{'n','y'}
+@attribute export-administration-act-south-africa{'n','y'}
+@attribute Class{'p','n'}
+@inputs handicapped-infants, water-project-cost-sharing, adoption-of-the-budget-resolution, physician-fee-freeze, el-salvador-aid, religious-groups-in-schools, anti-satellite-test-ban, aid-to-nicaraguan-contras, mx-missile, immigration, synfuels-corporation-cutback, education-spending, superfund-right-to-sue, crime, duty-free-exports, export-administration-act-south-africa
+@outputs Class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10012
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 1:
+
+Genetic Algorithm execution finished
+	Number of Generations = 163
+	Number of Evaluations = 10018
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------

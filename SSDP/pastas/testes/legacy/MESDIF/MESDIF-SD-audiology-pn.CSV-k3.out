@@ -1,0 +1,26 @@
+### Base:audiology-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.044
+Average size: 54.333333333333336
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{age_gt_60 = f,airBoneGap = f,bone = unmeasured,boneAbnormal = f,bser = normal,history_buzzing = f,history_dizziness = f,history_fluctuating = t,history_heredity = f,history_nausea = t,history_recruitment = f,history_ringing = t,history_roaring = f,m_at_2k = f,m_cond_lt_1k = t,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = t,m_m_sn_gt_2k = f,m_s_sn = t,m_s_sn_gt_1k = f,m_s_sn_gt_3k = t,m_sn_2_3k = f,m_sn_gt_1k = t,m_sn_gt_3k = f,m_sn_gt_4k = t,m_sn_gt_500 = t,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = t,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = t,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_2k = t,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,o_ar_c = elevated,o_ar_u = absent,s_sn_gt_1k = t,s_sn_gt_2k = t,s_sn_gt_4k = f,speech = poor,static_normal = f,tymp = b,viith_nerve_signs = f,wave_V_delayed = f} -> 0.0(0p,0n)
+{age_gt_60 = f,airBoneGap = f,bone = unmeasured,boneAbnormal = f,bser = normal,history_buzzing = f,history_dizziness = f,history_fluctuating = t,history_heredity = f,history_nausea = t,history_recruitment = f,history_ringing = t,history_roaring = f,m_at_2k = f,m_cond_lt_1k = t,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = t,m_m_sn_gt_2k = f,m_s_sn = t,m_s_sn_gt_1k = f,m_s_sn_gt_3k = t,m_sn_2_3k = f,m_sn_gt_1k = t,m_sn_gt_3k = f,m_sn_gt_4k = t,m_sn_gt_500 = t,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = t,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = t,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_2k = t,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = t,o_ar_c = elevated,o_ar_u = absent,s_sn_gt_1k = t,s_sn_gt_2k = t,s_sn_gt_4k = f,speech = poor,static_normal = f,tymp = b,viith_nerve_signs = f,wave_V_delayed = f} -> 0.0(0p,0n)
+{age_gt_60 = f,airBoneGap = f,bone = unmeasured,boneAbnormal = f,bser = normal,history_buzzing = f,history_dizziness = f,history_fluctuating = t,history_heredity = f,history_nausea = t,history_recruitment = f,history_ringing = t,history_roaring = f,history_vomiting = f,m_at_2k = f,m_cond_lt_1k = t,m_gt_1k = f,m_m_gt_2k = f,m_m_sn = f,m_m_sn_gt_1k = t,m_m_sn_gt_2k = f,m_m_sn_gt_500 = f,m_s_sn = t,m_s_sn_gt_1k = f,m_s_sn_gt_3k = t,m_sn_2_3k = f,m_sn_gt_1k = t,m_sn_gt_3k = f,m_sn_gt_4k = t,m_sn_gt_500 = t,m_sn_gt_6k = f,m_sn_lt_1k = f,m_sn_lt_2k = t,m_sn_lt_3k = f,middle_wave_poor = f,mod_gt_4k = f,mod_mixed = f,mod_s_mixed = t,mod_s_sn_gt_500 = f,mod_sn = f,mod_sn_gt_2k = t,mod_sn_gt_3k = f,mod_sn_gt_4k = f,mod_sn_gt_500 = f,notch_4k = f,notch_at_4k = t,o_ar_c = elevated,o_ar_u = absent,s_sn_gt_1k = t,s_sn_gt_2k = t,s_sn_gt_4k = f,speech = poor,static_normal = f,tymp = b,viith_nerve_signs = f,wave_V_delayed = f} -> 0.0(0p,0n)

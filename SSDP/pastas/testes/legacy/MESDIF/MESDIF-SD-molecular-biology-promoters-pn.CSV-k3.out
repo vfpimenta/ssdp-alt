@@ -1,0 +1,26 @@
+### Base:molecular-biology-promoters-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.011
+Average size: 45.666666666666664
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{instance = 1384,p-50 = g,p-49 = t,p-48 = t,p-47 = g,p-46 = c,p-45 = g,p-44 = t,p-43 = c,p-42 = t,p-41 = t,p-40 = a,p-39 = a,p-38 = a,p-37 = c,p-36 = c,p-35 = t,p-32 = c,p-31 = c,p-30 = c,p-29 = a,p-23 = c,p-21 = c,p-20 = c,p-19 = a,p-18 = t,p-17 = a,p-16 = t,p-15 = g,p-14 = g,p-13 = t,p-12 = t,p-10 = g,p-9 = c,p-8 = c,p-7 = t,p-5 = a,p-4 = c,p-2 = a,p-1 = g,p1 = t,p2 = a,p3 = c,p6 = a,p7 = c} -> 0.0(0p,0n)
+{instance = 1384,p-50 = c,p-49 = t,p-48 = t,p-47 = g,p-46 = c,p-45 = g,p-44 = t,p-43 = c,p-42 = t,p-41 = t,p-40 = a,p-39 = a,p-38 = a,p-37 = a,p-36 = c,p-35 = t,p-32 = c,p-31 = c,p-30 = c,p-29 = a,p-23 = c,p-21 = c,p-20 = c,p-19 = a,p-18 = t,p-16 = t,p-15 = g,p-14 = g,p-13 = t,p-12 = t,p-11 = a,p-10 = g,p-9 = c,p-8 = c,p-7 = t,p-5 = a,p-4 = c,p-3 = g,p-2 = a,p-1 = g,p1 = t,p2 = a,p3 = c,p6 = a,p7 = c} -> 0.0(0p,0n)
+{instance = 1384,p-50 = g,p-49 = t,p-48 = t,p-47 = g,p-46 = c,p-45 = g,p-44 = t,p-43 = c,p-42 = t,p-41 = t,p-40 = a,p-39 = a,p-38 = a,p-37 = c,p-36 = c,p-35 = a,p-32 = c,p-31 = c,p-30 = c,p-29 = a,p-23 = c,p-21 = c,p-20 = c,p-19 = a,p-18 = t,p-17 = a,p-16 = t,p-15 = g,p-14 = g,p-13 = t,p-12 = t,p-10 = g,p-9 = c,p-8 = c,p-7 = t,p-5 = a,p-4 = c,p-3 = g,p-2 = a,p-1 = g,p1 = t,p2 = a,p3 = c,p6 = a,p7 = c} -> 0.0(0p,0n)

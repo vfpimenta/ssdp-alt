@@ -1,0 +1,75 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/solar-flare_2_pn/solar-flare_2_pn.dat
+Rules file name: ../results/nmeef-sd.solar-flare_2_pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.solar-flare_2_pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 1066
+Number of variables: 12
+@relation base
+@attribute largest_spot_size{'A','H','K','R','S','X'}
+@attribute spot_distribution{'C','I','O','X'}
+@attribute Activity{'1','2'}
+@attribute Evolution{'1','2','3'}
+@attribute Previous_24_hour_flare_activity_code{'1','2','3'}
+@attribute Historically-complex{'1','2'}
+@attribute Did_region_become_historically_complex{'1','2'}
+@attribute Area{'1','2'}
+@attribute Area_of_the_largest_spot{'1'}
+@attribute C-class_flares_production_by_this_region{'0','1','2','3','4','5','6','8'}
+@attribute M-class_flares_production_by_this_region{'0','1','2','3','4','5'}
+@attribute X-class_flares_production_by_this_region{'0','1','2'}
+@attribute class{'p','n'}
+@inputs largest_spot_size, spot_distribution, Activity, Evolution, Previous_24_hour_flare_activity_code, Historically-complex, Did_region_become_historically_complex, Area, Area_of_the_largest_spot, C-class_flares_production_by_this_region, M-class_flares_production_by_this_region, X-class_flares_production_by_this_region
+@outputs class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 126
+	Number of Evaluations = 10003
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 126
+	Number of Evaluations = 10066

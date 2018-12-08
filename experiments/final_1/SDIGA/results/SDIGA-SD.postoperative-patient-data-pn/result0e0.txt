@@ -1,0 +1,47 @@
+GENERATED RULE 0
+   Antecedent
+	Variable CORE-STBL = 'stable'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable COMFORT = '10'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable L-CORE = 'low'
+	Variable L-BP = 'high'
+	Variable SURF-STBL = 'unstable'
+	Variable COMFORT = '10'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable CORE-STBL = 'unstable'
+	Variable BP-STBL = 'stable'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable L-SURF = 'low'
+	Variable SURF-STBL = 'stable'
+	Variable BP-STBL = 'unstable'
+   Consecuent: 'n'
+
+GENERATED RULE 3
+   Antecedent
+	Variable L-SURF = 'mid'
+	Variable L-O2 = 'excellent'
+	Variable L-BP = 'mid'
+	Variable SURF-STBL = 'stable'
+	Variable BP-STBL = 'stable'
+	Variable COMFORT = '10'
+   Consecuent: 'n'
+
+GENERATED RULE 4
+   Antecedent
+	Variable L-CORE = 'mid'
+	Variable COMFORT = '05'
+   Consecuent: 'n'
+

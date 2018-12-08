@@ -1,0 +1,35 @@
+GENERATED RULE 0
+	Antecedent
+		Variable CORE-STBL = 'stable'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable L-BP = 'high'
+		Variable CORE-STBL = 'stable'
+		Variable COMFORT = '10'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable L-BP = 'high'
+		Variable COMFORT = '10'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable L-O2 = 'excellent'
+		Variable CORE-STBL = 'stable'
+	Consecuent: 'p'
+
+GENERATED RULE 4
+	Antecedent
+		Variable CORE-STBL = 'stable'
+		Variable COMFORT = '10'
+	Consecuent: 'p'
+
+GENERATED RULE 5
+	Antecedent
+		Variable COMFORT = '10'
+	Consecuent: 'p'
+

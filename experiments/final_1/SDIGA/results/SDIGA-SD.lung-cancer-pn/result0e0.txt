@@ -1,0 +1,10 @@
+GENERATED RULE 0
+   Antecedent
+	Variable attribute57 = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable attribute54 = '2'
+   Consecuent: 'n'
+

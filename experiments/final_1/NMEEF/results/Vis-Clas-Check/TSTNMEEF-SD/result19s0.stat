@@ -1,0 +1,26 @@
+TEST RESULTS
+============
+Classifier= base 
+Fold 0 : CORRECT=0.7655172413793103 N/C=0.0 
+Global Classification Error + N/C:
+0.23448275862068965 
+stddev Global Classification Error + N/C:
+0.0 
+Correctly classified:
+0.7655172413793103 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= base 
+Summary of data, Classifiers: base 
+Fold 0 : CORRECT=0.7655172413793103 N/C=0.0 
+Global Classification Error + N/C:
+0.23448275862068965 
+stddev Global Classification Error + N/C:
+0.0 
+Correctly classified:
+0.7655172413793103 
+Global N/C:
+0.0 

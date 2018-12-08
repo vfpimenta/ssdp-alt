@@ -1,0 +1,34 @@
+GENERATED RULE 0
+   Antecedent
+	Variable persons = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable lug_boot = 'big'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable persons = '2'
+	Variable lug_boot = 'big'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable safety = 'high'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable maint = 'med'
+	Variable persons = '4'
+	Variable safety = 'high'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable persons = '4'
+	Variable safety = 'high'
+   Consecuent: 'n'
+

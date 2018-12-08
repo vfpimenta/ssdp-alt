@@ -1,0 +1,49 @@
+GENERATED RULE 0
+   Antecedent
+	Variable RIVER = 'M'
+	Variable LOCATION = '39.5'
+	Variable PURPOSE = 'RR'
+	Variable LENGTH = 'LONG'
+	Variable LANES = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable RIVER = 'M'
+	Variable LOCATION = '25'
+	Variable ERECTED = 'MATURE'
+	Variable PURPOSE = 'RR'
+	Variable LENGTH = 'LONG'
+	Variable LANES = '2'
+	Variable T-OR-D = 'DECK'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable RIVER = 'M'
+	Variable LOCATION = '39.5'
+	Variable ERECTED = 'MATURE'
+	Variable PURPOSE = 'RR'
+	Variable LENGTH = 'LONG'
+	Variable LANES = '2'
+	Variable MATERIAL = 'STEEL'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable ERECTED = 'CRAFTS'
+	Variable SPAN = 'MEDIUM'
+	Variable REL-L = 'S'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable ERECTED = 'CRAFTS'
+	Variable REL-L = 'S'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable ERECTED = 'CRAFTS'
+   Consecuent: 'n'
+

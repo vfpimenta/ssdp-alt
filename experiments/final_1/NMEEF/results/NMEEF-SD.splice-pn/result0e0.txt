@@ -1,0 +1,25 @@
+GENERATED RULE 0
+	Antecedent
+		Variable attribute_30 = 'A'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable attribute_28 = 'G'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable attribute_13 = 'A'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable attribute_29 = 'C'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable attribute_30 = 'G'
+	Consecuent: 'n'
+

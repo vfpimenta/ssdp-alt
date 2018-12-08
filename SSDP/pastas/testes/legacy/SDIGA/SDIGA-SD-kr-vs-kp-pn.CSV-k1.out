@@ -1,0 +1,24 @@
+### Base:kr-vs-kp-pn
+Average WRAcc: 0.007679636310093516
+Average Qg: 1.1269412559081702
+Time(s): 0.39
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1
+TP: 1669.0
+FP: 1480.0
+Chi_Quad: 52.137387717600596
+p_value: 5.174749517777855E-13
+conf: 0.5300095268339156
+cov: 0.9852941176470589
+Lift: 1.0149253731343284
+supp: 0.522215269086358
+suppP: 1.0
+suppN: 0.9692206941715783
+DiffSupp: 0.0307793058284217
+Similarity: 0.0
+CR: 0.029411764705881464
+H: 0.07664880077618422
+
+### Top-1 DPs:
+{stlmt = f} -> 0.007679636310093516(1669p,1480n)

@@ -1,0 +1,32 @@
+GENERATED RULE 0
+   Antecedent
+	Variable health = 'not_recom'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable finance = 'convenient'
+	Variable health = 'not_recom'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable finance = 'convenient'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable health = 'recommended'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable health = 'priority'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable finance = 'convenient'
+	Variable health = 'priority'
+   Consecuent: 'n'
+

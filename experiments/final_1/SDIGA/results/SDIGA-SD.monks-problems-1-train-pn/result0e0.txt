@@ -1,0 +1,85 @@
+GENERATED RULE 0
+   Antecedent
+	Variable attr1 = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable attr1 = '2'
+	Variable attr2 = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable attr1 = '3'
+	Variable attr2 = '1'
+	Variable attr5 = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 3
+   Antecedent
+	Variable attr2 = '3'
+	Variable attr5 = '3'
+	Variable attr6 = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 4
+   Antecedent
+	Variable attr2 = '2'
+	Variable attr4 = '2'
+	Variable attr5 = '4'
+   Consecuent: 'p'
+
+GENERATED RULE 5
+   Antecedent
+	Variable attr1 = '2'
+	Variable attr2 = '3'
+	Variable attr5 = '3'
+   Consecuent: 'p'
+
+GENERATED RULE 6
+   Antecedent
+	Variable attr2 = '3'
+	Variable attr4 = '2'
+	Variable attr5 = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 7
+   Antecedent
+	Variable attr3 = '2'
+	Variable attr4 = '3'
+	Variable attr5 = '2'
+	Variable attr6 = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 8
+   Antecedent
+	Variable attr2 = '1'
+	Variable attr3 = '2'
+	Variable attr4 = '2'
+	Variable attr6 = '2'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable attr1 = '1'
+	Variable attr2 = '1'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable attr1 = '3'
+	Variable attr2 = '3'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable attr1 = '2'
+	Variable attr2 = '2'
+   Consecuent: 'n'
+
+GENERATED RULE 3
+   Antecedent
+	Variable attr5 = '1'
+   Consecuent: 'n'
+

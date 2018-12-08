@@ -1,0 +1,43 @@
+### Base:kr-vs-kp-pn
+Average WRAcc: 0.10943648173326795
+Average Qg: 2.768200589937076
+Time(s): 326.138
+Average size: 6.25
+Coverage of all k DPs in relation to D+: 98.02276812462553%
+Number of individuals generated: 20
+TP: 1400.9
+FP: 611.95
+Chi_Quad: 694.3656721209688
+p_value: 0.0
+conf: 0.7059049952700921
+cov: 0.6298028785982478
+Lift: 1.3517509675753234
+supp: 0.4383291614518147
+suppP: 0.8393648891551828
+suppN: 0.4007531106745252
+DiffSupp: 0.43861177848065763
+Similarity: 7.581813329458067
+CR: 0.6072554239511566
+H: 1.7999312543392092
+
+### Top-20 DPs:
+{bxqsq = f,hdchk = f,spcop = f,stlmt = f,wkna8 = f,wknck = f} -> 0.15724109924639842(1195p,131n)
+{bxqsq = f,hdchk = f,spcop = f,stlmt = f,wknck = f} -> 0.1472704851652801(1207p,203n)
+{bxqsq = f,hdchk = f,mulch = f,skach = f,skrxp = f,spcop = f,stlmt = f,wkna8 = f} -> 0.12754542207797295(1380p,482n)
+{bxqsq = f,hdchk = f,mulch = f,skrxp = f,spcop = f,stlmt = f,wkna8 = f} -> 0.12720472712292114(1381p,485n)
+{bxqsq = f,hdchk = f,skach = f,skrxp = f,spcop = f,wkna8 = f} -> 0.12077322873867677(1397p,539n)
+{bxqsq = f,hdchk = f,skach = f,skrxp = f,spcop = f,stlmt = f,wkna8 = f} -> 0.12077322873867677(1397p,539n)
+{bxqsq = f,hdchk = f,skrxp = f,spcop = f,wkna8 = f} -> 0.120432533783625(1398p,542n)
+{bxqsq = f,hdchk = f,mulch = f,skach = f,spcop = f,stlmt = f,wkna8 = f} -> 0.11590961245361459(1406p,577n)
+{bxqsq = f,hdchk = f,mulch = f,skach = f,spcop = f,wkna8 = f} -> 0.11590961245361459(1406p,577n)
+{bxqsq = f,hdchk = f,mulch = f,spcop = f,stlmt = f,wkna8 = f} -> 0.11522822254351102(1408p,583n)
+{bxqsq = f,hdchk = f,skach = f,skrxp = f,spcop = f,stlmt = f} -> 0.11080261465755846(1409p,611n)
+{bxqsq = f,hdchk = f,skrxp = f,spcop = f,stlmt = f} -> 0.1104619197025067(1410p,614n)
+{bxqsq = f,hdchk = f,skach = f,spcop = f,wkna8 = f} -> 0.10761124277687532(1427p,647n)
+{bxqsq = f,hdchk = f,skach = f,spcop = f,stlmt = f,wkna8 = f} -> 0.10761124277687532(1427p,647n)
+{bxqsq = f,hdchk = f,spcop = f,stlmt = f,wkna8 = f} -> 0.10660305983229974(1429p,655n)
+{bxqsq = f,hdchk = f,skach = f,spcop = f,stlmt = f} -> 0.09764062869575704(1439p,719n)
+{bxqsq = f,hdchk = f,spcop = f,stlmt = f} -> 0.09663244575118143(1441p,727n)
+{bkon8 = f,hdchk = f,mulch = f,qxmsq = f,rxmsq = f,skach = f,skrxp = f,spcop = f,stlmt = f,wkna8 = f} -> 0.061314616518457835(1478p,977n)
+{bkon8 = f,hdchk = f,mulch = f,rxmsq = f,skach = f,skrxp = f,spcop = f,stlmt = f,wkna8 = f} -> 0.061133891550921714(1491p,990n)
+{bkon8 = f,hdchk = f,mulch = f,rxmsq = f,skrxp = f,spcop = f,wkna8 = f} -> 0.060629800078633986(1492p,994n)

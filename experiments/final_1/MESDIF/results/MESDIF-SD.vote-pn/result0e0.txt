@@ -1,0 +1,63 @@
+GENERATED RULE 0
+   Antecedent
+	Variable handicapped-infants = 'n'
+	Variable adoption-of-the-budget-resolution = 'n'
+	Variable religious-groups-in-schools = 'n'
+	Variable anti-satellite-test-ban = 'n'
+	Variable mx-missile = 'n'
+	Variable immigration = 'n'
+	Variable synfuels-corporation-cutback = 'n'
+	Variable superfund-right-to-sue = 'n'
+	Variable crime = 'n'
+	Variable duty-free-exports = 'n'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable handicapped-infants = 'n'
+	Variable adoption-of-the-budget-resolution = 'n'
+	Variable anti-satellite-test-ban = 'n'
+	Variable mx-missile = 'n'
+	Variable immigration = 'n'
+	Variable synfuels-corporation-cutback = 'n'
+	Variable superfund-right-to-sue = 'n'
+	Variable crime = 'n'
+	Variable duty-free-exports = 'n'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable handicapped-infants = 'n'
+	Variable water-project-cost-sharing = 'n'
+	Variable adoption-of-the-budget-resolution = 'n'
+	Variable religious-groups-in-schools = 'n'
+	Variable anti-satellite-test-ban = 'n'
+	Variable mx-missile = 'n'
+	Variable immigration = 'n'
+	Variable superfund-right-to-sue = 'n'
+	Variable crime = 'n'
+	Variable duty-free-exports = 'n'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable el-salvador-aid = 'y'
+	Variable aid-to-nicaraguan-contras = 'n'
+	Variable mx-missile = 'n'
+	Variable immigration = 'y'
+	Variable synfuels-corporation-cutback = 'n'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable el-salvador-aid = 'y'
+	Variable aid-to-nicaraguan-contras = 'n'
+	Variable immigration = 'y'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable el-salvador-aid = 'y'
+	Variable immigration = 'y'
+   Consecuent: 'n'
+

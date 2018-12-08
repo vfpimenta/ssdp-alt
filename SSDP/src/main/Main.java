@@ -13,9 +13,15 @@ import evolucionario.SSDP_MxC_Auto_3x3;
 import util.Const;
 import util.Time;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Random;
 
 import aco.SSDP_ACO;
@@ -41,42 +47,38 @@ public class Main {
     			"molecular-biology-promoters-pn.CSV","tic-tac-toe-pn.CSV","monks-problems-1-train-pn.CSV",
     			"trains-pn.CSV","mushroom-pn.CSV","vote-pn.CSV"
     			};
+    	String[] models = {"MESDIF-SD", "NMEEF-SD", "SDIGA-SD"};
     	
     	SSDP_ACO.No_rules_converg = 10;
     	SSDP_ACO.DEBUG = false;
     	SSDP_ACO.INFO = false;
     	SSDP_ACO.TRACK = false;
     	
-//    	for (int mcpr : mcprs) {
-//			for (int noa : noas) {
-//				for (String string : databases) {
-//					int k = ks[0];
-//					System.out.println("Starting test (k:"+k+",db:"+string+",mcpr:"+mcpr+",noa:"+noa+")");
-//					SSDP_ACO.Min_cases_per_rule = mcpr;
-//					SSDP_ACO.No_of_ants = noa;
-//					test(k, string);	
-//				}
-//			}
-//		}
-    	
     	SSDP_ACO.Min_cases_per_rule = 1;
 		SSDP_ACO.No_of_ants = 50;
 		SSDP_ACO.No_of_batches = 100;
 		SSDP_ACO.Max_stall = 100;
+//		for (String string : databases) {
+//			for (String model : models) {
+//				System.out.println("Starting test (db:"+string+", model:"+model+")");
+//				try {
+//					test(5, string, model);
+//				}catch(OutOfMemoryError e) {
+//					e.printStackTrace();
+//				}
+//				
+//			}
+//		}
+		
 		for (String string : databases) {
 			System.out.println("Starting test (db:"+string+")");
-			test(5, string);
+			test(5, string, null);
 		}
     	
-//    	for (Long seed : Const.SEEDS) {
-//    		Const.random = new Random(seed);
-//    		test(5, databases[0], seed);
-//    	}
-    	
-//    	test(5, "audiology-pn.CSV");
+//    	test(5, "vote-pn.CSV", "NMEEF-SD");
     }
     
-    public static void test(int k, String database) throws FileNotFoundException, UnsupportedEncodingException {
+    public static void test(int k, String database, String modelName) throws FileNotFoundException, UnsupportedEncodingException {
     	//====================================================================
         //== CONFIGURATION ===================================================
         //====================================================================
@@ -114,13 +116,16 @@ public class Main {
         //Rodando SSDP
         long t0 = System.currentTimeMillis(); //Initial time
         //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
-        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run SSDP
+        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run ACODP
+        //Pattern[] p = loadFromFile(modelName, database, tipoAvaliacao);
+        k = p.length;
         double r = Avaliador.CR(p);
         double h = Avaliador.H(p);
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file
-        PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + nomeBase + "-k" + k + "-No_of_ants" + SSDP_ACO.No_of_ants + "-Min_cases_per_rule" + SSDP_ACO.Min_cases_per_rule + ".out", "UTF-8");
+        PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + nomeBase + "-k" + k + ".out", "UTF-8");
+//        PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + modelName + "-" + nomeBase + "-k" + k + ".out", "UTF-8");
         
         //Informations about top-k DPs:  
         writer.println("### Base:" + D.nomeBase); //database name
@@ -141,9 +146,55 @@ public class Main {
         writer.println("suppP: " + Avaliador.avgsuppP(p, k));
         writer.println("suppN: " + Avaliador.avgsuppN(p, k));
         writer.println("DiffSupp: " + (Avaliador.avgsuppP(p, k) - Avaliador.avgsuppN(p, k)));
+        writer.println("Similarity: " + (Avaliador.avgSimilaridade(p, k, Pattern.medidaSimilaridade)));
+        writer.println("CR: " + r);
+        writer.println("H: " + h);
         writer.println("\n### Top-"+k+" DPs:");
         Avaliador.imprimirRegras(p, k, writer); 
         
         writer.close();
     }
+
+	private static Pattern[] loadFromFile(String modelName, String database, String tipoAvaliacao) {
+		List<Pattern> patterns = new ArrayList<>();
+		
+		//String file = "/home/victor/dev/ssdp/experiments/final_0/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
+		String file = "/home/victor/dev/ssdp/experiments/final_1/"+modelName.split("-")[0]+"/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+		    String line;
+		    HashSet<Integer> itens = new HashSet<>();
+		    while ((line = br.readLine()) != null) {
+		       if(line.contains("Variable")) {
+		    	   String itemDescription = line.trim().substring(line.trim().indexOf(" ")).trim();
+		    	   Integer item = itemFromDescription(itemDescription);
+		    	   itens.add(item);
+		       }else if(line.contains("Consecuent")) {
+		    	   if(line.trim().split(":")[1].contains("p")){
+		    		   patterns.add(new Pattern(itens, tipoAvaliacao));
+		    		   itens = new HashSet<>();
+		    	   }else {
+		    		   itens = new HashSet<>();
+		    	   }
+		       }
+		    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return patterns.toArray(new Pattern[0]);
+	}
+
+	private static Integer itemFromDescription(String itemDescription) {
+        for(int j = 0; j <= D.numeroItens; j++){
+            String comp = D.itemAtributoStr[j] + " = '" + D.itemValorStr[j] + "'";
+            if(itemDescription.equals(comp)) {
+            	return j;
+            }
+        }
+        return -1;
+	}
 }

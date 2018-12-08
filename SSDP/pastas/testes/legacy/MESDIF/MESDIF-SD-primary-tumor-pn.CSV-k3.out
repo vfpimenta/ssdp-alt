@@ -1,0 +1,26 @@
+### Base:primary-tumor-pn
+Average WRAcc: 0.023094125529711722
+Average Qg: 0.8694653299916458
+Time(s): 0.012
+Average size: 3.0
+Coverage of all k DPs in relation to D+: 94.04761904761905%
+Number of individuals generated: 3
+TP: 44.666666666666664
+FP: 104.0
+Chi_Quad: 9.816011421655347
+p_value: 0.06047951428202821
+conf: 0.4494651661834325
+cov: 0.43854473942969513
+Lift: 1.8139129920974237
+supp: 0.13176007866273354
+suppP: 0.5317460317460317
+suppN: 0.4078431372549019
+DiffSupp: 0.12390289449112984
+Similarity: 0.16485112563543936
+CR: 0.43672367951109065
+H: 1.032187200609506
+
+### Top-3 DPs:
+{lung = no,peritoneum = no,neck = no,axillar = no} -> 0.050278017072597686(50p,83n)
+{histologic-type = anaplastic,liver = no,neck = no,axillar = no} -> 0.00963270420549769(5p,2n)
+{axillar = no} -> 0.009371655311039784(79p,227n)

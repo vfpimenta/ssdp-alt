@@ -1,0 +1,15 @@
+GENERATED RULE 0
+   Antecedent
+	Variable waveform_ItoV_prolonged = 'f'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable viith_nerve_signs = 'f'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable wave_V_delayed = 'f'
+   Consecuent: 'n'
+

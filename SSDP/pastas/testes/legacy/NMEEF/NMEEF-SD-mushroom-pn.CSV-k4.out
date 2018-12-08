@@ -1,0 +1,27 @@
+### Base:mushroom-pn
+Average WRAcc: 0.15963447896840724
+Average Qg: 15.240352838376786
+Time(s): 9.092
+Average size: 1.5
+Coverage of all k DPs in relation to D+: 97.71863117870723%
+Number of individuals generated: 4
+TP: 3664.0
+FP: 906.0
+Chi_Quad: 3691.2430352718447
+p_value: 0.0
+conf: 0.832244800985255
+cov: 0.5625307730182176
+Lift: 1.606738774525716
+supp: 0.45100935499753814
+suppP: 0.870722433460076
+suppN: 0.23135852911133808
+DiffSupp: 0.639363904348738
+Similarity: 1.0618591934381407
+CR: 0.6294962005759912
+H: 1.1844980204508522
+
+### Top-4 DPs:
+{odor = n,veil-type = p} -> 0.19455893037534175(3408p,120n)
+{odor = n} -> 0.19455893037534175(3408p,120n)
+{gill-size = b,veil-type = p} -> 0.12471002756147273(3920p,1692n)
+{gill-size = b} -> 0.12471002756147273(3920p,1692n)

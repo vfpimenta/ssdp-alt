@@ -1,0 +1,26 @@
+### Base:soybean-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.05
+Average size: 20.333333333333332
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{date = august,plant-stand = lt-normal,hail = no,area-damaged = scattered,seed-tmt = other,plant-growth = abnorm,leaves = norm,leaf-shread = absent,leaf-malf = absent,leaf-mild = absent,stem-cankers = above-soil,canker-lesion = dna,fruiting-bodies = absent,external-decay = firm-and-dry,sclerotia = absent,fruit-pods = few-present,seed = norm,mold-growth = absent,seed-discolor = absent,seed-size = lt-norm,shriveling = absent} -> 0.0(0p,0n)
+{date = august,plant-stand = lt-normal,hail = no,area-damaged = scattered,seed-tmt = other,plant-growth = abnorm,leaves = norm,leaf-shread = absent,leaf-malf = absent,leaf-mild = absent,stem-cankers = above-soil,fruiting-bodies = absent,external-decay = absent,sclerotia = absent,seed = norm,mold-growth = absent,seed-discolor = absent,seed-size = lt-norm,shriveling = absent} -> 0.0(0p,0n)
+{date = august,plant-stand = lt-normal,hail = no,area-damaged = scattered,seed-tmt = other,plant-growth = abnorm,leaves = norm,leafspots-halo = absent,leaf-shread = absent,leaf-malf = absent,leaf-mild = absent,stem-cankers = above-soil,fruiting-bodies = absent,external-decay = firm-and-dry,sclerotia = absent,fruit-pods = few-present,seed = norm,mold-growth = absent,seed-discolor = absent,seed-size = lt-norm,shriveling = absent} -> 0.0(0p,0n)

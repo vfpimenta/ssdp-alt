@@ -1,0 +1,69 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/shuttle-landing-control_pn/shuttle-landing-control_pn.dat
+Rules file name: ../results/nmeef-sd.shuttle-landing-control_pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.shuttle-landing-control_pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 15
+Number of variables: 6
+@relation base
+@attribute STABILITY{'1','2'}
+@attribute ERROR{'1','2','3','4'}
+@attribute SIGN{'1','2'}
+@attribute WIND{'1','2'}
+@attribute MAGNITUDE{'1','2','3','4'}
+@attribute VISIBILITY{'1','2'}
+@attribute Class{'p','n'}
+@inputs STABILITY, ERROR, SIGN, WIND, MAGNITUDE, VISIBILITY
+@outputs Class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 120
+	Number of Evaluations = 10042
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 126
+	Number of Evaluations = 10065

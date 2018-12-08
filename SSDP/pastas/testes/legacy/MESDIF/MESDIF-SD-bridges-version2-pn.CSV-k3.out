@@ -1,0 +1,26 @@
+### Base:bridges-version2-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.002
+Average size: 6.333333333333333
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{RIVER = M,LOCATION = 39.5,PURPOSE = RR,LENGTH = LONG,LANES = 2} -> 0.0(0p,0n)
+{RIVER = M,LOCATION = 25,ERECTED = MATURE,PURPOSE = RR,LENGTH = LONG,LANES = 2,T-OR-D = DECK} -> 0.0(0p,0n)
+{RIVER = M,LOCATION = 39.5,ERECTED = MATURE,PURPOSE = RR,LENGTH = LONG,LANES = 2,MATERIAL = STEEL} -> 0.0(0p,0n)

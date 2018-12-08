@@ -1,0 +1,20 @@
+GENERATED RULE 0
+   Antecedent
+	Variable population = 'a'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable odor = 'n'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable bruises? = 't'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable population = 'y'
+   Consecuent: 'n'
+

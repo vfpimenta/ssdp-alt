@@ -16,4 +16,17 @@ public class Binary {
 	    
 	    return bools;
 	}
+	
+	public static boolean[] list(int byteSize, int offset){
+	    boolean[] bools = new boolean[byteSize];
+	    int i = offset;
+        for(int j = 0; j < bools.length; j++)
+        {
+            int val = bools.length * j + i;
+            int ret = (1 & (val >>> j));
+            bools[j] = ret != 0;
+        }
+	    
+	    return bools;
+	}
 }

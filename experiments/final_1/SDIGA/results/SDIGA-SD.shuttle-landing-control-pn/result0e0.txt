@@ -1,0 +1,13 @@
+GENERATED RULE 0
+   Antecedent
+	Variable STABILITY = '1'
+	Variable SIGN = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable WIND = '2'
+	Variable MAGNITUDE = '1'
+	Variable VISIBILITY = '1'
+   Consecuent: 'n'
+

@@ -1,0 +1,26 @@
+### Base:mushroom-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 3.731
+Average size: 11.0
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{cap-surface = g,cap-color = c,gill-size = b,stalk-shape = e,stalk-root = r,stalk-surface-above-ring = f,stalk-color-above-ring = b,stalk-color-below-ring = p,veil-color = w,habitat = p} -> 0.0(0p,0n)
+{cap-surface = g,cap-color = c,gill-spacing = c,gill-size = b,stalk-shape = e,stalk-root = r,stalk-surface-above-ring = f,stalk-surface-below-ring = y,stalk-color-above-ring = b,stalk-color-below-ring = p,veil-color = w,habitat = p} -> 0.0(0p,0n)
+{cap-surface = g,cap-color = c,bruises? = f,gill-size = b,stalk-shape = e,stalk-root = r,stalk-surface-above-ring = f,stalk-color-above-ring = b,stalk-color-below-ring = p,veil-color = w,habitat = p} -> 0.0(0p,0n)

@@ -1,0 +1,69 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-nmeef for subgroup discovery
+Input file name training: ../datasets/monks-problems-1_train_pn/monks-problems-1_train_pn.dat
+Rules file name: ../results/nmeef-sd.monks-problems-1_train_pn/result0e0.txt
+Tracking file name: ../results/nmeef-sd.monks-problems-1_train_pn/result0e2.txt
+Representation of the Rules: CAN
+Strict dominance: YES
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 50
+Cross probability: 0.6
+Mutation probability: 0.1
+Diversity: CROWDING
+Perform ReInitCob: yes
+Percentage of the ReInitCob: 0.5
+Minimum confidence threshold: 0.6
+Number of objetives: 2
+	Objetive 1: COMP
+	Objetive 2: UNUS
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 124
+Number of variables: 6
+@relation base
+@attribute attr1{'1','2','3'}
+@attribute attr2{'1','2','3'}
+@attribute attr3{'1','2'}
+@attribute attr4{'1','2','3'}
+@attribute attr5{'1','2','3','4'}
+@attribute attr6{'1','2'}
+@attribute class{'p','n'}
+@inputs attr1, attr2, attr3, attr4, attr5, attr6
+@outputs class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|                 Class 0                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 233
+	Number of Evaluations = 10073
+
+--------------------------------------------
+|                 Class 1                  |
+--------------------------------------------
+
+
+Genetic Algorithm execution finished
+	Number of Generations = 231
+	Number of Evaluations = 10034

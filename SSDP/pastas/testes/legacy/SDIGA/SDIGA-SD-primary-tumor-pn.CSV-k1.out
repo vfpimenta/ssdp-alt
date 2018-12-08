@@ -1,0 +1,24 @@
+### Base:primary-tumor-pn
+Average WRAcc: 0.009371655311039784
+Average Qg: 0.34649122807017546
+Time(s): 0.024
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 94.04761904761905%
+Number of individuals generated: 1
+TP: 79.0
+FP: 227.0
+Chi_Quad: 1.8179262970785461
+p_value: 0.1775603136832693
+conf: 0.2581699346405229
+cov: 0.9026548672566371
+Lift: 1.0419000933706817
+supp: 0.23303834808259588
+suppP: 0.9404761904761905
+suppN: 0.8901960784313725
+DiffSupp: 0.05028011204481797
+Similarity: 0.0
+CR: 0.19469026548672647
+H: 0.31921016423643156
+
+### Top-1 DPs:
+{axillar = no} -> 0.009371655311039784(79p,227n)

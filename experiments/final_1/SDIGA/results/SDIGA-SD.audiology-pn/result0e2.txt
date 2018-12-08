@@ -1,0 +1,128 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-sdiga for subgroup discovery
+Input file name training: ../datasets/audiology_pn/audiology_pn.dat
+Input file name test: ../datasets/audiology_pn/audiology_pn.dat
+Rules file name: ../results/sdiga-sd.audiology_pn/result0e0.txt
+Tracking file name: ../results/sdiga-sd.audiology_pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.6
+Rules representation: CAN
+Objective 1: COMP(Weight: 0.4)
+Objective 2: FCNF(Weight: 0.3)
+Objective 3: UNUS(Weight: 0.3)
+Perform Local Search: true
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 226
+Number of variables: 69
+@relation base
+@attribute age_gt_60{'f','t'}
+@attribute air{'mild','moderate','normal','profound','severe'}
+@attribute airBoneGap{'f','t'}
+@attribute ar_c{'absent','elevated','normal'}
+@attribute ar_u{'absent','elevated','normal'}
+@attribute bone{'mild','moderate','normal','unmeasured'}
+@attribute boneAbnormal{'f','t'}
+@attribute bser{'degraded','normal'}
+@attribute history_buzzing{'f','t'}
+@attribute history_dizziness{'f','t'}
+@attribute history_fluctuating{'f','t'}
+@attribute history_fullness{'f','t'}
+@attribute history_heredity{'f','t'}
+@attribute history_nausea{'f','t'}
+@attribute history_noise{'f','t'}
+@attribute history_recruitment{'f','t'}
+@attribute history_ringing{'f','t'}
+@attribute history_roaring{'f','t'}
+@attribute history_vomiting{'f','t'}
+@attribute late_wave_poor{'f','t'}
+@attribute m_at_2k{'f','t'}
+@attribute m_cond_lt_1k{'f','t'}
+@attribute m_gt_1k{'f','t'}
+@attribute m_m_gt_2k{'f','t'}
+@attribute m_m_sn{'f','t'}
+@attribute m_m_sn_gt_1k{'f','t'}
+@attribute m_m_sn_gt_2k{'f','t'}
+@attribute m_m_sn_gt_500{'f','t'}
+@attribute m_p_sn_gt_2k{'f','t'}
+@attribute m_s_gt_500{'f','t'}
+@attribute m_s_sn{'f','t'}
+@attribute m_s_sn_gt_1k{'f','t'}
+@attribute m_s_sn_gt_2k{'f','t'}
+@attribute m_s_sn_gt_3k{'f','t'}
+@attribute m_s_sn_gt_4k{'f','t'}
+@attribute m_sn_2_3k{'f','t'}
+@attribute m_sn_gt_1k{'f','t'}
+@attribute m_sn_gt_2k{'f','t'}
+@attribute m_sn_gt_3k{'f','t'}
+@attribute m_sn_gt_4k{'f','t'}
+@attribute m_sn_gt_500{'f','t'}
+@attribute m_sn_gt_6k{'f','t'}
+@attribute m_sn_lt_1k{'f','t'}
+@attribute m_sn_lt_2k{'f','t'}
+@attribute m_sn_lt_3k{'f','t'}
+@attribute middle_wave_poor{'f','t'}
+@attribute mod_gt_4k{'f','t'}
+@attribute mod_mixed{'f','t'}
+@attribute mod_s_mixed{'f','t'}
+@attribute mod_s_sn_gt_500{'f','t'}
+@attribute mod_sn{'f','t'}
+@attribute mod_sn_gt_1k{'f','t'}
+@attribute mod_sn_gt_2k{'f','t'}
+@attribute mod_sn_gt_3k{'f','t'}
+@attribute mod_sn_gt_4k{'f','t'}
+@attribute mod_sn_gt_500{'f','t'}
+@attribute notch_4k{'f','t'}
+@attribute notch_at_4k{'f','t'}
+@attribute o_ar_c{'absent','elevated','normal'}
+@attribute o_ar_u{'absent','elevated','normal'}
+@attribute s_sn_gt_1k{'f','t'}
+@attribute s_sn_gt_2k{'f','t'}
+@attribute s_sn_gt_4k{'f','t'}
+@attribute speech{'good','normal','poor','unmeasured','very_good','very_poor'}
+@attribute static_normal{'f','t'}
+@attribute tymp{'a','ad','as','b','c'}
+@attribute viith_nerve_signs{'f','t'}
+@attribute wave_V_delayed{'f','t'}
+@attribute waveform_ItoV_prolonged{'f','t'}
+@attribute class{'p','n'}
+@inputs age_gt_60, air, airBoneGap, ar_c, ar_u, bone, boneAbnormal, bser, history_buzzing, history_dizziness, history_fluctuating, history_fullness, history_heredity, history_nausea, history_noise, history_recruitment, history_ringing, history_roaring, history_vomiting, late_wave_poor, m_at_2k, m_cond_lt_1k, m_gt_1k, m_m_gt_2k, m_m_sn, m_m_sn_gt_1k, m_m_sn_gt_2k, m_m_sn_gt_500, m_p_sn_gt_2k, m_s_gt_500, m_s_sn, m_s_sn_gt_1k, m_s_sn_gt_2k, m_s_sn_gt_3k, m_s_sn_gt_4k, m_sn_2_3k, m_sn_gt_1k, m_sn_gt_2k, m_sn_gt_3k, m_sn_gt_4k, m_sn_gt_500, m_sn_gt_6k, m_sn_lt_1k, m_sn_lt_2k, m_sn_lt_3k, middle_wave_poor, mod_gt_4k, mod_mixed, mod_s_mixed, mod_s_sn_gt_500, mod_sn, mod_sn_gt_1k, mod_sn_gt_2k, mod_sn_gt_3k, mod_sn_gt_4k, mod_sn_gt_500, notch_4k, notch_at_4k, o_ar_c, o_ar_u, s_sn_gt_1k, s_sn_gt_2k, s_sn_gt_4k, speech, static_normal, tymp, viith_nerve_signs, wave_V_delayed, waveform_ItoV_prolonged
+@outputs class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+   # 3331 generations, 10004 evaluations
+	Rule support improved by local search from 0.0 to 1.0
+
+Class 1:
+   # 3305 generations, 10002 evaluations
+	Rule support improved by local search from 0.0 to 0.99408287
+   # 3307 generations, 10005 evaluations
+	Rule support improved by local search from 0.0 to 0.9881657
+   # 3276 generations, 10003 evaluations
+	Rule not stored (low confidence or support)

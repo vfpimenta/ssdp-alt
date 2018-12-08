@@ -1,0 +1,26 @@
+### Base:splice-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.839
+Average size: 42.0
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{Instance_name = HUMMYCRT-DONOR-888,attribute_1 = A,attribute_3 = A,attribute_4 = A,attribute_5 = G,attribute_7 = A,attribute_10 = T,attribute_11 = A,attribute_12 = G,attribute_13 = A,attribute_15 = G,attribute_17 = C,attribute_20 = A,attribute_21 = G,attribute_22 = A,attribute_23 = G,attribute_26 = C,attribute_29 = N,attribute_30 = C,attribute_32 = C,attribute_33 = C,attribute_35 = G,attribute_37 = A,attribute_38 = N,attribute_39 = A,attribute_40 = T,attribute_41 = T,attribute_43 = G,attribute_44 = T,attribute_45 = C,attribute_46 = G,attribute_47 = N,attribute_49 = N,attribute_50 = C,attribute_51 = G,attribute_52 = N,attribute_53 = G,attribute_54 = G,attribute_55 = C,attribute_56 = G,attribute_57 = N,attribute_59 = G,attribute_60 = C} -> 0.0(0p,0n)
+{Instance_name = HUMMYCRT-DONOR-888,attribute_1 = A,attribute_3 = A,attribute_4 = A,attribute_5 = G,attribute_7 = A,attribute_10 = T,attribute_11 = A,attribute_12 = G,attribute_13 = A,attribute_17 = C,attribute_20 = A,attribute_21 = G,attribute_22 = G,attribute_23 = G,attribute_26 = C,attribute_29 = N,attribute_30 = C,attribute_33 = C,attribute_35 = G,attribute_37 = A,attribute_38 = N,attribute_39 = A,attribute_40 = T,attribute_41 = T,attribute_43 = G,attribute_44 = T,attribute_45 = C,attribute_46 = G,attribute_47 = N,attribute_49 = N,attribute_50 = C,attribute_51 = G,attribute_52 = N,attribute_53 = G,attribute_54 = G,attribute_55 = C,attribute_56 = G,attribute_57 = N,attribute_59 = G,attribute_60 = C} -> 0.0(0p,0n)
+{Instance_name = HUMMYCRT-DONOR-888,attribute_1 = A,attribute_3 = A,attribute_4 = A,attribute_5 = G,attribute_7 = A,attribute_10 = T,attribute_11 = A,attribute_12 = G,attribute_13 = G,attribute_17 = C,attribute_20 = A,attribute_21 = G,attribute_22 = G,attribute_23 = G,attribute_26 = C,attribute_29 = N,attribute_30 = C,attribute_32 = C,attribute_33 = C,attribute_35 = G,attribute_37 = A,attribute_38 = N,attribute_39 = A,attribute_40 = T,attribute_41 = T,attribute_43 = G,attribute_44 = T,attribute_45 = C,attribute_46 = G,attribute_47 = N,attribute_49 = N,attribute_50 = C,attribute_51 = G,attribute_52 = N,attribute_53 = G,attribute_54 = G,attribute_55 = C,attribute_56 = G,attribute_57 = N,attribute_59 = G,attribute_60 = C} -> 0.0(0p,0n)

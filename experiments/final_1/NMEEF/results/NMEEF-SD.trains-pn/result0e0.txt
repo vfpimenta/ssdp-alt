@@ -1,0 +1,822 @@
+GENERATED RULE 0
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 4
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 5
+	Antecedent
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 6
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 7
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 8
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 9
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 10
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 11
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 12
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable num_loads_5 = '1'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 13
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 14
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 15
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 16
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 17
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 18
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 19
+	Antecedent
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 20
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 21
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+	Consecuent: 'p'
+
+GENERATED RULE 22
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 23
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 24
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 25
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 26
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 27
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 28
+	Antecedent
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 29
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 30
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 31
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 32
+	Antecedent
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Triangle_next_to_circle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 33
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 34
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 35
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 36
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 37
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 38
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 39
+	Antecedent
+		Variable num_loads_3 = '1'
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 40
+	Antecedent
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 41
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable shape_5 = 'openrect'
+		Variable Rectangle_next_to_triangle = '1'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_circle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 42
+	Antecedent
+		Variable num_wheels_2 = '2'
+		Variable num_loads_3 = '1'
+		Variable num_wheels_5 = '2'
+		Variable length_5 = 'short'
+		Variable shape_5 = 'openrect'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_5 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable num_wheels_5 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 3
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 4
+	Antecedent
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 5
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 6
+	Antecedent
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 7
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 8
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 9
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 10
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 11
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 12
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 13
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 14
+	Antecedent
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 15
+	Antecedent
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 16
+	Antecedent
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 17
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 18
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 19
+	Antecedent
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 20
+	Antecedent
+		Variable num_wheels_4 = '2'
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 21
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 22
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 23
+	Antecedent
+		Variable length_5 = 'short'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 24
+	Antecedent
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 25
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 26
+	Antecedent
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 27
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_5 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 28
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 29
+	Antecedent
+		Variable num_wheels_4 = '2'
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 30
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 31
+	Antecedent
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 32
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 33
+	Antecedent
+		Variable num_loads_5 = '1'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 34
+	Antecedent
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 35
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Hexagon_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 36
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_loads_5 = '1'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 37
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 38
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 39
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable length_5 = 'short'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Triangle_next_to_hexagon = '0'
+		Variable Hexagon_next_to_hexagon = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 40
+	Antecedent
+		Variable num_wheels_3 = '2'
+		Variable num_wheels_4 = '2'
+		Variable load_shape_5 = 'circlelod'
+		Variable Rectangle_next_to_triangle = '0'
+		Variable Rectangle_next_to_hexagon = '0'
+		Variable Triangle_next_to_triangle = '0'
+		Variable Hexagon_next_to_circle = '0'
+		Variable Circle_next_to_circle = '0'
+	Consecuent: 'n'
+

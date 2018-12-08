@@ -1,0 +1,30 @@
+### Base:lung-cancer-pn
+Average WRAcc: 0.12067522321428573
+Average Qg: 2.154761904761904
+Time(s): 0.002
+Average size: 4.857142857142857
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 7
+TP: 9.142857142857142
+FP: 3.857142857142857
+Chi_Quad: 8.521679431188497
+p_value: 0.004097995183593265
+conf: 0.726984126984127
+cov: 0.40625
+Lift: 1.7894993894993896
+supp: 0.2857142857142857
+suppP: 0.7032967032967032
+suppN: 0.20300751879699247
+DiffSupp: 0.5002891844997108
+Similarity: 1.9641456582633054
+CR: 0.805631868131868
+H: 1.4420510777557858
+
+### Top-7 DPs:
+{attribute35 = 1,attribute41 = 2,attribute47 = 2,attribute48 = 2,attribute49 = 2} -> 0.12304687500000001(8p,2n)
+{attribute35 = 1,attribute41 = 2,attribute44 = 2,attribute47 = 2,attribute49 = 2} -> 0.12304687500000001(8p,2n)
+{attribute35 = 1,attribute40 = 2,attribute41 = 2,attribute44 = 2,attribute47 = 2,attribute49 = 2,attribute50 = 2} -> 0.12304687500000001(8p,2n)
+{attribute35 = 1,attribute41 = 2,attribute44 = 2,attribute47 = 2,attribute49 = 2,attribute50 = 2} -> 0.12304687500000001(8p,2n)
+{attribute17 = 1,attribute41 = 2,attribute46 = 2,attribute47 = 2} -> 0.12207031249999999(10p,5n)
+{attribute17 = 1,attribute41 = 2,attribute47 = 2} -> 0.11523437500000003(11p,7n)
+{attribute17 = 1,attribute41 = 2,attribute47 = 2,attribute49 = 2} -> 0.11523437500000003(11p,7n)

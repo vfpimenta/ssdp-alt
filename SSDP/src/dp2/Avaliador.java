@@ -12,6 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.apache.commons.math3.stat.inference.ChiSquareTest;
+import org.apache.commons.math3.util.Combinations;
 
 import util.Binary;
 import util.Const;
@@ -141,6 +142,7 @@ public class Avaliador {
     
     public static double H(Pattern[] subgroupSet) {
     	double summation = 0.0;
+    	int numRows = (int)Math.pow(2, subgroupSet.length);
     	for (boolean[] B : Binary.list(subgroupSet.length)) {
     		double p = fraction(subgroupSet, B);
     		if(p == 0.0) p = 1.0;
@@ -409,6 +411,19 @@ public class Avaliador {
         //System.out.println("Numero P: " + coberturaP);
         coberturaP = coberturaP/(double)vrpGrupo.length;
         return coberturaP;
+    }
+    
+    public static double avgSimilaridade(Pattern[] p, int k, String metricaSimilaridade) {
+    	if(k <= 1) return 0.0;
+    		
+    	Iterator<int[]> tuples = new Combinations(k, 2).iterator();
+    	double sim = 0.0;
+    	while(tuples.hasNext()) {
+    		int[] tuple = tuples.next();
+    		sim += similaridade(p[tuple[0]], p[tuple[1]], metricaSimilaridade);
+    	}
+    	
+    	return sim/k;
     }
     
     public static double avgTP(Pattern[] p, int k) {

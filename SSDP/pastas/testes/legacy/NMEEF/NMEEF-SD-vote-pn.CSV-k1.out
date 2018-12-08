@@ -1,0 +1,24 @@
+### Base:vote-pn
+Average WRAcc: 0.21756638921918348
+Average Qg: 42.166666666666664
+Time(s): 0.006
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 94.7565543071161%
+Number of individuals generated: 1
+TP: 253.0
+FP: 5.0
+Chi_Quad: 359.9286169954866
+p_value: 0.0
+conf: 0.9806201550387597
+cov: 0.593103448275862
+Lift: 1.5976395784339346
+supp: 0.5816091954022988
+suppP: 0.947565543071161
+suppN: 0.02976190476190476
+DiffSupp: 0.9178036383092563
+Similarity: 0.0
+CR: 0.8137931034482737
+H: 0.6757090757430633
+
+### Top-1 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)

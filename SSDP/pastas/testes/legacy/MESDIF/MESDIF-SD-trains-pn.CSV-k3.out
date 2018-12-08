@@ -1,0 +1,26 @@
+### Base:trains-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.014
+Average size: 20.666666666666668
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{Number_of_cars = 3,Number_of_different_loads = 2,num_wheels_2 = 3,shape_2 = closedrect,load_shape_2 = circlelod,num_wheels_3 = 2,length_3 = long,shape_3 = openrect,num_loads_3 = 1,load_shape_3 = rectanglod,num_wheels_4 = 2,length_4 = short,num_loads_4 = 1,length_5 = short,shape_5 = opentrap,num_loads_5 = 1,Rectangle_next_to_triangle = 0,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Triangle_next_to_circle = 1,Circle_next_to_circle = 0} -> 0.0(0p,0n)
+{Number_of_cars = 3,Number_of_different_loads = 2,num_wheels_2 = 3,shape_2 = closedrect,load_shape_2 = circlelod,num_wheels_3 = 2,length_3 = long,shape_3 = openrect,num_loads_3 = 1,num_wheels_4 = 2,length_4 = short,num_loads_4 = 1,length_5 = short,shape_5 = opentrap,num_loads_5 = 1,Rectangle_next_to_triangle = 0,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Triangle_next_to_circle = 1} -> 0.0(0p,0n)
+{Number_of_cars = 3,Number_of_different_loads = 2,num_wheels_2 = 3,shape_2 = closedrect,load_shape_2 = circlelod,num_wheels_3 = 2,length_3 = long,shape_3 = openrect,num_loads_3 = 1,load_shape_3 = rectanglod,num_wheels_4 = 2,length_4 = short,num_loads_4 = 1,length_5 = short,shape_5 = opentrap,num_loads_5 = 1,Rectangle_next_to_triangle = 0,Rectangle_next_to_hexagon = 0,Rectangle_next_to_circle = 0,Triangle_next_to_hexagon = 0,Triangle_next_to_circle = 1,Circle_next_to_circle = 0} -> 0.0(0p,0n)

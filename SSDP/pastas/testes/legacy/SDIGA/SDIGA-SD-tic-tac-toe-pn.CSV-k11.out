@@ -1,0 +1,34 @@
+### Base:tic-tac-toe-pn
+Average WRAcc: 0.02328921160559795
+Average Qg: 33.36653058095183
+Time(s): 0.471
+Average size: 2.4545454545454546
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 11
+TP: 124.54545454545455
+FP: 31.90909090909091
+Chi_Quad: 28.36677753856321
+p_value: 0.009507018564420438
+conf: 0.9072779689352942
+cov: 0.16331372176883663
+Lift: 1.388454144153374
+supp: 0.13000569368001516
+suppP: 0.1989544002323555
+suppN: 0.09611171960569552
+DiffSupp: 0.10284268062665998
+Similarity: 0.2334302380814605
+CR: 0.435316409476937
+H: 3.2720449843792294
+
+### Top-11 DPs:
+{middle-middle-square = x} -> 0.06964753466032661(366p,92n)
+{top-right-square = x,middle-right-square = x,bottom-right-square = x} -> 0.028216404217206167(78p,0n)
+{top-middle-square = x,middle-middle-square = x,bottom-middle-square = x} -> 0.028216404217206167(78p,0n)
+{middle-left-square = x,middle-middle-square = x,middle-right-square = x} -> 0.028216404217206167(78p,0n)
+{top-left-square = x,top-middle-square = x,top-right-square = x} -> 0.028216404217206167(78p,0n)
+{top-left-square = x} -> 0.022818502360083842(295p,123n)
+{bottom-left-square = x,bottom-right-square = x} -> 0.02134535675838233(125p,35n)
+{top-middle-square = o} -> 0.01394911981729509(229p,101n)
+{middle-left-square = o,bottom-left-square = b,bottom-middle-square = o} -> 0.007596724212324738(21p,0n)
+{middle-middle-square = b,middle-right-square = o,bottom-middle-square = o} -> 0.0050644828082164915(14p,0n)
+{top-middle-square = b,top-right-square = b,middle-left-square = x,middle-right-square = o} -> 0.0028939901761237093(8p,0n)

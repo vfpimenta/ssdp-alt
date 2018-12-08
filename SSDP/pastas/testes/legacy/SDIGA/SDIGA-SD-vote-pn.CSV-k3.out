@@ -1,0 +1,26 @@
+### Base:vote-pn
+Average WRAcc: 0.12078742238076363
+Average Qg: 16.724386724386726
+Time(s): 0.022
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 3
+TP: 212.33333333333334
+FP: 48.0
+Chi_Quad: 157.44755174509555
+p_value: 7.808568606530268E-14
+conf: 0.8414220892130985
+cov: 0.5984674329501916
+Lift: 1.3708562127629136
+supp: 0.4881226053639846
+suppP: 0.7952559300873907
+suppN: 0.2857142857142857
+DiffSupp: 0.509541644373105
+Similarity: 0.4706319584085647
+CR: 0.4345033629152102
+H: 1.6005583270063306
+
+### Top-3 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{synfuels-corporation-cutback = y} -> 0.08489892984542212(129p,21n)
+{export-administration-act-south-africa = y} -> 0.0598969480776853(255p,118n)

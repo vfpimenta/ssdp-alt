@@ -1,0 +1,24 @@
+### Base:audiology-pn
+Average WRAcc: 0.0022319680476152993
+Average Qg: 0.3392857142857143
+Time(s): 0.004
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1
+TP: 57.0
+FP: 167.0
+Chi_Quad: 0.680579036348267
+p_value: 0.40938740634738424
+conf: 0.2544642857142857
+cov: 0.9911504424778761
+Lift: 1.0089285714285714
+supp: 0.252212389380531
+suppP: 1.0
+suppN: 0.9881656804733728
+DiffSupp: 0.011834319526627168
+Similarity: 0.0
+CR: 0.017699115044247846
+H: 0.050645574596848646
+
+### Top-1 DPs:
+{waveform_ItoV_prolonged = f} -> 0.0022319680476152993(57p,167n)

@@ -1,0 +1,16 @@
+GENERATED RULE 0
+	Antecedent
+		Variable leaf-shread = 'absent'
+		Variable fruiting-bodies = 'absent'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable mycelium = 'absent'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable leaf-shread = 'absent'
+	Consecuent: 'n'
+

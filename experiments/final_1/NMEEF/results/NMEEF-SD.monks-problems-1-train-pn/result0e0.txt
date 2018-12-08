@@ -1,0 +1,10 @@
+GENERATED RULE 0
+	Antecedent
+		Variable attr1 = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable attr5 = '1'
+	Consecuent: 'n'
+

@@ -1,0 +1,25 @@
+### Base:molecular-biology-promoters-pn
+Average WRAcc: 0.06839622641509434
+Average Qg: 5.583333333333333
+Time(s): 0.002
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 54.71698113207547%
+Number of individuals generated: 2
+TP: 17.5
+FP: 3.0
+Chi_Quad: 13.160147287196597
+p_value: 6.146616795887905E-4
+conf: 0.866421568627451
+cov: 0.19339622641509435
+Lift: 1.732843137254902
+supp: 0.1650943396226415
+suppP: 0.330188679245283
+suppN: 0.05660377358490566
+DiffSupp: 0.27358490566037735
+Similarity: 0.08571428571428572
+CR: 1.3396226415094337
+H: 0.9671714740345694
+
+### Top-2 DPs:
+{p-12 = g} -> 0.07075471698113207(16p,1n)
+{p-31 = c} -> 0.0660377358490566(19p,5n)

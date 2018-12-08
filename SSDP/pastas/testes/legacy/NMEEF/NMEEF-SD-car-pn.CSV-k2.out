@@ -1,0 +1,25 @@
+### Base:car-pn
+Average WRAcc: 0.09992283950617283
+Average Qg: 576.0
+Time(s): 0.202
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 79.33884297520662%
+Number of individuals generated: 2
+TP: 576.0
+FP: 0.0
+Chi_Quad: 369.87768595041325
+p_value: 0.0
+conf: 1.0
+cov: 0.3333333333333333
+Lift: 1.428099173553719
+supp: 0.3333333333333333
+suppP: 0.47603305785123967
+suppN: 0.0
+DiffSupp: 0.47603305785123967
+Similarity: 0.1
+CR: 0.8888888888888888
+H: 1.2730283365896258
+
+### Top-2 DPs:
+{persons = 2} -> 0.09992283950617283(576p,0n)
+{safety = low} -> 0.09992283950617283(576p,0n)

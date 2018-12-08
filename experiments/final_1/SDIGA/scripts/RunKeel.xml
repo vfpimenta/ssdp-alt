@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/audiology_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/breast-cancer_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/bridges_version2_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/car_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/kr-vs-kp_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/lung-cancer_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/molecular-biology_promoters_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/monks-problems-1_train_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/mushroom_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/nursery_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/postoperative-patienta_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config10s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/primary-tumor_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config11s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/shuttle-landing-control_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config12s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/solar-flare_2_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config13s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/soybean_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config14s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/spect_test_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config15s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/splice_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config16s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/tic-tac-toe_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config17s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/trains_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config18s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/SDIGA.jar</executableFile>
+    <scriptFile>./SDIGA-SD/vote_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSDIGA-SD/config19s0.txt</scriptFile>
+  </sentence>
+</execution>
+

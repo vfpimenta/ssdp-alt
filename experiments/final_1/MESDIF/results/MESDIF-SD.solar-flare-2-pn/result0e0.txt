@@ -1,0 +1,44 @@
+GENERATED RULE 0
+   Antecedent
+	Variable Did_region_become_historically_complex = '1'
+	Variable Area = '1'
+	Variable X-class_flares_production_by_this_region = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable Evolution = '2'
+	Variable Area = '1'
+	Variable X-class_flares_production_by_this_region = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable Area = '1'
+	Variable X-class_flares_production_by_this_region = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable Evolution = '1'
+	Variable Did_region_become_historically_complex = '2'
+	Variable Area = '1'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable largest_spot_size = 'R'
+	Variable Activity = '1'
+	Variable Evolution = '1'
+	Variable Did_region_become_historically_complex = '2'
+	Variable Area = '1'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable largest_spot_size = 'A'
+	Variable Activity = '1'
+	Variable Evolution = '1'
+	Variable Area = '1'
+   Consecuent: 'n'
+

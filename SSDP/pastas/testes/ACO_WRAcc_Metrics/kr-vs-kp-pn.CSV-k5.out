@@ -1,0 +1,28 @@
+### Base:kr-vs-kp-pn
+Average WRAcc: 0.13999807722732266
+Average Qg: 9.869541581771433
+Time(s): 372.613
+Average size: 4.6
+Coverage of all k DPs in relation to D+: 84.60155781905333%
+Number of individuals generated: 844752
+TP: 1154.2
+FP: 199.2
+Chi_Quad: 1069.5322251553325
+p_value: 0.0
+conf: 0.8676181026794542
+cov: 0.4234668335419274
+Lift: 1.66141848781518
+supp: 0.3611389236545682
+suppP: 0.6915518274415818
+suppN: 0.13045186640471512
+DiffSupp: 0.5610999610368668
+Similarity: 1.4262456555203802
+CR: 0.9603165106079575
+H: 1.6176273846635771
+
+### Top-5 DPs:
+{bxqsq = f,hdchk = f,wkna8 = f,wknck = f} -> 0.15707770272916238(1195p,132n)
+{bxqsq = f,hdchk = f,rxmsq = f,stlmt = f,wknck = f} -> 0.14637332178364382(1154p,160n)
+{bxqsq = f,wknck = f,wkpos = t} -> 0.13581079916854769(950p,38n)
+{bxqsq = f,dsopp = f,hdchk = f,stlmt = f,wknck = f} -> 0.1335238353323381(1091p,181n)
+{bxqsq = f,hdchk = f,mulch = f,skrxp = f,spcop = f,wkna8 = f} -> 0.12720472712292114(1381p,485n)

@@ -1,0 +1,133 @@
+GENERATED RULE 0
+	Antecedent
+		Variable attribute17 = '1'
+		Variable attribute41 = '2'
+		Variable attribute47 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable attribute17 = '1'
+		Variable attribute41 = '2'
+		Variable attribute47 = '2'
+		Variable attribute49 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable attribute35 = '1'
+		Variable attribute41 = '2'
+		Variable attribute47 = '2'
+		Variable attribute48 = '2'
+		Variable attribute49 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable attribute35 = '1'
+		Variable attribute41 = '2'
+		Variable attribute44 = '2'
+		Variable attribute47 = '2'
+		Variable attribute49 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 4
+	Antecedent
+		Variable attribute35 = '1'
+		Variable attribute40 = '2'
+		Variable attribute41 = '2'
+		Variable attribute44 = '2'
+		Variable attribute47 = '2'
+		Variable attribute49 = '2'
+		Variable attribute50 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 5
+	Antecedent
+		Variable attribute35 = '1'
+		Variable attribute41 = '2'
+		Variable attribute44 = '2'
+		Variable attribute47 = '2'
+		Variable attribute49 = '2'
+		Variable attribute50 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 6
+	Antecedent
+		Variable attribute17 = '1'
+		Variable attribute41 = '2'
+		Variable attribute46 = '2'
+		Variable attribute47 = '2'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable attribute2 = '0'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable attribute2 = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable attribute2 = '0'
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute46 = '2'
+		Variable attribute50 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 3
+	Antecedent
+		Variable attribute2 = '0'
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute50 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 4
+	Antecedent
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute50 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 5
+	Antecedent
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 6
+	Antecedent
+		Variable attribute2 = '0'
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute46 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 7
+	Antecedent
+		Variable attribute2 = '0'
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 8
+	Antecedent
+		Variable attribute30 = '2'
+		Variable attribute35 = '2'
+		Variable attribute46 = '2'
+		Variable attribute48 = '2'
+		Variable attribute54 = '2'
+	Consecuent: 'n'
+

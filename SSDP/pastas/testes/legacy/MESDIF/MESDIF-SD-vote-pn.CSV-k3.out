@@ -1,0 +1,26 @@
+### Base:vote-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.018
+Average size: 9.666666666666666
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{handicapped-infants = n,adoption-of-the-budget-resolution = n,religious-groups-in-schools = n,anti-satellite-test-ban = n,mx-missile = n,immigration = n,synfuels-corporation-cutback = n,superfund-right-to-sue = n,crime = n,duty-free-exports = n} -> 0.0(0p,0n)
+{handicapped-infants = n,adoption-of-the-budget-resolution = n,anti-satellite-test-ban = n,mx-missile = n,immigration = n,synfuels-corporation-cutback = n,superfund-right-to-sue = n,crime = n,duty-free-exports = n} -> 0.0(0p,0n)
+{handicapped-infants = n,water-project-cost-sharing = n,adoption-of-the-budget-resolution = n,religious-groups-in-schools = n,anti-satellite-test-ban = n,mx-missile = n,immigration = n,superfund-right-to-sue = n,crime = n,duty-free-exports = n} -> 0.0(0p,0n)

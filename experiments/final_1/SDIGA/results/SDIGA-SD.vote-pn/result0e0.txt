@@ -1,0 +1,20 @@
+GENERATED RULE 0
+   Antecedent
+	Variable physician-fee-freeze = 'n'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable synfuels-corporation-cutback = 'y'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable export-administration-act-south-africa = 'y'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable crime = 'y'
+   Consecuent: 'n'
+

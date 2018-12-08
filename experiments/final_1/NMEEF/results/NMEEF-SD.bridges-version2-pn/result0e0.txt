@@ -1,0 +1,11 @@
+GENERATED RULE 0
+	Antecedent
+		Variable LANES = '2'
+		Variable CLEAR-G = 'G'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable PURPOSE = 'HIGHWAY'
+	Consecuent: 'n'
+

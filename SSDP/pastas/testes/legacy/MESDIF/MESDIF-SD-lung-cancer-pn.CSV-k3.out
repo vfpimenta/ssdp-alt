@@ -1,0 +1,26 @@
+### Base:lung-cancer-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 0.003
+Average size: 42.666666666666664
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{attribute2 = 0,attribute3 = 2,attribute4 = 1,attribute5 = 1,attribute6 = 1,attribute7 = 2,attribute8 = 2,attribute9 = 1,attribute11 = 1,attribute12 = 2,attribute13 = 2,attribute14 = 3,attribute16 = 2,attribute18 = 1,attribute19 = 2,attribute20 = 0,attribute21 = 1,attribute22 = 2,attribute23 = 1,attribute25 = 1,attribute26 = 3,attribute27 = 1,attribute28 = 3,attribute29 = 1,attribute31 = 3,attribute32 = 1,attribute33 = 2,attribute34 = 1,attribute35 = 2,attribute36 = 3,attribute37 = 2,attribute38 = 1,attribute39 = 1,attribute40 = 1,attribute43 = 2,attribute45 = 1,attribute46 = 2,attribute50 = 1,attribute51 = 2,attribute52 = 1,attribute53 = 1,attribute55 = 2,attribute56 = 1} -> 0.0(0p,0n)
+{attribute2 = 0,attribute3 = 2,attribute4 = 1,attribute5 = 0,attribute6 = 1,attribute7 = 2,attribute8 = 2,attribute9 = 1,attribute11 = 1,attribute12 = 2,attribute13 = 2,attribute14 = 3,attribute16 = 2,attribute18 = 1,attribute19 = 2,attribute20 = 0,attribute21 = 1,attribute22 = 2,attribute23 = 1,attribute25 = 1,attribute26 = 3,attribute27 = 1,attribute30 = 3,attribute31 = 3,attribute32 = 1,attribute33 = 2,attribute34 = 1,attribute35 = 2,attribute36 = 3,attribute37 = 2,attribute38 = 1,attribute39 = 1,attribute40 = 1,attribute43 = 2,attribute45 = 1,attribute46 = 2,attribute50 = 1,attribute51 = 2,attribute52 = 1,attribute53 = 1,attribute55 = 2,attribute56 = 1} -> 0.0(0p,0n)
+{attribute2 = 0,attribute3 = 2,attribute4 = 1,attribute5 = 1,attribute6 = 1,attribute7 = 2,attribute8 = 2,attribute9 = 1,attribute11 = 1,attribute12 = 2,attribute13 = 2,attribute14 = 3,attribute16 = 2,attribute18 = 1,attribute19 = 2,attribute20 = 0,attribute21 = 1,attribute22 = 2,attribute23 = 1,attribute25 = 1,attribute26 = 3,attribute27 = 1,attribute28 = 3,attribute29 = 1,attribute30 = 3,attribute31 = 3,attribute32 = 1,attribute33 = 2,attribute34 = 1,attribute35 = 2,attribute36 = 3,attribute37 = 2,attribute38 = 1,attribute39 = 1,attribute40 = 1,attribute43 = 2,attribute45 = 1,attribute50 = 1,attribute51 = 2,attribute52 = 1,attribute53 = 1,attribute55 = 2,attribute56 = 1} -> 0.0(0p,0n)

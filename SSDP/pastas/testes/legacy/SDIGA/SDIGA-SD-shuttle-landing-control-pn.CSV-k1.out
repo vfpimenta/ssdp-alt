@@ -1,0 +1,24 @@
+### Base:shuttle-landing-control-pn
+Average WRAcc: 0.08
+Average Qg: 1.8
+Time(s): 0.0
+Average size: 2.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 1
+TP: 9.0
+FP: 4.0
+Chi_Quad: 3.4615384615384617
+p_value: 0.06281184751609747
+conf: 0.6923076923076923
+cov: 0.8666666666666667
+Lift: 1.1538461538461537
+supp: 0.6
+suppP: 1.0
+suppN: 0.6666666666666666
+DiffSupp: 0.33333333333333337
+Similarity: 0.0
+CR: 0.2666666666666666
+H: 0.39267446722755217
+
+### Top-1 DPs:
+{STABILITY = 1,SIGN = 1} -> 0.08(9p,4n)

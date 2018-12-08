@@ -1,0 +1,43 @@
+GENERATED RULE 0
+   Antecedent
+	Variable lung = 'no'
+	Variable peritoneum = 'no'
+	Variable neck = 'no'
+	Variable axillar = 'no'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable axillar = 'no'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable histologic-type = 'anaplastic'
+	Variable liver = 'no'
+	Variable neck = 'no'
+	Variable axillar = 'no'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable sex = 'female'
+	Variable bone = 'no'
+	Variable pleura = 'no'
+	Variable liver = 'no'
+	Variable supraclavicular = 'no'
+	Variable mediastinum = 'no'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable bone = 'no'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable bone = 'no'
+	Variable supraclavicular = 'no'
+	Variable mediastinum = 'no'
+   Consecuent: 'n'
+

@@ -1,0 +1,24 @@
+### Base:bridges-version2-pn
+Average WRAcc: 0.03229024943310658
+Average Qg: 2.0
+Time(s): 0.001
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 18.181818181818183%
+Number of individuals generated: 1
+TP: 8.0
+FP: 3.0
+Chi_Quad: 4.794973869077305
+p_value: 0.02854288956510631
+conf: 0.7272727272727273
+cov: 0.10476190476190476
+Lift: 1.7355371900826446
+supp: 0.0761904761904762
+suppP: 0.18181818181818182
+suppN: 0.04918032786885246
+DiffSupp: 0.13263785394932937
+Similarity: 0.0
+CR: 1.7904761904761903
+H: 0.3354217069750239
+
+### Top-1 DPs:
+{MATERIAL = IRON} -> 0.03229024943310658(8p,3n)

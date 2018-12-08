@@ -1,0 +1,94 @@
+--------------------------------------------
+|              Parameters Echo             |
+--------------------------------------------
+Algorithm name: sd-sdiga for subgroup discovery
+Input file name training: ../datasets/soybean_pn/soybean_pn.dat
+Input file name test: ../datasets/soybean_pn/soybean_pn.dat
+Rules file name: ../results/sdiga-sd.soybean_pn/result0e0.txt
+Tracking file name: ../results/sdiga-sd.soybean_pn/result0e2.txt
+Random generator seed: 0
+Selected class of the target variable: not established
+Number of labels for the continuous variables: 3
+Number of evaluations: 10000
+Number of individuals in the Population: 100
+Cross probability: 0.6
+Mutation probability: 0.01
+Minimum confidence: 0.6
+Rules representation: CAN
+Objective 1: COMP(Weight: 0.4)
+Objective 2: FCNF(Weight: 0.3)
+Objective 3: UNUS(Weight: 0.3)
+Perform Local Search: true
+
+--------------------------------------------
+|  Semantics for the continuous variables  |
+--------------------------------------------
+
+
+--------------------------------------------
+|               Dataset Echo               |
+--------------------------------------------
+Number of examples: 683
+Number of variables: 35
+@relation base
+@attribute date{'april','august','july','june','may','october','september'}
+@attribute plant-stand{'lt-normal','normal'}
+@attribute precip{'gt-norm','lt-norm','norm'}
+@attribute temp{'gt-norm','lt-norm','norm'}
+@attribute hail{'no','yes'}
+@attribute crop-hist{'diff-lst-year','same-lst-sev-yrs','same-lst-two-yrs','same-lst-yr'}
+@attribute area-damaged{'low-areas','scattered','upper-areas','whole-field'}
+@attribute severity{'minor','pot-severe','severe'}
+@attribute seed-tmt{'fungicide','none','other'}
+@attribute germination{'80-89','90-100','lt-80'}
+@attribute plant-growth{'abnorm','norm'}
+@attribute leaves{'abnorm','norm'}
+@attribute leafspots-halo{'absent','no-yellow-halos','yellow-halos'}
+@attribute leafspots-marg{'dna','no-w-s-marg','w-s-marg'}
+@attribute leafspot-size{'dna','gt-1/8','lt-1/8'}
+@attribute leaf-shread{'absent','present'}
+@attribute leaf-malf{'absent','present'}
+@attribute leaf-mild{'absent','lower-surf','upper-surf'}
+@attribute stem{'abnorm','norm'}
+@attribute lodging{'no','yes'}
+@attribute stem-cankers{'above-sec-nde','above-soil','absent','below-soil'}
+@attribute canker-lesion{'brown','dk-brown-blk','dna','tan'}
+@attribute fruiting-bodies{'absent','present'}
+@attribute external-decay{'absent','firm-and-dry','watery'}
+@attribute mycelium{'absent','present'}
+@attribute int-discolor{'black','brown','none'}
+@attribute sclerotia{'absent','present'}
+@attribute fruit-pods{'diseased','dna','few-present','norm'}
+@attribute fruit-spots{'absent','brown-w/blk-specks','colored','dna'}
+@attribute seed{'abnorm','norm'}
+@attribute mold-growth{'absent','present'}
+@attribute seed-discolor{'absent','present'}
+@attribute seed-size{'lt-norm','norm'}
+@attribute shriveling{'absent','present'}
+@attribute roots{'galls-cysts','norm','rotted'}
+@attribute class{'p','n'}
+@inputs date, plant-stand, precip, temp, hail, crop-hist, area-damaged, severity, seed-tmt, germination, plant-growth, leaves, leafspots-halo, leafspots-marg, leafspot-size, leaf-shread, leaf-malf, leaf-mild, stem, lodging, stem-cankers, canker-lesion, fruiting-bodies, external-decay, mycelium, int-discolor, sclerotia, fruit-pods, fruit-spots, seed, mold-growth, seed-discolor, seed-size, shriveling, roots
+@outputs class
+
+
+--------------------------------------------
+|       Computation of the info gain       |
+--------------------------------------------
+Points for computation of the info gain:
+Information Gain of the variables:
+
+--------------------------------------------
+|             Execution results            |
+--------------------------------------------
+
+Class 0:
+   # 3352 generations, 10003 evaluations
+	Rule support improved by local search from 0.0 to 1.0
+
+Class 1:
+   # 3310 generations, 10005 evaluations
+	Rule support improved by local search from 0.0 to 0.9357022
+   # 3298 generations, 10001 evaluations
+	Rule support improved by local search from 0.0 to 0.19458544
+   # 3328 generations, 10006 evaluations
+	Rule not stored (low confidence or support)

@@ -1,0 +1,77 @@
+GENERATED RULE 0
+	Antecedent
+		Variable histologic-type = 'adeno'
+		Variable skin = 'no'
+		Variable mediastinum = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable bone-marrow = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable mediastinum = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 3
+	Antecedent
+		Variable histologic-type = 'adeno'
+		Variable bone-marrow = 'no'
+		Variable brain = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 4
+	Antecedent
+		Variable skin = 'no'
+		Variable mediastinum = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 5
+	Antecedent
+		Variable brain = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 6
+	Antecedent
+		Variable histologic-type = 'adeno'
+		Variable mediastinum = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 7
+	Antecedent
+		Variable histologic-type = 'adeno'
+		Variable brain = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 8
+	Antecedent
+		Variable histologic-type = 'adeno'
+		Variable bone-marrow = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 9
+	Antecedent
+		Variable bone-marrow = 'no'
+		Variable brain = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 10
+	Antecedent
+		Variable brain = 'no'
+		Variable skin = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 11
+	Antecedent
+		Variable bone-marrow = 'no'
+		Variable brain = 'no'
+		Variable skin = 'no'
+	Consecuent: 'n'
+
+GENERATED RULE 12
+	Antecedent
+		Variable histologic-type = 'adeno'
+	Consecuent: 'n'
+

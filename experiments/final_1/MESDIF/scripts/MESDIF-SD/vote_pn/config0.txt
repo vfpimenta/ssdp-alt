@@ -1,0 +1,15 @@
+algorithm = MESDIF for Subgroup Discovery
+inputData = "../datasets/vote_pn/vote_pn.dat" "../datasets/vote_pn/vote_pn.dat" "../datasets/vote_pn/vote_pn.dat" 
+outputData = "../results/MESDIF-SD.vote_pn/result0.tra" "../results/MESDIF-SD.vote_pn/result0.tst" "../results/MESDIF-SD.vote_pn/result0e0.txt"  "../results/MESDIF-SD.vote_pn/result0e1.txt"  "../results/MESDIF-SD.vote_pn/result0e2.txt"  "../results/MESDIF-SD.vote_pn/result0e3.txt"  "../results/MESDIF-SD.vote_pn/result0e4.txt"  "../results/MESDIF-SD.vote_pn/result0e5.txt"  
+
+RulesRep = can
+nLabels = 3
+nEval = 10000
+popLength = 100
+crossProb = 0.6
+mutProb = 0.01
+eliteLength = 3
+Obj1 = comp
+Obj2 = unus
+Obj3 = fcnf
+Obj4 = null

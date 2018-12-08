@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/SDIGA-SD.audiology_pn/result0.tst" "../results/SDIGA-SD.audiology_pn/result0.tra" 
+outputData = "../results/Vis-Clas-Check/TSTSDIGA-SD/result0s0.stat" 
+
+seed = 1286082570
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

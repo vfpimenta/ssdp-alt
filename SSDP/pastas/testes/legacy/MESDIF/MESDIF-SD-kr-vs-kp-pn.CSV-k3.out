@@ -1,0 +1,26 @@
+### Base:kr-vs-kp-pn
+Average WRAcc: 0.0
+Average Qg: 0.0
+Time(s): 1.052
+Average size: 24.666666666666668
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 3
+TP: 0.0
+FP: 0.0
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: 0.0
+Lift: NaN
+supp: 0.0
+suppP: 0.0
+suppN: 0.0
+DiffSupp: 0.0
+Similarity: NaN
+CR: NaN
+H: -0.0
+
+### Top-3 DPs:
+{bkblk = f,bknwy = t,bkspr = t,bkxbq = f,bkxwp = f,bxqsq = t,cntxt = t,dsopp = f,dwipd = g,hdchk = f,katri = n,mulch = f,r2ar8 = t,reskd = f,reskr = t,rimmx = f,rxmsq = f,simpl = f,skach = t,skewr = f,thrsk = f,wkna8 = f,wkovl = f,wkpos = f,wtoeg = t} -> 0.0(0p,0n)
+{bkblk = f,bknwy = t,bkspr = t,bkxbq = f,bkxwp = f,blxwp = f,bxqsq = t,cntxt = t,dsopp = f,dwipd = g,hdchk = f,katri = n,mulch = f,r2ar8 = t,reskd = f,reskr = t,rimmx = f,rxmsq = f,simpl = f,skach = t,skewr = f,thrsk = f,wkna8 = f,wkpos = f,wtoeg = t} -> 0.0(0p,0n)
+{bkblk = f,bknwy = t,bkspr = t,bkxbq = f,bkxwp = f,bxqsq = t,cntxt = t,dsopp = f,dwipd = g,hdchk = f,katri = n,mulch = f,r2ar8 = t,reskd = f,reskr = t,rimmx = f,rxmsq = f,simpl = f,skach = f,skewr = f,thrsk = f,wkna8 = f,wkpos = f,wtoeg = t} -> 0.0(0p,0n)

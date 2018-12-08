@@ -1,0 +1,15 @@
+GENERATED RULE 0
+   Antecedent
+	Variable shriveling = 'absent'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable shriveling = 'absent'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable seed = 'abnorm'
+   Consecuent: 'n'
+

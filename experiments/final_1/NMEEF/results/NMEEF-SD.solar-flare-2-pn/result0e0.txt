@@ -1,0 +1,115 @@
+GENERATED RULE 0
+	Antecedent
+		Variable spot_distribution = 'X'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area = '1'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area_of_the_largest_spot = '1'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 4
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area = '1'
+		Variable Area_of_the_largest_spot = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 5
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area_of_the_largest_spot = '1'
+	Consecuent: 'p'
+
+GENERATED RULE 6
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 7
+	Antecedent
+		Variable spot_distribution = 'X'
+		Variable Area = '1'
+		Variable Area_of_the_largest_spot = '1'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Area_of_the_largest_spot = '1'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable spot_distribution = 'O'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 3
+	Antecedent
+		Variable Did_region_become_historically_complex = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 4
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Area_of_the_largest_spot = '1'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 5
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Did_region_become_historically_complex = '2'
+	Consecuent: 'n'
+
+GENERATED RULE 6
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Did_region_become_historically_complex = '2'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'n'
+
+GENERATED RULE 7
+	Antecedent
+		Variable Did_region_become_historically_complex = '2'
+		Variable Area_of_the_largest_spot = '1'
+	Consecuent: 'n'
+
+GENERATED RULE 8
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Did_region_become_historically_complex = '2'
+		Variable Area_of_the_largest_spot = '1'
+	Consecuent: 'n'
+
+GENERATED RULE 9
+	Antecedent
+		Variable spot_distribution = 'O'
+		Variable Did_region_become_historically_complex = '2'
+		Variable Area_of_the_largest_spot = '1'
+		Variable X-class_flares_production_by_this_region = '0'
+	Consecuent: 'n'
+

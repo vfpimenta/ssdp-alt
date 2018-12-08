@@ -1,0 +1,18 @@
+algorithm = SD-NMEEF for Subgroup Discovery
+inputData = "../datasets/molecular-biology_promoters_pn/molecular-biology_promoters_pn.dat" "../datasets/molecular-biology_promoters_pn/molecular-biology_promoters_pn.dat" "../datasets/molecular-biology_promoters_pn/molecular-biology_promoters_pn.dat" 
+outputData = "../results/NMEEF-SD.molecular-biology_promoters_pn/result0.tra" "../results/NMEEF-SD.molecular-biology_promoters_pn/result0.tst" "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e0.txt"  "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e1.txt"  "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e2.txt"  "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e3.txt"  "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e4.txt"  "../results/NMEEF-SD.molecular-biology_promoters_pn/result0e5.txt"  
+
+RulesRep = can
+nLabels = 3
+nEval = 10000
+popLength = 50
+crossProb = 0.6
+mutProb = 0.1
+diversity = crowding
+ReInitCob = yes
+porcCob = 0.5
+Obj1 = comp
+Obj2 = unus
+Obj3 = null
+minCnf = 0.6
+StrictDominance = yes

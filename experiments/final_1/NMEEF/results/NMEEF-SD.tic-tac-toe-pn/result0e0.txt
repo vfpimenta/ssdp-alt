@@ -1,0 +1,5 @@
+GENERATED RULE 0
+	Antecedent
+		Variable middle-middle-square = 'x'
+	Consecuent: 'p'
+

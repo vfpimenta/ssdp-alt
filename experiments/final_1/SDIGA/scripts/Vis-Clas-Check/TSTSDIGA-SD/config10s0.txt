@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/SDIGA-SD.postoperative-patienta_pn/result0.tst" "../results/SDIGA-SD.postoperative-patienta_pn/result0.tra" 
+outputData = "../results/Vis-Clas-Check/TSTSDIGA-SD/result10s0.stat" 
+
+seed = 769891236
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

@@ -1,0 +1,15 @@
+GENERATED RULE 0
+   Antecedent
+	Variable F15 = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable F18 = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable F22 = '0'
+   Consecuent: 'n'
+

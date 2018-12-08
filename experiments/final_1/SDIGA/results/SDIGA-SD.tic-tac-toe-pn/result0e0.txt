@@ -1,0 +1,115 @@
+GENERATED RULE 0
+   Antecedent
+	Variable middle-left-square = 'o'
+	Variable bottom-left-square = 'b'
+	Variable bottom-middle-square = 'o'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable top-right-square = 'x'
+	Variable middle-right-square = 'x'
+	Variable bottom-right-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable top-middle-square = 'x'
+	Variable middle-middle-square = 'x'
+	Variable bottom-middle-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 3
+   Antecedent
+	Variable top-middle-square = 'o'
+   Consecuent: 'p'
+
+GENERATED RULE 4
+   Antecedent
+	Variable top-middle-square = 'b'
+	Variable top-right-square = 'b'
+	Variable middle-left-square = 'x'
+	Variable middle-right-square = 'o'
+   Consecuent: 'p'
+
+GENERATED RULE 5
+   Antecedent
+	Variable middle-left-square = 'x'
+	Variable middle-middle-square = 'x'
+	Variable middle-right-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 6
+   Antecedent
+	Variable top-left-square = 'x'
+	Variable top-middle-square = 'x'
+	Variable top-right-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 7
+   Antecedent
+	Variable middle-middle-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 8
+   Antecedent
+	Variable middle-middle-square = 'b'
+	Variable middle-right-square = 'o'
+	Variable bottom-middle-square = 'o'
+   Consecuent: 'p'
+
+GENERATED RULE 9
+   Antecedent
+	Variable top-left-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 10
+   Antecedent
+	Variable bottom-left-square = 'x'
+	Variable bottom-right-square = 'x'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable bottom-left-square = 'o'
+	Variable bottom-middle-square = 'o'
+	Variable bottom-right-square = 'o'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable top-right-square = 'o'
+	Variable middle-middle-square = 'o'
+	Variable bottom-left-square = 'o'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable top-left-square = 'o'
+	Variable middle-left-square = 'o'
+	Variable bottom-left-square = 'o'
+   Consecuent: 'n'
+
+GENERATED RULE 3
+   Antecedent
+	Variable middle-left-square = 'o'
+	Variable middle-middle-square = 'o'
+	Variable bottom-left-square = 'x'
+	Variable bottom-middle-square = 'x'
+	Variable bottom-right-square = 'o'
+   Consecuent: 'n'
+
+GENERATED RULE 4
+   Antecedent
+	Variable top-left-square = 'o'
+	Variable top-middle-square = 'o'
+	Variable top-right-square = 'o'
+   Consecuent: 'n'
+
+GENERATED RULE 5
+   Antecedent
+	Variable top-right-square = 'o'
+	Variable middle-right-square = 'o'
+	Variable bottom-right-square = 'o'
+   Consecuent: 'n'
+

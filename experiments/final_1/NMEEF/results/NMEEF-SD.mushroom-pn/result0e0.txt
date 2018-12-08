@@ -1,0 +1,164 @@
+GENERATED RULE 0
+	Antecedent
+		Variable odor = 'n'
+		Variable veil-type = 'p'
+	Consecuent: 'p'
+
+GENERATED RULE 1
+	Antecedent
+		Variable gill-size = 'b'
+		Variable veil-type = 'p'
+	Consecuent: 'p'
+
+GENERATED RULE 2
+	Antecedent
+		Variable gill-size = 'b'
+	Consecuent: 'p'
+
+GENERATED RULE 3
+	Antecedent
+		Variable odor = 'n'
+	Consecuent: 'p'
+
+GENERATED RULE 0
+	Antecedent
+		Variable bruises? = 'f'
+		Variable stalk-root = 'b'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 1
+	Antecedent
+		Variable bruises? = 'f'
+		Variable gill-attachment = 'f'
+		Variable stalk-root = 'b'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 2
+	Antecedent
+		Variable bruises? = 'f'
+		Variable gill-attachment = 'f'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 3
+	Antecedent
+		Variable bruises? = 'f'
+		Variable veil-type = 'p'
+	Consecuent: 'n'
+
+GENERATED RULE 4
+	Antecedent
+		Variable gill-spacing = 'c'
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 5
+	Antecedent
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 6
+	Antecedent
+		Variable gill-attachment = 'f'
+		Variable gill-spacing = 'c'
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 7
+	Antecedent
+		Variable gill-attachment = 'f'
+		Variable stalk-root = 'b'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 8
+	Antecedent
+		Variable bruises? = 'f'
+		Variable veil-color = 'w'
+	Consecuent: 'n'
+
+GENERATED RULE 9
+	Antecedent
+		Variable bruises? = 'f'
+	Consecuent: 'n'
+
+GENERATED RULE 10
+	Antecedent
+		Variable bruises? = 'f'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+	Consecuent: 'n'
+
+GENERATED RULE 11
+	Antecedent
+		Variable gill-attachment = 'f'
+		Variable gill-spacing = 'c'
+		Variable stalk-root = 'b'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 12
+	Antecedent
+		Variable bruises? = 'f'
+		Variable gill-attachment = 'f'
+		Variable veil-type = 'p'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 13
+	Antecedent
+		Variable stalk-root = 'b'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 14
+	Antecedent
+		Variable gill-attachment = 'f'
+		Variable gill-spacing = 'c'
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 15
+	Antecedent
+		Variable bruises? = 'f'
+		Variable gill-attachment = 'f'
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 16
+	Antecedent
+		Variable gill-attachment = 'f'
+		Variable stalk-root = 'b'
+		Variable veil-type = 'p'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+
+GENERATED RULE 17
+	Antecedent
+		Variable gill-spacing = 'c'
+		Variable stalk-root = 'b'
+		Variable veil-color = 'w'
+		Variable ring-number = 'o'
+	Consecuent: 'n'
+

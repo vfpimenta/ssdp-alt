@@ -1,0 +1,79 @@
+GENERATED RULE 0
+   Antecedent
+	Variable F2 = '0'
+	Variable F4 = '0'
+	Variable F10 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+	Variable F20 = '1'
+   Consecuent: 'p'
+
+GENERATED RULE 1
+   Antecedent
+	Variable F2 = '0'
+	Variable F10 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 2
+   Antecedent
+	Variable F2 = '0'
+	Variable F9 = '0'
+	Variable F10 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+   Consecuent: 'p'
+
+GENERATED RULE 0
+   Antecedent
+	Variable F1 = '0'
+	Variable F4 = '0'
+	Variable F7 = '0'
+	Variable F8 = '0'
+	Variable F11 = '0'
+	Variable F12 = '0'
+	Variable F13 = '0'
+	Variable F15 = '0'
+	Variable F16 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+	Variable F20 = '0'
+	Variable F21 = '0'
+	Variable F22 = '0'
+   Consecuent: 'n'
+
+GENERATED RULE 1
+   Antecedent
+	Variable F1 = '0'
+	Variable F3 = '0'
+	Variable F4 = '0'
+	Variable F7 = '0'
+	Variable F8 = '0'
+	Variable F12 = '0'
+	Variable F13 = '0'
+	Variable F15 = '0'
+	Variable F16 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+	Variable F20 = '0'
+	Variable F21 = '0'
+   Consecuent: 'n'
+
+GENERATED RULE 2
+   Antecedent
+	Variable F1 = '0'
+	Variable F4 = '0'
+	Variable F7 = '0'
+	Variable F8 = '0'
+	Variable F12 = '0'
+	Variable F13 = '0'
+	Variable F15 = '0'
+	Variable F16 = '0'
+	Variable F17 = '0'
+	Variable F18 = '0'
+	Variable F20 = '0'
+	Variable F21 = '0'
+	Variable F22 = '0'
+   Consecuent: 'n'
+

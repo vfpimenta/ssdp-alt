@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/audiology_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/breast-cancer_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/bridges_version2_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/car_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/kr-vs-kp_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/lung-cancer_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/molecular-biology_promoters_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/monks-problems-1_train_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/mushroom_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/nursery_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/postoperative-patienta_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config10s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/primary-tumor_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config11s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/shuttle-landing-control_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config12s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/solar-flare_2_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config13s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/soybean_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config14s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/spect_test_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config15s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/splice_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config16s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/tic-tac-toe_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config17s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/trains_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config18s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/NMEEFSD.jar</executableFile>
+    <scriptFile>./NMEEF-SD/vote_pn/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNMEEF-SD/config19s0.txt</scriptFile>
+  </sentence>
+</execution>
+

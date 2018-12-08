@@ -1,0 +1,25 @@
+@relation base
+@attribute STABILITY{'1','2'}
+@attribute ERROR{'1','2','3','4'}
+@attribute SIGN{'1','2'}
+@attribute WIND{'1','2'}
+@attribute MAGNITUDE{'1','2','3','4'}
+@attribute VISIBILITY{'1','2'}
+@attribute Class{'p','n'}
+@inputs STABILITY, ERROR, SIGN, WIND, MAGNITUDE, VISIBILITY
+@outputs Class
+'p' 'p'
+'n' 'n'
+'n' 'n'
+'n' 'n'
+'n' 'n'
+'n' 'p'
+'p' 'n'
+'p' 'p'
+'p' 'p'
+'p' 'p'
+'p' 'p'
+'p' 'n'
+'p' 'p'
+'n' 'p'
+'p' 'p'
