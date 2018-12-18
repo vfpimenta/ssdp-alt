@@ -83,7 +83,8 @@ public class Main {
         //== CONFIGURATION ===================================================
         //====================================================================
         //CSV database path
-        String caminho = "/home/victor/dev/ssdp/data/Bases_UCI_20/"; 
+		String caminho = "C:\\Users\\Victor\\Documents\\GitHub\\ssdp-alt\\data\\Bases_UCI_20\\";
+        //String caminho = "/home/victor/dev/ssdp/data/Bases_UCI_20/";
         //String caminho = "/home/victor/dev/ssdp/data/microarray_discretizedBYwidth/";
         //String nomeBase = "audiology_pn.CSV";
         //String nomeBase = "amazon_cells_labelled.csv";
@@ -124,8 +125,9 @@ public class Main {
         double tempo = (System.currentTimeMillis() - t0)/1000.0; //time
         
         //Creating output file
-        PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + nomeBase + "-k" + k + ".out", "UTF-8");
-//        PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + modelName + "-" + nomeBase + "-k" + k + ".out", "UTF-8");
+		PrintWriter writer = new PrintWriter("C:\\Users\\Victor\\Documents\\GitHub\\ssdp-alt\\SSDP\\pastas\\testes\\" + nomeBase + "-k" + k + ".out", "UTF-8");
+        //PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + nomeBase + "-k" + k + ".out", "UTF-8");
+		//PrintWriter writer = new PrintWriter("/home/victor/dev/ssdp/SSDP/pastas/testes/" + modelName + "-" + nomeBase + "-k" + k + ".out", "UTF-8");
         
         //Informations about top-k DPs:  
         writer.println("### Base:" + D.nomeBase); //database name
@@ -159,7 +161,8 @@ public class Main {
 		List<Pattern> patterns = new ArrayList<>();
 		
 		//String file = "/home/victor/dev/ssdp/experiments/final_0/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
-		String file = "/home/victor/dev/ssdp/experiments/final_1/"+modelName.split("-")[0]+"/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
+		//String file = "/home/victor/dev/ssdp/experiments/final_1/"+modelName.split("-")[0]+"/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
+		String file = "C:\\Users\\Victor\\Documents\\GitHub\\ssdp-alt\\experiments\\final_1\\"+modelName.split("-")[0]+"\\results\\"+modelName+"."+database.split("\\.")[0]+"\\result0e0.txt";
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 		    String line;
 		    HashSet<Integer> itens = new HashSet<>();
