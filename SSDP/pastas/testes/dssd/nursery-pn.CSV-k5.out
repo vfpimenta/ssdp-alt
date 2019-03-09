@@ -1,0 +1,28 @@
+### Base:nursery-pn
+Average WRAcc: 0.044444444444444446
+Average Qg: 864.1999305796598
+Time(s): 25.802
+Average size: 1.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 5
+TP: 1440.0
+FP: 2880.0
+Chi_Quad: 3888.0
+p_value: 0.4
+conf: 0.3333333333333333
+cov: 0.3333333333333333
+Lift: 1.0
+supp: 0.11111111111111112
+suppP: 0.3333333333333333
+suppN: 0.3333333333333333
+DiffSupp: 0.0
+Similarity: 0.24
+CR: 0.2666666666666844
+H: 2.1972245773362196
+
+### Top-5 DPs:
+{health = not_recom} -> 0.22222222222222224(4320p,0n)
+{health = recommended} -> 0.0(0p,4320n)
+{health = priority} -> 0.0(0p,4320n)
+{parents = usual} -> 0.0(1440p,2880n)
+{parents = pretentious} -> 0.0(1440p,2880n)

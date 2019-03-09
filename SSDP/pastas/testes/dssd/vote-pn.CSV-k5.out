@@ -1,0 +1,28 @@
+### Base:vote-pn
+Average WRAcc: -0.03777407847800239
+Average Qg: 10.261758524778763
+Time(s): 0.028
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 5
+TP: 107.8
+FP: 94.6
+Chi_Quad: 296.1467191160318
+p_value: 0.0
+conf: 0.4356762417672352
+cov: 0.46528735632183904
+Lift: 0.7098096073735853
+supp: 0.24781609195402302
+suppP: 0.4037453183520599
+suppN: 0.5630952380952381
+DiffSupp: -0.1593499197431782
+Similarity: 0.6361458945899463
+CR: 0.210322111671437
+H: 1.454706884897695
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{adoption-of-the-budget-resolution = y} -> 0.17461751882679347(238p,26n)
+{el-salvador-aid = y,synfuels-corporation-cutback = n,crime = y} -> -0.18156163297661515(18p,140n)
+{adoption-of-the-budget-resolution = n,el-salvador-aid = y} -> -0.18192627824019025(16p,139n)
+{physician-fee-freeze = y} -> -0.21756638921918348(14p,163n)

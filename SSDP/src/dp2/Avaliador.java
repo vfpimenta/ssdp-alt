@@ -143,11 +143,12 @@ public class Avaliador {
     public static double H(Pattern[] subgroupSet) {
     	double summation = 0.0;
     	int numRows = (int)Math.pow(2, subgroupSet.length);
-    	for (boolean[] B : Binary.list(subgroupSet.length)) {
-    		double p = fraction(subgroupSet, B);
-    		if(p == 0.0) p = 1.0;
-    		summation += p * Math.log(p);
-    	}
+    	for (int row = 0; row < numRows; row++){
+            boolean[] B = Binary.list(subgroupSet.length, row);
+            double p = fraction(subgroupSet, B);
+            if(p == 0.0) p = 1.0;
+            summation += p * Math.log(p);
+        }
     	
     	return -summation;
     }

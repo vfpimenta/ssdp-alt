@@ -1,0 +1,28 @@
+### Base:audiology-pn
+Average WRAcc: 0.1381979794815569
+Average Qg: 6.066666666666667
+Time(s): 0.029
+Average size: 4.0
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 5
+TP: 44.6
+FP: 35.2
+Chi_Quad: 161.72059796153493
+p_value: 0.0
+conf: 0.679185501066098
+cov: 0.3530973451327434
+Lift: 2.6929109340515467
+supp: 0.19734513274336285
+suppP: 0.7824561403508772
+suppN: 0.20828402366863905
+DiffSupp: 0.5741721166822381
+Similarity: 1.0094957715143473
+CR: 0.6814381085457004
+H: 1.1860394476744085
+
+### Top-5 DPs:
+{age_gt_60 = t,history_nausea = f,history_noise = f,tymp = a} -> 0.17644294776411623(54p,2n)
+{age_gt_60 = t,history_nausea = f,m_m_sn_gt_1k = f,notch_4k = f,tymp = a} -> 0.17301668102435586(56p,11n)
+{age_gt_60 = t,history_nausea = f,m_p_sn_gt_2k = f,notch_4k = f,tymp = a} -> 0.17301668102435586(56p,11n)
+{age_gt_60 = t,history_nausea = f,m_m_sn_gt_1k = f,mod_sn_gt_1k = f,tymp = a} -> 0.16851358759495652(57p,18n)
+{age_gt_60 = f} -> 0.0(0p,134n)

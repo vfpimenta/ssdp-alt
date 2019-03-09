@@ -1,0 +1,28 @@
+### Base:vote-pn
+Average WRAcc: 0.15028141101862863
+Average Qg: 74.16190476190476
+Time(s): 0.029
+Average size: 2.2
+Coverage of all k DPs in relation to D+: 95.50561797752809%
+Number of individuals generated: 5
+TP: 173.4
+FP: 2.6
+Chi_Quad: 185.94778226543517
+p_value: 0.0
+conf: 0.9860647240174986
+cov: 0.40459770114942534
+Lift: 1.6065099436240147
+supp: 0.3986206896551724
+suppP: 0.649438202247191
+suppN: 0.015476190476190477
+DiffSupp: 0.6339620117710005
+Similarity: 1.0991641684717626
+CR: 0.8605799373040733
+H: 2.2316428826840635
+
+### Top-5 DPs:
+{physician-fee-freeze = n} -> 0.21756638921918348(253p,5n)
+{aid-to-nicaraguan-contras = y,education-spending = n,crime = n} -> 0.1367261196987713(154p,0n)
+{physician-fee-freeze = n,duty-free-exports = y,export-administration-act-south-africa = y} -> 0.1344272691240587(153p,1n)
+{handicapped-infants = y,physician-fee-freeze = n} -> 0.13353943717796274(152p,1n)
+{mx-missile = y,superfund-right-to-sue = n} -> 0.12914783987316686(155p,6n)

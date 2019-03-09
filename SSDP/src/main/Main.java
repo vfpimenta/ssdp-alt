@@ -11,14 +11,10 @@ import dp2.D;
 import dp2.Pattern;
 import evolucionario.SSDP_MxC_Auto_3x3;
 import util.Const;
+import util.NumberUtils;
 import util.Time;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -66,7 +62,7 @@ public class Main {
 //				}catch(OutOfMemoryError e) {
 //					e.printStackTrace();
 //				}
-//				
+//
 //			}
 //		}
 		
@@ -75,7 +71,7 @@ public class Main {
 			test(5, string, null);
 		}
     	
-//    	test(5, "vote-pn.CSV", "NMEEF-SD");
+//    	test(5, "lung-cancer-pn.CSV", "NMEEF-SD");
     }
     
     public static void test(int k, String database, String modelName) throws FileNotFoundException, UnsupportedEncodingException {
@@ -117,8 +113,10 @@ public class Main {
         //Rodando SSDP
         long t0 = System.currentTimeMillis(); //Initial time
         //Pattern[] p = SSDP_MxC_Auto_3x3.run(k, tipoAvaliacao); //run SSDP
-        Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run ACODP
-        //Pattern[] p = loadFromFile(modelName, database, tipoAvaliacao);
+        //Pattern[] p = SSDP_ACO.run(k, tipoAvaliacao, similaridade); //run ACODP
+        //Pattern[] p = loadFromFileKeel(modelName, database, tipoAvaliacao);
+		Pattern[] p = loadFromFileDSSD(database, tipoAvaliacao, k);
+		//Pattern[] p = loadFromFileMCTS4DM(database, tipoAvaliacao, k);
         k = p.length;
         double r = Avaliador.CR(p);
         double h = Avaliador.H(p);
@@ -157,7 +155,77 @@ public class Main {
         writer.close();
     }
 
-	private static Pattern[] loadFromFile(String modelName, String database, String tipoAvaliacao) {
+    private static Pattern[] loadFromFileMCTS4DM(String database, String tipoAvaliacao, int k) {
+		List<Pattern> patterns = new ArrayList<>();
+
+		database = database.substring(0,database.lastIndexOf('-'));
+		String path = "C:\\Users\\Victor\\Documents\\GitHub\\MCTS4DM\\results\\"+database;
+		String file = path+"\\"+new File(path).listFiles()[0].getName()+"\\result.log";
+
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+			String line;
+			HashSet<Integer> itens = new HashSet<>();
+			while ((line = br.readLine()) != null && patterns.size() < k) {
+				if(line.contains("[")) {
+					String[] itemDescriptions = line.split("\t")[0].split(",");
+					for (String itemDescription: itemDescriptions) {
+						Integer item = itemFromDescription(itemDescription.trim().replace("[", "").replace("]",""));
+						itens.add(item);
+					}
+					patterns.add(new Pattern(itens, tipoAvaliacao));
+					itens = new HashSet<>();
+				}
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return patterns.toArray(new Pattern[0]);
+	}
+
+    private static Pattern[] loadFromFileDSSD(String database, String tipoAvaliacao, int k) {
+		List<Pattern> patterns = new ArrayList<>();
+
+		database = database.split("-")[0];
+		String file = "";
+		String path = "C:\\Users\\Victor\\Downloads\\dssdSrc-120501-org\\dssdSrc\\trunk\\xps\\dssd";
+		File[] dirs = new File(path).listFiles();
+		for (File dir : dirs){
+			if(dir.getName().contains(database)){
+				String[] segments = dir.getName().split("-");
+				String hash = segments[segments.length-1];
+				file = path+"\\"+dir.getName()+"\\"+"stats3-"+hash+".csv";
+			}
+		}
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+			String line;
+			HashSet<Integer> itens = new HashSet<>();
+			while ((line = br.readLine()) != null && patterns.size() < k) {
+				String[] columns = line.split(";");
+				if(columns.length > 0) {
+					if(NumberUtils.isNumeric(columns[0]) && !columns[4].contains("!") && !columns[4].contains(">") && !columns[4].contains("<")) {
+						String[] itemDescriptions = columns[4].split("&&");
+						for (String itemDescription: itemDescriptions) {
+							Integer item = itemFromDescription(itemDescription.trim());
+							itens.add(item);
+						}
+						patterns.add(new Pattern(itens, tipoAvaliacao));
+						itens = new HashSet<>();
+					}
+				}
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return patterns.toArray(new Pattern[0]);
+	}
+
+	private static Pattern[] loadFromFileKeel(String modelName, String database, String tipoAvaliacao) {
 		List<Pattern> patterns = new ArrayList<>();
 		
 		//String file = "/home/victor/dev/ssdp/experiments/final_0/results/"+modelName+"."+database.split("\\.")[0]+"/result0e0.txt";
@@ -181,10 +249,8 @@ public class Main {
 		       }
 		    }
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -193,7 +259,8 @@ public class Main {
 
 	private static Integer itemFromDescription(String itemDescription) {
         for(int j = 0; j <= D.numeroItens; j++){
-            String comp = D.itemAtributoStr[j] + " = '" + D.itemValorStr[j] + "'";
+            //String comp = D.itemAtributoStr[j] + " = '" + D.itemValorStr[j] + "'";
+			String comp = D.itemAtributoStr[j] + " = " + D.itemValorStr[j] + "";
             if(itemDescription.equals(comp)) {
             	return j;
             }

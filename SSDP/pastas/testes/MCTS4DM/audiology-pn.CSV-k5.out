@@ -1,0 +1,28 @@
+### Base:audiology-pn
+Average WRAcc: 0.1282755110032109
+Average Qg: 2.335818181818182
+Time(s): 0.023
+Average size: 3.4
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 5
+TP: 47.2
+FP: 25.0
+Chi_Quad: 96.20798785483625
+p_value: 3.774758283725532E-16
+conf: 0.6707744597277776
+cov: 0.3194690265486726
+Lift: 2.65956189295575
+supp: 0.20884955752212392
+suppP: 0.8280701754385966
+suppN: 0.14792899408284024
+DiffSupp: 0.6801411813557564
+Similarity: 0.9714676701231577
+CR: 0.9773980830044373
+H: 2.0737290946565903
+
+### Top-5 DPs:
+{age_gt_60 = t,history_noise = f,mod_sn_gt_2k = f} -> 0.16751507557365491(54p,10n)
+{age_gt_60 = t,history_dizziness = f,m_m_sn = f,m_sn_gt_1k = f} -> 0.1319993734826533(49p,27n)
+{age_gt_60 = t,air = mild,s_sn_gt_2k = f} -> 0.11664969848852688(42p,20n)
+{history_noise = f,m_sn_gt_1k = f,o_ar_c = normal} -> 0.11406531443339338(51p,49n)
+{age_gt_60 = t,mod_sn_gt_500 = f,o_ar_u = normal,s_sn_gt_4k = f} -> 0.11114809303782598(40p,19n)

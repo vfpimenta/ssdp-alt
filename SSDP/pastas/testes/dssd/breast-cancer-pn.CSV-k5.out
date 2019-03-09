@@ -1,0 +1,28 @@
+### Base:breast-cancer-pn
+Average WRAcc: 0.0147708934422221
+Average Qg: 2.685147248462466
+Time(s): 0.015
+Average size: 1.8
+Coverage of all k DPs in relation to D+: 95.02487562189054%
+Number of individuals generated: 5
+TP: 103.6
+FP: 37.8
+Chi_Quad: 25.89760843407666
+p_value: 8.676964414311428E-7
+conf: 0.6639134094887154
+cov: 0.4944055944055944
+Lift: 0.9446728115113062
+supp: 0.3622377622377623
+suppP: 0.5154228855721393
+suppN: 0.4447058823529412
+DiffSupp: 0.07071700321919816
+Similarity: 0.7012330983437948
+CR: 0.37217238207337217
+H: 1.660051842124774
+
+### Top-5 DPs:
+{inv-nodes = 0-2,node-caps = no,irradiat = no} -> 0.0671304220255269(145p,34n)
+{inv-nodes = 0-2,irradiat = no} -> 0.06429409751088072(147p,36n)
+{inv-nodes = 0-2,node-caps = no} -> 0.061641156046750425(161p,43n)
+{node-caps = yes} -> -0.05019805369455719(25p,31n)
+{deg-malig = 3} -> -0.06901315467749035(40p,45n)

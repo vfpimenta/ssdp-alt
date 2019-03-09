@@ -1,0 +1,23 @@
+### Base:trains-pn
+Average WRAcc: NaN
+Average Qg: NaN
+Time(s): 0.003
+Average size: NaN
+Coverage of all k DPs in relation to D+: 0.0%
+Number of individuals generated: 0
+TP: NaN
+FP: NaN
+Chi_Quad: NaN
+p_value: NaN
+conf: NaN
+cov: NaN
+Lift: NaN
+supp: NaN
+suppP: NaN
+suppN: NaN
+DiffSupp: NaN
+Similarity: 0.0
+CR: NaN
+H: -0.0
+
+### Top-0 DPs:

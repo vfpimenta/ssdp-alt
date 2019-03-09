@@ -1,0 +1,28 @@
+### Base:solar-flare-2-pn
+Average WRAcc: 0.06522410230596751
+Average Qg: 66.85820440572158
+Time(s): 0.143
+Average size: 1.6
+Coverage of all k DPs in relation to D+: 100.0%
+Number of individuals generated: 5
+TP: 192.8
+FP: 299.6
+Chi_Quad: 445.7188300422325
+p_value: 0.0
+conf: 0.4837925771347372
+cov: 0.4619136960600375
+Lift: 1.5580751879928394
+supp: 0.18086303939962475
+suppP: 0.5824773413897282
+suppN: 0.4076190476190476
+DiffSupp: 0.17485829377068057
+Similarity: 0.6832400465713684
+CR: 0.38931419870970096
+H: 1.8344403221855314
+
+### Top-5 DPs:
+{spot_distribution = X} -> 0.21409223869984406(331p,0n)
+{largest_spot_size = S,Activity = 1,M-class_flares_production_by_this_region = 0} -> 0.09957706915790474(217p,140n)
+{largest_spot_size = S,Activity = 1} -> 0.09847618175994144(218p,146n)
+{spot_distribution = O} -> 0.0(0p,477n)
+{Did_region_become_historically_complex = 2} -> -0.08602497808785275(198p,735n)

@@ -1,0 +1,28 @@
+### Base:mushroom-pn
+Average WRAcc: -0.04377020776681281
+Average Qg: 8.760457235557414
+Time(s): 13.15
+Average size: 3.0
+Coverage of all k DPs in relation to D+: 97.71863117870723%
+Number of individuals generated: 5
+TP: 1408.0
+FP: 1996.8
+Chi_Quad: 5158.15331000621
+p_value: 0.0
+conf: 0.39663390594466247
+cov: 0.41910388970950274
+Lift: 0.7657447366669292
+supp: 0.17331363860167404
+suppP: 0.33460076045627374
+suppN: 0.5099080694586312
+DiffSupp: -0.17530730900235747
+Similarity: 0.7168437357176639
+CR: 0.35452923297908917
+H: 1.4892408046449181
+
+### Top-5 DPs:
+{odor = n} -> 0.19455893037534175(3408p,120n)
+{gill-size = b,stalk-surface-above-ring = s} -> 0.18653946061550644(3376p,216n)
+{bruises? = f,gill-spacing = c,stalk-root = b,veil-color = w} -> -0.1971684095922361(64p,3152n)
+{bruises? = f,gill-attachment = f,stalk-root = b,ring-number = o} -> -0.20139051011633807(96p,3248n)
+{bruises? = f,stalk-root = b,veil-color = w,ring-number = o} -> -0.20139051011633807(96p,3248n)
